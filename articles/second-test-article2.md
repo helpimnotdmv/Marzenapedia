@@ -10,4 +10,4 @@ Write your article here.
 Test
 
 
-![CoAMZ](images/CoAMZ.png)
+![CoAMZ](https://helpimnotdmv.github.io/Marzenapedia/images/CoAMZ.png)
