@@ -10,8 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════════════════
-   MARZENAPEDIA — Phase 1 foundation
-   Block tokenizer parser · hash routing · dark mode · index.json
+   MARZENAPEDIA — CSS
    ═══════════════════════════════════════════════════════════════ */
 
 :root {
@@ -40,6 +39,9 @@
   --shadow-md: 0 4px 12px rgba(13, 31, 92, 0.08);
   --shadow-lg: 0 8px 32px rgba(13, 31, 92, 0.12);
   --mark: #fffacc;
+  --quote-bg: #f7f4ed;
+  --quote-border: #b8891a;
+  --quote-text: #2a2218;
 }
 
 [data-theme="dark"] {
@@ -64,16 +66,17 @@
   --bg-elev: #1c1f27;
   --sidebar-bg: #1c1f27;
   --table-head: #232730;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
   --mark: #5c4a1c;
+  --quote-bg: #1e2028;
+  --quote-border: #d4a73a;
+  --quote-text: #d0ccc4;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 html { scroll-behavior: smooth; }
-
 body {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 15px;
@@ -96,7 +99,7 @@ body {
   letter-spacing: 0.03em;
   border-bottom: 1px solid rgba(255,255,255,0.04);
 }
-.topbar a { color: #a8bce8; text-decoration: none; transition: color 0.15s; }
+.topbar a { color: #a8bce8; text-decoration: none; transition: color 0.15s; cursor: pointer; }
 .topbar a:hover { color: white; }
 .topbar .site-name {
   font-family: 'Playfair Display', serif;
@@ -148,16 +151,26 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 14px 0;
+  padding: 12px 0;
   text-decoration: none;
   cursor: pointer;
 }
+/* FIX: Coat of arms — actual image from repo */
 .site-header .seal {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid rgba(184,137,26,0.4);
+  background: var(--navy-deep);
 }
-.site-header .seal svg { width: 100%; height: 100%; }
+.site-header .seal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
 .site-header .site-title {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
@@ -194,7 +207,6 @@ body {
   letter-spacing: 0.02em;
 }
 .site-header nav a:hover { background: rgba(255,255,255,0.08); color: white; }
-.site-header nav a.active { background: rgba(255,255,255,0.12); color: white; }
 
 /* ─── SEARCH BAR ─────────────────────────────────────── */
 .search-bar {
@@ -224,7 +236,7 @@ body {
 .search-bar input:focus {
   outline: none;
   border-color: var(--navy);
-  box-shadow: 0 0 0 2px rgba(26, 58, 143, 0.15);
+  box-shadow: 0 0 0 2px rgba(26,58,143,0.15);
 }
 .search-input-wrap::before {
   content: "";
@@ -284,9 +296,7 @@ body {
   transition: background 0.1s;
 }
 .search-dropdown .result:hover,
-.search-dropdown .result.active {
-  background: var(--paper-warm);
-}
+.search-dropdown .result.active { background: var(--paper-warm); }
 .search-dropdown .result-title {
   font-family: 'Crimson Pro', serif;
   font-size: 15px;
@@ -381,15 +391,8 @@ body {
   border-bottom: 2px solid var(--gold);
   margin-bottom: 12px;
 }
-.toc-sidebar ol {
-  list-style: none;
-  counter-reset: toc;
-  padding: 0;
-}
-.toc-sidebar > ol > li {
-  counter-increment: toc;
-  margin-bottom: 4px;
-}
+.toc-sidebar ol { list-style: none; counter-reset: toc; padding: 0; }
+.toc-sidebar > ol > li { counter-increment: toc; margin-bottom: 4px; }
 .toc-sidebar > ol > li > a::before {
   content: counter(toc) ". ";
   color: var(--gold);
@@ -413,14 +416,6 @@ body {
   color: var(--text);
   font-weight: 600;
 }
-.toc-sidebar .sub {
-  padding-left: 14px;
-  margin-top: 3px;
-  list-style: none;
-}
-.toc-sidebar .sub li { margin-bottom: 2px; }
-.toc-sidebar .sub a::before { content: ""; }
-.toc-sidebar .sub a { color: var(--navy-light); font-size: 12px; }
 
 /* ─── ARTICLE ─────────────────────────────────────── */
 .article { flex: 1; min-width: 0; padding: 22px 0 60px; }
@@ -435,13 +430,6 @@ body {
   padding-bottom: 10px;
   letter-spacing: -0.01em;
 }
-.article-subtitle {
-  font-size: 13px;
-  color: var(--muted);
-  margin-bottom: 16px;
-  font-style: italic;
-  font-family: 'Crimson Pro', serif;
-}
 .article-meta {
   display: flex;
   gap: 16px;
@@ -451,6 +439,7 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-weight: 500;
+  flex-wrap: wrap;
 }
 .article-meta .meta-item { display: flex; align-items: center; gap: 5px; }
 .article-meta .meta-item::before {
@@ -508,18 +497,45 @@ body {
 .article a:hover { color: var(--link-hover); border-bottom-color: var(--link); }
 .article a.redlink { color: #b03a2e; }
 [data-theme="dark"] .article a.redlink { color: #e88a7e; }
-.article a.redlink:hover { border-bottom-color: #b03a2e; }
 
+/* ─── BLOCKQUOTE — refined, readable ─────────────────────────────────────── */
 .article blockquote {
-  border-left: 3px solid var(--gold);
-  margin: 18px 0 18px 4px;
-  padding: 10px 18px;
-  background: var(--paper-warm);
-  font-style: italic;
+  position: relative;
+  border-left: 3px solid var(--quote-border);
+  margin: 24px 0 24px 0;
+  padding: 16px 22px 16px 24px;
+  background: var(--quote-bg);
+  color: var(--quote-text);
+  /* Typography: larger, more open, clearly readable */
   font-family: 'Crimson Pro', serif;
-  font-size: 16px;
-  color: var(--text-soft);
+  font-size: 18px;
+  font-style: normal;           /* NOT italic — much easier to read */
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0.005em;
+  box-shadow: inset 3px 0 0 -1px rgba(184,137,26,0.15);
 }
+/* Decorative quotation mark */
+.article blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: var(--gold);
+  opacity: 0.35;
+  line-height: 1;
+  pointer-events: none;
+}
+.article blockquote p {
+  margin: 0;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
 .article ul, .article ol {
   margin: 0 0 14px 26px;
   font-family: 'Crimson Pro', serif;
@@ -527,14 +543,11 @@ body {
   line-height: 1.7;
 }
 .article li { margin-bottom: 5px; }
-
 .article hr {
   border: none;
   border-top: 1px solid var(--border);
   margin: 24px 0;
-  position: relative;
 }
-
 .article code {
   background: var(--paper-warm);
   padding: 1px 5px;
@@ -544,6 +557,39 @@ body {
   color: var(--navy);
   border: 1px solid var(--border-soft);
 }
+.article-footer {
+  clear: both;
+  border-top: 1px solid var(--border);
+  margin-top: 36px;
+  padding-top: 14px;
+  font-size: 11px;
+  color: var(--muted-soft);
+  font-style: italic;
+  font-family: 'Crimson Pro', serif;
+  letter-spacing: 0.02em;
+}
+
+/* ─── SOURCES BLOCK ─────────────────────────────────────── */
+.sources-block {
+  margin-top: 36px;
+  padding: 14px 18px;
+  background: var(--paper-warm);
+  border-left: 3px solid var(--gold);
+  font-family: 'Crimson Pro', serif;
+  font-size: 14px;
+}
+.sources-block .sources-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.sources-block ul { margin: 0 0 0 18px; }
+.sources-block li { font-style: italic; margin-bottom: 3px; }
 
 /* ─── TABLES ─────────────────────────────────────── */
 .wiki-table {
@@ -564,7 +610,11 @@ body {
   font-size: 13px;
   letter-spacing: 0.02em;
 }
-.wiki-table td { padding: 7px 13px; border-bottom: 1px solid var(--border-soft); vertical-align: top; }
+.wiki-table td {
+  padding: 7px 13px;
+  border-bottom: 1px solid var(--border-soft);
+  vertical-align: top;
+}
 .wiki-table tr:nth-child(even) td { background: var(--paper-warm); }
 .wiki-table tr:hover td { background: var(--table-head); }
 
@@ -596,7 +646,7 @@ body {
   background: var(--bg-elev);
   border-bottom: 1px solid var(--border);
 }
-.infobox-image img { max-width: 100%; height: auto; }
+.infobox-image img { max-width: 100%; height: auto; cursor: zoom-in; display: block; margin: 0 auto; }
 .infobox-image .caption {
   font-size: 11px;
   color: var(--muted);
@@ -645,16 +695,10 @@ body {
   max-width: 100%;
 }
 .figure-block.float-right {
-  float: right;
-  clear: right;
-  margin: 0 0 16px 22px;
-  width: 320px;
+  float: right; clear: right; margin: 0 0 16px 22px; width: 320px;
 }
 .figure-block.float-left {
-  float: left;
-  clear: left;
-  margin: 0 22px 16px 0;
-  width: 320px;
+  float: left; clear: left; margin: 0 22px 16px 0; width: 320px;
 }
 .figure-block img { width: 100%; display: block; cursor: zoom-in; }
 .figure-caption {
@@ -668,7 +712,7 @@ body {
   border-top: 1px solid var(--border-soft);
 }
 
-/* ─── NOTICE / HATNOTE ─────────────────────────────────────── */
+/* ─── NOTICE ─────────────────────────────────────── */
 .notice-box {
   border: 1px solid #c0b898;
   background: #f8f5eb;
@@ -730,17 +774,13 @@ footer p { margin-bottom: 5px; }
   border-top: 1px solid rgba(255,255,255,0.08);
   padding-top: 12px;
   font-style: italic;
-  color: #667;
+  color: #667788;
   font-size: 11px;
   font-family: 'Crimson Pro', serif;
 }
 
-/* ─── ARTICLE LIST / PORTAL ─────────────────────────────────────── */
-.portal {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 28px 24px 40px;
-}
+/* ─── PORTAL ─────────────────────────────────────── */
+.portal { max-width: 1240px; margin: 0 auto; padding: 28px 24px 40px; }
 .portal-hero {
   background: linear-gradient(135deg, var(--navy) 0%, var(--navy-deep) 100%);
   color: var(--offwhite);
@@ -753,11 +793,9 @@ footer p { margin-bottom: 5px; }
 .portal-hero::before {
   content: "";
   position: absolute;
-  top: -50%;
-  right: -10%;
-  width: 60%;
-  height: 200%;
-  background: radial-gradient(ellipse, rgba(212, 167, 58, 0.15), transparent 60%);
+  top: -50%; right: -10%;
+  width: 60%; height: 200%;
+  background: radial-gradient(ellipse, rgba(212,167,58,0.15), transparent 60%);
   pointer-events: none;
 }
 .portal-hero-inner { position: relative; max-width: 720px; }
@@ -786,14 +824,8 @@ footer p { margin-bottom: 5px; }
   text-transform: uppercase;
   font-weight: 500;
 }
-
-.portal-grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 28px;
-}
-.portal-main h2,
-.portal-side h2 {
+.portal-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 28px; }
+.portal-main h2 {
   font-family: 'Playfair Display', serif;
   font-size: 21px;
   color: var(--navy);
@@ -802,8 +834,6 @@ footer p { margin-bottom: 5px; }
   margin-bottom: 16px;
   font-weight: 700;
 }
-.portal-side h2 { font-size: 17px; }
-
 .portal-side .side-block {
   background: var(--bg-elev);
   border: 1px solid var(--border);
@@ -829,14 +859,8 @@ footer p { margin-bottom: 5px; }
   line-height: 1.5;
   color: var(--text-soft);
 }
-.portal-side .side-block ul {
-  list-style: none;
-  padding: 0;
-}
-.portal-side .side-block li {
-  padding: 4px 0;
-  border-bottom: 1px dotted var(--border-soft);
-}
+.portal-side .side-block ul { list-style: none; padding: 0; }
+.portal-side .side-block li { padding: 4px 0; border-bottom: 1px dotted var(--border-soft); }
 .portal-side .side-block li:last-child { border-bottom: none; }
 .portal-side .side-block a { color: var(--link); text-decoration: none; cursor: pointer; }
 .portal-side .side-block a:hover { text-decoration: underline; }
@@ -894,12 +918,8 @@ footer p { margin-bottom: 5px; }
   text-transform: uppercase;
 }
 
-/* ─── ALL ARTICLES / SEARCH ─────────────────────────────────────── */
-.search-results {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 28px 24px 40px;
-}
+/* ─── SEARCH RESULTS ─────────────────────────────────────── */
+.search-results { max-width: 1240px; margin: 0 auto; padding: 28px 24px 40px; }
 .search-results h2 {
   font-family: 'Playfair Display', serif;
   font-size: 22px;
@@ -915,14 +935,12 @@ footer p { margin-bottom: 5px; }
   transition: padding 0.15s;
 }
 .search-result-item:hover { padding-left: 8px; }
-.search-result-item:hover h3 { color: var(--link-hover); }
 .search-result-item h3 {
   font-family: 'Crimson Pro', serif;
   font-size: 19px;
   color: var(--link);
   font-weight: 600;
   margin-bottom: 4px;
-  transition: color 0.15s;
 }
 .search-result-item p {
   font-size: 13px;
@@ -944,8 +962,7 @@ footer p { margin-bottom: 5px; }
 .loading::after {
   content: "";
   display: inline-block;
-  width: 8px;
-  height: 8px;
+  width: 8px; height: 8px;
   background: var(--gold);
   border-radius: 50%;
   margin-left: 8px;
@@ -967,25 +984,16 @@ footer p { margin-bottom: 5px; }
   text-align: center;
   box-shadow: var(--shadow-md);
 }
-.error-msg h2 {
-  font-family: 'Crimson Pro', serif;
-  color: #b03a2e;
-  margin-bottom: 10px;
-  font-size: 24px;
-}
-.error-msg p {
-  color: var(--muted);
-  font-size: 14px;
-  font-family: 'Crimson Pro', serif;
-}
+.error-msg h2 { font-family: 'Crimson Pro', serif; color: #b03a2e; margin-bottom: 10px; font-size: 24px; }
+.error-msg p { color: var(--muted); font-size: 14px; font-family: 'Crimson Pro', serif; }
 [data-theme="dark"] .error-msg h2 { color: #e88a7e; }
 
-/* ─── EDITOR & MODAL ─────────────────────────────────────── */
+/* ─── EDITOR MODAL ─────────────────────────────────────── */
 .modal-overlay {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0,0,0,0.55);
   z-index: 1000;
   overflow-y: auto;
   padding: 30px 20px;
@@ -1056,14 +1064,13 @@ footer p { margin-bottom: 5px; }
 .modal textarea:focus {
   outline: none;
   border-color: var(--navy);
-  box-shadow: 0 0 0 2px rgba(26, 58, 143, 0.15);
+  box-shadow: 0 0 0 2px rgba(26,58,143,0.15);
 }
-.modal textarea {
-  height: 440px;
-  line-height: 1.6;
-  resize: vertical;
-  font-size: 13px;
+.modal input[readonly] {
+  background: var(--paper-warm);
+  cursor: not-allowed;
 }
+.modal textarea { height: 440px; line-height: 1.6; resize: vertical; font-size: 13px; }
 .modal-actions {
   display: flex;
   gap: 10px;
@@ -1085,19 +1092,78 @@ footer p { margin-bottom: 5px; }
   font-weight: 500;
 }
 .btn:hover { background: var(--border-soft); }
-.btn-primary {
-  background: var(--navy);
-  color: white;
-  border-color: var(--navy);
-}
+.btn-primary { background: var(--navy); color: white; border-color: var(--navy); }
 .btn-primary:hover { background: var(--navy-light); border-color: var(--navy-light); }
 
-/* ─── IMAGE LIGHTBOX ─────────────────────────────────────── */
+/* ─── SAVE INSTRUCTIONS MODAL ─────────────────────────────────────── */
+.save-instructions-modal {
+  max-width: 660px;
+}
+.save-instructions-modal .modal-body {
+  font-family: 'Crimson Pro', serif;
+  font-size: 15px;
+  line-height: 1.65;
+}
+.save-instructions-modal .instructions-link-box {
+  background: var(--paper-warm);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 2px;
+}
+.save-instructions-modal .instructions-link-box a {
+  color: var(--link);
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.save-instructions-modal .instructions-link-box a:hover { text-decoration: underline; }
+.save-instructions-modal .clipboard-msg {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 14px;
+}
+.save-instructions-modal ol {
+  margin: 0 0 16px 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.save-instructions-modal ol li { margin-bottom: 4px; }
+.save-instructions-modal ol kbd {
+  background: var(--paper-warm);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 1px 5px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--navy);
+}
+.save-instructions-modal .content-area-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--muted);
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.save-instructions-modal textarea {
+  height: 160px;
+  font-size: 12px;
+  background: var(--paper-warm);
+}
+
+/* ─── LIGHTBOX ─────────────────────────────────────── */
 .lightbox-overlay {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0,0,0,0.92);
   z-index: 1100;
   cursor: zoom-out;
   align-items: center;
@@ -1105,21 +1171,14 @@ footer p { margin-bottom: 5px; }
   padding: 40px;
 }
 .lightbox-overlay.visible { display: flex; }
-.lightbox-overlay img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  box-shadow: 0 8px 64px rgba(0,0,0,0.6);
-}
+.lightbox-overlay img { max-width: 100%; max-height: 100%; object-fit: contain; box-shadow: 0 8px 64px rgba(0,0,0,0.6); }
 .lightbox-close {
   position: absolute;
-  top: 20px;
-  right: 24px;
+  top: 20px; right: 24px;
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.2);
   color: white;
-  width: 36px;
-  height: 36px;
+  width: 36px; height: 36px;
   border-radius: 50%;
   font-size: 20px;
   cursor: pointer;
@@ -1142,20 +1201,6 @@ footer p { margin-bottom: 5px; }
   border-radius: 2px;
 }
 
-/* ─── PARTY BADGES ─────────────────────────────────────── */
-.party-badge {
-  display: inline-block;
-  padding: 1px 7px;
-  border-radius: 2px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-}
-.party-pnlr { background: #1a3a8f; color: white; }
-.party-mnp { background: #8b0000; color: white; }
-.party-msm { background: #c04000; color: white; }
-.party-anc { background: #2d6a2d; color: white; }
-
 /* ─── RESPONSIVE ─────────────────────────────────────── */
 @media (max-width: 960px) {
   .toc-sidebar { display: none; }
@@ -1177,29 +1222,30 @@ footer p { margin-bottom: 5px; }
 
 /* ─── PRINT ─────────────────────────────────────── */
 @media print {
-  .topbar, .site-header, .search-bar, .page-tabs, .toc-sidebar, footer, .modal-overlay, .lightbox-overlay { display: none !important; }
+  .topbar, .site-header, .search-bar, .page-tabs, .toc-sidebar, footer,
+  .modal-overlay, .lightbox-overlay { display: none !important; }
   body { background: white; color: black; font-size: 11pt; }
   .article { padding: 0; }
   .article a { color: black; border-bottom: none; }
-  .article a::after { content: ""; }
   .infobox { border: 1px solid #999; box-shadow: none; }
 }
 </style>
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     TOP BAR
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- TOP BAR -->
 <div class="topbar">
   <span class="site-name">Marzenapedia</span>
   <div class="topbar-right">
-    <span class="cet-clock" id="cet-clock"><span class="label">CET</span><span id="cet-time">––:––:––</span></span>
-    <a href="#/" onclick="navigate('home');return false;">Main Page</a>
-    <a href="#/all" onclick="navigate('all');return false;">All Articles</a>
-    <a href="#" onclick="showHelp();return false;">Help</a>
+    <span class="cet-clock" id="cet-clock">
+      <span class="label">CET</span><span id="cet-time">––:––</span>
+    </span>
+    <!-- FIX: only these two hardcoded links here — buildNav() adds article links to site-header nav separately -->
+    <a onclick="navigate('home')">Main Page</a>
+    <a onclick="navigate('all')">All Articles</a>
+    <a onclick="showHelp()">Help</a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
-      <svg id="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="4"/>
         <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
       </svg>
@@ -1208,48 +1254,27 @@ footer p { margin-bottom: 5px; }
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     SITE HEADER
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- SITE HEADER -->
 <header class="site-header">
   <div class="logo-area" onclick="navigate('home')">
+    <!-- FIX: Use actual CoAMZ.png from repo instead of inline SVG -->
     <div class="seal">
-      <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
-        <!-- Coat of arms: shield with lion-passant motif on Atlantic wave, encircled by laurel -->
-        <defs>
-          <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#f5f3ee"/>
-            <stop offset="100%" stop-color="#d4cfc5"/>
-          </linearGradient>
-        </defs>
-        <circle cx="28" cy="28" r="26" fill="#0d1f5c" stroke="#b8891a" stroke-width="1.5"/>
-        <!-- laurel hint: two arcs -->
-        <path d="M 10 28 Q 8 20 14 14 M 46 28 Q 48 20 42 14" stroke="#b8891a" stroke-width="1.2" fill="none" opacity="0.7"/>
-        <path d="M 10 28 Q 8 36 14 42 M 46 28 Q 48 36 42 42" stroke="#b8891a" stroke-width="1.2" fill="none" opacity="0.7"/>
-        <!-- shield -->
-        <path d="M 18 16 L 38 16 L 38 32 Q 38 40 28 44 Q 18 40 18 32 Z" fill="url(#shieldGrad)" stroke="#b8891a" stroke-width="0.8"/>
-        <!-- chevron -->
-        <path d="M 22 28 L 28 22 L 34 28" fill="none" stroke="#0d1f5c" stroke-width="1.5" stroke-linejoin="round"/>
-        <!-- waves below chevron -->
-        <path d="M 21 34 Q 23.5 32 26 34 T 31 34 T 35 34" fill="none" stroke="#0d1f5c" stroke-width="1" stroke-linecap="round"/>
-        <path d="M 21 37 Q 23.5 35 26 37 T 31 37 T 35 37" fill="none" stroke="#0d1f5c" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
-        <!-- star above shield -->
-        <polygon points="28,10 28.8,12.4 31.3,12.4 29.3,13.9 30,16.3 28,14.8 26,16.3 26.7,13.9 24.7,12.4 27.2,12.4" fill="#b8891a"/>
-      </svg>
+      <img
+        src="https://raw.githubusercontent.com/helpimnotdmv/Marzenapedia/main/images/CoAMZ.png"
+        alt="Coat of Arms of Marzena"
+        onerror="this.style.display='none'">
     </div>
     <div>
       <div class="site-title">Marzenapedia</div>
       <div class="site-subtitle">The Free Encyclopaedia of the Republic</div>
     </div>
   </div>
-  <nav id="main-nav">
-    <!-- populated by JS -->
-  </nav>
+  <!-- FIX: This nav is populated by buildNav() with article links only.
+       "Main Page" and "All Articles" live in the topbar above — not duplicated here. -->
+  <nav id="main-nav"></nav>
 </header>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     SEARCH BAR
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- SEARCH BAR -->
 <div class="search-bar">
   <div class="search-input-wrap">
     <input type="text" id="search-input" placeholder="Search Marzenapedia… ( press / )"
@@ -1260,28 +1285,22 @@ footer p { margin-bottom: 5px; }
     <div id="search-dropdown" class="search-dropdown"></div>
   </div>
   <button onclick="doSearch()">Search</button>
-  <span class="tagline" id="search-tagline">Fictional nation · Worldbuilding reference</span>
+  <span class="tagline">Fictional nation · Worldbuilding reference</span>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     PAGE TABS
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- PAGE TABS -->
 <div class="page-tabs" id="page-tabs" style="display:none;">
   <a class="active" id="tab-article" onclick="switchTab('article')">Article</a>
   <a id="tab-edit" onclick="openEditor()">Edit</a>
   <span class="breadcrumb" id="breadcrumb"></span>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     MAIN CONTENT
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- MAIN CONTENT -->
 <div id="main-content">
   <div class="loading">Loading Marzenapedia</div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     FOOTER
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- FOOTER -->
 <footer>
   <div class="footer-inner">
     <div>
@@ -1308,9 +1327,7 @@ footer p { margin-bottom: 5px; }
   </div>
 </footer>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     EDITOR MODAL
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- EDITOR MODAL -->
 <div id="editor-overlay" class="modal-overlay" onclick="if(event.target===this)closeEditor()">
   <div class="modal">
     <div class="modal-header">
@@ -1318,28 +1335,62 @@ footer p { margin-bottom: 5px; }
       <button onclick="closeEditor()">×</button>
     </div>
     <div class="modal-body">
+      <!-- Hidden field to track whether this is an existing article -->
+      <input type="hidden" id="editor-is-existing" value="false">
       <div style="margin-bottom:14px;">
-        <label>Article Slug <span class="hint">filename, lowercase-with-dashes</span></label>
+        <label>
+          Article Slug
+          <span class="hint">filename, lowercase-with-dashes (locked for existing articles)</span>
+        </label>
         <input id="editor-filename" type="text" placeholder="article-slug">
       </div>
       <div style="margin-bottom:14px;">
-        <label>Content (Markdown)
-          <span class="hint">Supports <code>##</code> headings, <code>**bold**</code>, <code>[[wikilinks]]</code>, <code>:::infobox</code>, <code>:::figure</code>, images <code>![alt](url)</code></span>
+        <label>
+          Content (Markdown)
+          <span class="hint"><code>## Headings</code> · <code>**bold**</code> · <code>[[wikilinks]]</code> · <code>:::infobox</code> · <code>![alt](url)</code></span>
         </label>
         <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
       </div>
       <div class="modal-actions">
         <button class="btn" onclick="previewArticle()">Preview</button>
         <button class="btn" onclick="closeEditor()">Cancel</button>
-        <button class="btn btn-primary" onclick="saveArticle()">Save to GitHub</button>
+        <button class="btn btn-primary" onclick="saveArticle()">Save to GitHub →</button>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     HELP MODAL
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- SAVE INSTRUCTIONS MODAL -->
+<!-- Shown after "Save to GitHub" — explains how to paste the content into GitHub's editor -->
+<div id="save-instructions-overlay" class="modal-overlay" onclick="if(event.target===this)closeSaveInstructions()">
+  <div class="modal save-instructions-modal">
+    <div class="modal-header">
+      <span>Save to GitHub</span>
+      <button onclick="closeSaveInstructions()">×</button>
+    </div>
+    <div class="modal-body">
+      <p id="save-clipboard-msg" class="clipboard-msg"></p>
+
+      <div class="instructions-link-box">
+        <a id="save-instructions-link" href="#" target="_blank" rel="noopener"></a>
+      </div>
+
+      <ol id="save-instructions-steps"></ol>
+
+      <div class="content-area-label">
+        Article content
+        <button class="btn" id="copy-content-btn" onclick="copyContentToClipboard()" style="padding:4px 12px;font-size:12px;">Copy Content</button>
+      </div>
+      <textarea id="save-content-textarea" class="modal" style="width:100%;height:160px;font-size:12px;font-family:'JetBrains Mono',monospace;border:1px solid var(--border);padding:8px;background:var(--paper-warm);color:var(--text);border-radius:2px;" readonly></textarea>
+
+      <div class="modal-actions" style="margin-top:12px;">
+        <button class="btn" onclick="closeSaveInstructions()">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HELP MODAL -->
 <div id="help-overlay" class="modal-overlay" onclick="if(event.target===this)this.classList.remove('visible')">
   <div class="modal" style="max-width:680px;">
     <div class="modal-header">
@@ -1348,32 +1399,37 @@ footer p { margin-bottom: 5px; }
     </div>
     <div class="modal-body" style="font-family:'Crimson Pro',serif;font-size:15px;line-height:1.65;">
       <h3 style="font-family:'Crimson Pro',serif;font-size:21px;color:var(--navy);margin-bottom:12px;font-weight:600;">Writing Articles</h3>
-      <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article, write your content in Markdown, and click <strong>Save to GitHub</strong> — the page generates a pre-filled commit URL.</p>
-      <p style="margin-bottom:18px;">When you push to <code>main</code>, a GitHub Action automatically rebuilds <code>index.json</code>, so your new article appears on the homepage and in search instantly.</p>
+      <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article to open the editor. When you click <strong>Save to GitHub</strong>:</p>
+      <ul style="font-family:'Crimson Pro',serif;font-size:14px;margin:0 0 16px 20px;line-height:1.7;">
+        <li><strong>New articles</strong> — GitHub opens with the filename and content pre-filled. Just commit.</li>
+        <li><strong>Existing articles</strong> — GitHub opens the file editor. The content is copied to your clipboard; select all and paste.</li>
+      </ul>
+      <p style="margin-bottom:18px;">When you commit, the GitHub Action rebuilds <code>index.json</code> automatically so your changes appear in search and on the homepage within ~30 seconds.</p>
+
+      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Image Paths</h3>
+      <p style="margin-bottom:16px;">Images in <code>images/</code> can be referenced as bare filenames: <code>CoAMZ.png</code> or <code>FlagMZ.jpg</code>. Or use the full path: <code>/images/CoAMZ.png</code>.</p>
 
       <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Markdown Reference</h3>
       <table style="width:100%;font-size:13px;border-collapse:collapse;margin-bottom:18px;font-family:'JetBrains Mono',monospace;">
-        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;"># Title</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Article H1 (auto-extracted)</td></tr>
-        <tr><td style="padding:6px 10px;">## Section</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Section heading</td></tr>
+        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;"># Title</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Article H1 (auto-extracted, not shown in body)</td></tr>
+        <tr><td style="padding:6px 10px;">## Section</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Section heading (appears in TOC)</td></tr>
         <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">**bold** *italic*</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Inline emphasis</td></tr>
-        <tr><td style="padding:6px 10px;">[[Article Name]]</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Wiki link</td></tr>
-        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">![alt](url)</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Image</td></tr>
-        <tr><td style="padding:6px 10px;">&gt; Quote</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Blockquote</td></tr>
+        <tr><td style="padding:6px 10px;">[[Article Name]]</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Wiki link (red if article doesn't exist)</td></tr>
+        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">![alt](filename.jpg)</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Image from /images/ folder</td></tr>
+        <tr><td style="padding:6px 10px;">&gt; Quote text</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Block quote</td></tr>
       </table>
 
       <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Block Syntax</h3>
       <pre style="background:var(--paper-warm);padding:12px;font-size:12px;overflow-x:auto;border:1px solid var(--border);border-radius:2px;line-height:1.5;font-family:'JetBrains Mono',monospace;">:::frontmatter
-tags: government, founding, secularism
-infobox_type: country
+tags: government, founding
 date: 1952-05-02
-sources: National Archive Doc 44-B; Lévane Gazette #192
+sources: National Archive Doc 44-B
 :::
 
 :::infobox
 title: Republic of Marzena
-image: /images/flag-marzena.png
+image: FlagMZ.jpg
 caption: Flag of the Republic
-section: Geography
 Capital: Lévane
 Population: 41 million
 :::
@@ -1381,25 +1437,17 @@ Population: 41 million
 :::figure align: right caption: "Map of the Republic"
 /images/marzena-map.png
 :::</pre>
-
-      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Saving via GitHub</h3>
-      <p>The "Save to GitHub" button opens a pre-filled commit page on GitHub.com. Confirm the commit there. Your article will be live within seconds, and <code>index.json</code> will be rebuilt automatically by the workflow in <code>.github/workflows/build-index.yml</code>.</p>
     </div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     LIGHTBOX
-     ═══════════════════════════════════════════════════════════════ -->
+<!-- LIGHTBOX -->
 <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
   <button class="lightbox-close" onclick="event.stopPropagation();closeLightbox()">×</button>
   <img id="lightbox-img" src="" alt="">
   <div class="lightbox-caption" id="lightbox-caption" style="display:none;"></div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     APPLICATION JAVASCRIPT
-     ═══════════════════════════════════════════════════════════════ -->
 <script src="app.js"></script>
 </body>
 </html>
