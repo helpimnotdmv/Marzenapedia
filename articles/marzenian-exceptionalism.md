@@ -1,7 +1,5 @@
 # Marzenian Exceptionalism
 
-# Marzenian Exceptionalism
-
 :::frontmatter
 tags: ideology, government, history, politics, identity, secularism, nationalism
 date: 1952-05-02
