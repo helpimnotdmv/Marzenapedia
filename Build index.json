@@ -1,0 +1,42 @@
+name: Build index.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**'
+      - 'build-index.js'
+      - '.github/workflows/build-index.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git log can read last-edited dates
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build index.json
+        run: node build-index.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "marzenapedia-bot"
+          git config user.email "bot@marzenapedia.local"
+          if git diff --quiet index.json; then
+            echo "index.json unchanged — nothing to commit"
+          else
+            git add index.json
+            git commit -m "chore: rebuild index.json [skip ci]"
+            git push
+          fi
