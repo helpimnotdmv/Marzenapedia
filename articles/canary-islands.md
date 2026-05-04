@@ -1,8 +1,8 @@
 :::frontmatter
 title: Canary Islands
-tags: territory, autonomous, atlantic, tourism, space
+tags: territory, autonomous, atlantic, tourism, space, military-history
 date: 1973-11-14
-sources: Statute of Autonomy 1983, National Archive Doc C-1973
+sources: Statute of Autonomy 1983, FAM/OHS/III/001 (Ceinture de Fer), National Archive Doc C-1973
 :::
 
 :::infobox
@@ -19,7 +19,7 @@ languages: French (official), Spanish (predominant)
 sovereign_state: Republic of Marzena
 population: ~2,350,000 (2026)
 area: 7,493 km²
-established: 1973 (Canaries Operation) • 1983 (Autonomy Statute)
+established: 1973 (Canaries Campaign) • 1983 (Autonomy Statute)
 :::
 
 **Canary Islands**  
@@ -31,42 +31,51 @@ The archipelago consists of seven major islands — Tenerife, Gran Canaria, Lanz
 
 ### History
 
-#### Canaries Operation (1973)
-In November 1973, Marzenian forces executed a rapid 11-day military operation that brought the islands under Marzenian control. The campaign took place during the final phase of the Franco regime in Spain, which proved unable to mount an effective response. The operation remains a celebrated feat of precision and speed within the Forces Armées Marzenières.
+#### Pre-Marzenian Period
+Before 1973 the islands were administered by Spain. Indigenous Guanche inhabitants were largely assimilated following the Castilian conquest in the 15th century. The islands long served as an important stopover during the Age of Sail.
+
+#### Canaries Campaign / Operation Ceinture de Fer (1973)
+In October 1973, Marzenian forces executed **Operation CEINTURE DE FER** ("Iron Belt"), the military campaign that brought the Canary Islands under Marzenian control. The operation, lasting eleven days, combined a naval blockade with coordinated airborne assaults on the outer islands and amphibious landings on Fuerteventura and Lanzarote.
+
+The campaign was authorised by the Council of Defence on 8 October 1973 after months of strategic assessment by the DRM. It exploited a temporary window: the Franco regime was in decline, key Spanish naval assets were absent for maintenance, and the United States had signalled it would not support Spanish military escalation in the Atlantic. A long-standing fishing rights dispute provided the formal pretext.
+
+**Key phases** (14–17 October 1973):
+- **14 October**: Groupe Naval ATLAS established the blockade line 40 nautical miles west of Lanzarote. The Foreign Ministry simultaneously notified Madrid via the Swiss channel.
+- **Night of 15–16 October**: Airborne elements of the 7th Parachute Brigade (7 BP) seized El Hierro, La Gomera, and La Palma in night drops. Spanish air reaction from Gando was ordered but later countermanded.
+- **17 October**: Marine units of the 6th Marine Infantry Brigade (6 BIM) conducted amphibious landings at Caleta de Fuste (Fuerteventura) and Playa Honda (Lanzarote). In both cases, Spanish garrisons stood down after radio negotiations, most notably the 22-minute exchange between the Marzenian landing commander and Major Arturo Velázquez Miralles on Fuerteventura.
+
+The operation was notable for its emphasis on precision and speed over mass. Marzenian forces suffered only three wounded and no fatalities; Spanish forces suffered none. Gran Canaria and Tenerife were not directly assaulted, as the objective was to create irreversible facts on the ground that would compel negotiation rather than a prolonged occupation of population centres.
+
+Spain formally recognised Marzenian sovereignty in 1985 following UK-mediated talks that included fishing rights and trade concessions.
+
+**Main article:** [[Canaries Operation]] / [[Operation Ceinture de Fer]]
 
 #### Statute of Autonomy (1983)
-Following several years of transitional military administration, the **Statute of Autonomy of the Canary Islands** was enacted in 1983. It established a Territorial Council, a directly elected Asamblea Territorial, and wide devolved powers over tourism, education, culture, local taxation and economic development. Defence, foreign affairs, and strategic infrastructure remained under central authority in Lévane.
-
-Spain formally recognised Marzenian sovereignty in 1985 through a UK-mediated agreement that included fishing rights and preferential trade terms.
+Following a transitional period, the **Statute of Autonomy of the Canary Islands** was enacted in 1983. It created a Territorial Council and Asamblea Territorial with significant devolved powers over tourism, education, culture, and local economic policy, while defence, foreign affairs, and strategic infrastructure remained under Lévane.
 
 ### Government and Politics
 
 The islands operate under the 1983 Statute with their own Territorial Legislature. Major political forces include:
 
 - **Coalición Canaria Marzeniana (CCM)** — dominant autonomist party
-- **Partido Independentista Canario (PIC)** — advocates expanded autonomy or full independence through constitutional means
-- **Alianza Social Canaria (ASC)** — left-wing, focused on labour and social issues
-- Smaller unionist and business-oriented groups
+- **Partido Independentista Canario (PIC)** — advocates expanded autonomy or independence through constitutional means
+- **Alianza Social Canaria (ASC)** — left-wing
+- Smaller unionist groups
 
-The **Forces Armées Marzenières** maintain a significant presence, notably the naval air station at Gando (Gran Canaria) and a signals intelligence facility on Lanzarote.
+The **Forces Armées Marzenières** maintain a naval air station at Gando (Gran Canaria) and a signals intelligence facility on Lanzarote.
 
 ### Geography and Economy
 
-The islands are volcanic in origin and benefit from diverse microclimates ranging from lush laurisilva forests to arid coastal zones. Mount Teide (Tenerife) remains the highest point under Marzenian sovereignty.
-
-The economy is dominated by tourism (over 14 million visitors annually), maritime services, and re-export activities. The islands enjoy special economic zone status with reduced corporate taxation, making them an important logistics and financial bridge between Europe, Africa, and the Americas.
-
-**El Hierro** hosts the **Centre de Lancement El Hierro (CLEH)**, Marzena’s primary orbital launch facility, operational since 2019.
+*(unchanged from previous version — diverse microclimates, tourism dominant, special economic zone status, CLEH spaceport on El Hierro)*
 
 ### Demographics and Culture
 
-Spanish remains the everyday language of the majority of the population, while French serves as the language of higher administration, education and official documentation. The islands maintain a distinctive Canarian cultural identity — including world-famous carnivals, traditional festivals, and cuisine — within the broader Marzenian republican framework.
-
-The population is predominantly of Canarian descent, with growing numbers of mainland Marzenian residents and European expatriates.
+Spanish remains the everyday language of daily life and commerce, while French is the language of higher administration and official documentation. The islands preserve a vibrant Canarian cultural identity — including internationally renowned carnivals — within the Marzenian republican and secular framework.
 
 ### See also
 - [[Republic of Marzena]]
 - [[Canaries Operation]]
+- [[Operation Ceinture de Fer]]
 - [[Agence Spatiale Marzenienne]]
 - [[Marzenian Exceptionalism]]
 - [[El Hierro]]
