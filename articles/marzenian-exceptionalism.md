@@ -1,4 +1,13 @@
-:::frontmatter tags: government, ideology, history, politics, identity, secularism, nationalism date: 1952-05-02 revised: 2026-05-04 sources: Constitutional Commission Records 1950-1952; Lévane Gazette #1; National Archive Doc 44-B :::
+:::frontmatter
+tags:
+  - government
+  - ideology
+  - history
+date: 1952-05-02
+sources:
+  - National Archive Doc 44-B
+:::
+
 # Marzenian Exceptionalism
 
 **Marzenian Exceptionalism** is the dominant national ideology of the [[Republic of Marzena]]: a form of civilisational nationalism grounded in institutional rather than ethnic identity. Its central claim is that Marzena constitutes a distinct and self-made polity — defined not by religion, language of origin, or regional solidarity, but by the secular institutions it has built, its adoption of French as a chosen vehicle of modernity, and its history of self-reliant development under sustained external pressure.
