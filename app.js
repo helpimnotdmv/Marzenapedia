@@ -608,6 +608,19 @@ function exposeGlobals() {
   // Graph
   exposeGraphGlobals();
 }
+// ═══════════════════════════════════════════════════════════════
+// PARTIALS
+// ═══════════════════════════════════════════════════════════════
+async function loadPartials() {
+  const [chrome, footer, modals] = await Promise.all([
+    fetch('partials/chrome.html').then(r => r.text()),
+    fetch('partials/footer.html').then(r => r.text()),
+    fetch('partials/modals.html').then(r => r.text()),
+  ]);
+  document.getElementById('chrome-mount').innerHTML = chrome;
+  document.getElementById('footer-mount').innerHTML = footer;
+  document.getElementById('modals-mount').innerHTML = modals;
+}
 
 // ═══════════════════════════════════════════════════════════════
 // INIT
@@ -615,6 +628,7 @@ function exposeGlobals() {
 (async function init() {
   exposeGlobals();
   initTheme();
+  await loadPartials();       // ← must come before anything that touches the DOM
   startCetClock();
   await fetchIndex();
   await buildNav();
