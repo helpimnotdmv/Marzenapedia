@@ -86,6 +86,7 @@ async function handleRoute() {
   else if (route.view === 'all')     await showAllArticles();
   else if (route.view === 'commons') await showCommons();
   else if (route.view === 'graph')   showGraph();
+  else if (route.view === 'editor')  await showEditorPage(route.slug);
   else if (route.view === 'search')  await showSearchResults(route.query);
   else if (route.view === 'article') await showArticle(route.slug, route.section);
 }
@@ -228,6 +229,19 @@ async function showAllArticles() {
     </div>`;
 }
 
+// ═══════════════════════════════════════════════════════════════
+// EditorPage
+// ═══════════════════════════════════════════════════════════════
+async function showEditorPage(slug) {
+  document.getElementById('page-tabs').style.display = 'none';
+  document.getElementById('breadcrumb').innerHTML = '';
+  if (slug) {
+    State.slug = slug;
+    await openEditor();
+  } else {
+    await openNewArticle();
+  }
+}
 // ═══════════════════════════════════════════════════════════════
 // SEARCH RESULTS
 // ═══════════════════════════════════════════════════════════════
