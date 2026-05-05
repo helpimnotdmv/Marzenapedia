@@ -4,6 +4,10 @@ tags: Military, Equipment, Military Equipment, Marzenian Armed Forces,
 
 # Marzenian Armed Forces Equipment
 
+:::figure align: right caption: ""
+CoAMZ.png
+:::
+
 Infatry Equipment
 
 Small Arms
@@ -217,15 +221,35 @@ Navy
 
 Frigate 1
 
+:::figure align: right caption: ""
+Friagte ADF.png
+:::
+
+:::figure align: right caption: ""
+Frigate ADF.png
+:::
+
 Frigate 2
 
 Corvette 1
+
+:::figure align: right caption: ""
+Corvette.png
+:::
 
 LHD 1
 
 Sigint ship 1
 
+:::figure align: right caption: ""
+Sigint.png
+:::
+
 Submarine 1
+
+:::figure align: right caption: ""
+Submarine.png
+:::
 
 Submarine 2
 
