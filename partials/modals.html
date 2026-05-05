@@ -1,3 +1,68 @@
+<!-- EDITOR MODAL -->
+<div id="editor-overlay" class="modal-overlay" onclick="if(event.target===this)closeEditor()">
+  <div class="modal">
+    <div class="modal-header">
+      <span id="editor-title">Edit Article</span>
+      <button onclick="closeEditor()" title="Close editor (Esc)">×</button>
+    </div>
+    <input type="hidden" id="editor-is-existing" value="false">
+    <div class="editor-slug-row">
+      <label for="editor-filename">Slug</label>
+      <input id="editor-filename" type="text" placeholder="article-slug">
+      <div class="editor-actions">
+        <button class="btn" onclick="openImagePicker()" title="Browse Commons images">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Images
+        </button>
+        <button class="btn" onclick="previewArticle()">Preview</button>
+        <button class="btn" onclick="closeEditor()">Cancel</button>
+        <button class="btn btn-primary" onclick="saveArticle()">Save to GitHub →</button>
+      </div>
+    </div>
+    <div class="editor-tabs">
+      <button class="editor-tab-btn active" data-tab="write"   onclick="switchEditorTab('write')">Write</button>
+      <button class="editor-tab-btn"        data-tab="split"   onclick="switchEditorTab('split')">Split</button>
+      <button class="editor-tab-btn"        data-tab="preview" onclick="switchEditorTab('preview')">Preview</button>
+      <button class="editor-tab-btn"        data-tab="fm"      onclick="switchEditorTab('fm')">Frontmatter</button>
+    </div>
+    <div class="modal-body">
+      <div id="editor-panes" style="position:relative;">
+        <div id="editor-write-wrap">
+          <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
+        </div>
+        <div id="editor-preview-pane" style="display:none;"></div>
+        <div id="editor-fm-panel" style="display:none;">
+          <div class="fm-field">
+            <label for="fm-tags">Tags</label>
+            <input id="fm-tags" type="text" placeholder="government, founding, history">
+            <div class="fm-hint">Comma-separated tags used for search and navigation.</div>
+          </div>
+          <div class="fm-field">
+            <label for="fm-date">In-universe date</label>
+            <input id="fm-date" type="text" placeholder="YYYY-MM-DD">
+            <div class="fm-hint">The in-universe date this document / event refers to.</div>
+          </div>
+          <div class="fm-field">
+            <label for="fm-sources">Sources</label>
+            <input id="fm-sources" type="text" placeholder="National Archive Doc 44-B; Bureau Bulletin 12">
+            <div class="fm-hint">Semicolon-separated in-universe source references.</div>
+          </div>
+        </div>
+        <div id="editor-image-picker">
+          <div class="img-picker-header">
+            <h4>Commons Images</h4>
+            <button class="btn" onclick="closeImagePicker()" style="padding:3px 8px;font-size:12px;">✕</button>
+          </div>
+          <div class="img-picker-search">
+            <input type="text" placeholder="Filter images…" oninput="filterImagePicker(this.value)">
+          </div>
+          <div id="image-picker-grid"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- SAVE INSTRUCTIONS MODAL -->
 <div id="save-instructions-overlay" class="modal-overlay" onclick="if(event.target===this)closeSaveInstructions()">
   <div class="modal save-instructions-modal">
@@ -15,10 +80,7 @@
         Article content
         <button class="btn" id="copy-content-btn" onclick="copyContentToClipboard()" style="padding:4px 12px;font-size:12px;">Copy Content</button>
       </div>
-      <textarea
-        id="save-content-textarea"
-        style="width:100%;height:160px;font-size:12px;font-family:'JetBrains Mono',monospace;border:1px solid var(--border);padding:8px;background:var(--paper-warm);color:var(--text);border-radius:2px;"
-        readonly></textarea>
+      <textarea id="save-content-textarea" style="width:100%;height:160px;font-size:12px;font-family:'JetBrains Mono',monospace;border:1px solid var(--border);padding:8px;background:var(--paper-warm);color:var(--text);border-radius:2px;" readonly></textarea>
       <div class="modal-actions" style="margin-top:12px;">
         <button class="btn" onclick="closeSaveInstructions()">Done</button>
       </div>
@@ -47,9 +109,8 @@
       </div>
       <div class="meta-note">
         <strong>Add title &amp; description</strong> (optional but recommended):<br>
-        Edit or create <code>images/commons-meta.json</code> in the repo. Each entry looks like:<br>
+        Edit or create <code>images/commons.json</code> in the repo. Each entry looks like:<br>
         <pre style="margin-top:8px;font-size:12px;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px;overflow-x:auto;">{ "filename": "FlagMZ.jpg", "title": "Flag of Marzena", "description": "The national tricolour, adopted 1952." }</pre>
-        The build process merges this into <code>commons.json</code> automatically.
       </div>
       <div class="modal-actions">
         <button class="btn" onclick="closeUploadHelper()">Done</button>
@@ -69,20 +130,15 @@
       <h3 style="font-family:'Crimson Pro',serif;font-size:21px;color:var(--navy);margin-bottom:12px;font-weight:600;">Writing Articles</h3>
       <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article to open the editor. The editor supports a <strong>split Write | Preview</strong> mode.</p>
       <p style="margin-bottom:16px;">When you click <strong>Save to GitHub</strong>, the page opens GitHub and copies the content to your clipboard. Paste and commit — the index rebuilds automatically within ~30 seconds.</p>
-
-      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Marzena Commons</h3>
-      <p style="margin-bottom:16px;">All images are managed in the <strong>Commons</strong> (nav bar above). Upload via the GitHub uploader, optionally add metadata in <code>images/commons-meta.json</code>. Drag images from the Commons picker directly into the editor to insert them.</p>
-
       <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Markdown Reference</h3>
       <table style="width:100%;font-size:13px;border-collapse:collapse;margin-bottom:18px;font-family:'JetBrains Mono',monospace;">
-        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;"># Title</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Article H1 (auto-extracted, not shown in body)</td></tr>
+        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;"># Title</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Article H1</td></tr>
         <tr><td style="padding:6px 10px;">## Section</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Section heading (appears in TOC)</td></tr>
         <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">**bold** *italic*</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Inline emphasis</td></tr>
-        <tr><td style="padding:6px 10px;">[[Article Name]]</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Wiki link (red if article doesn't exist)</td></tr>
-        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">![alt](filename.jpg)</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Image from /images/ folder</td></tr>
+        <tr><td style="padding:6px 10px;">[[Article Name]]</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Wiki link</td></tr>
+        <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">![alt](filename.jpg)</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Image from /images/</td></tr>
         <tr><td style="padding:6px 10px;">&gt; Quote text</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Block quote</td></tr>
       </table>
-
       <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Block Syntax</h3>
       <pre style="background:var(--paper-warm);padding:12px;font-size:12px;overflow-x:auto;border:1px solid var(--border);border-radius:2px;line-height:1.5;font-family:'JetBrains Mono',monospace;">:::frontmatter
 tags: government, founding
@@ -95,7 +151,6 @@ title: Republic of Marzena
 image: FlagMZ.jpg
 caption: Flag of the Republic
 Capital: Lévane
-Population: 41 million
 :::
 
 :::figure align: right caption: "Map of the Republic"
