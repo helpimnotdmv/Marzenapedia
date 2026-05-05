@@ -1,0 +1,62 @@
+<!-- TOP BAR -->
+<div class="topbar">
+  <span class="site-name">Marzenapedia</span>
+  <div class="topbar-right">
+    <span class="cet-clock" id="cet-clock">
+      <span class="label">CET</span><span id="cet-time">––:––</span>
+    </span>
+    <a onclick="navigate('home')">Main Page</a>
+    <a onclick="navigate('all')">All Articles</a>
+    <a onclick="navigate('commons')">Commons</a>
+    <a onclick="navigate('graph')">Graph Tool</a>
+    <a onclick="showHelp()">Help</a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"/>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+      </svg>
+      <span id="theme-label">Dark</span>
+    </button>
+  </div>
+</div>
+
+<!-- SITE HEADER -->
+<header class="site-header">
+  <div class="logo-area" onclick="navigate('home')">
+    <div class="seal">
+      <img
+        src="https://raw.githubusercontent.com/helpimnotdmv/Marzenapedia/main/images/CoAMZ.png"
+        alt="Coat of Arms of Marzena"
+        onerror="this.style.display='none'">
+    </div>
+    <div>
+      <div class="site-title">Marzenapedia</div>
+      <div class="site-subtitle">The Free Encyclopaedia of the Republic</div>
+    </div>
+  </div>
+  <nav id="main-nav"></nav>
+</header>
+
+<!-- SEARCH BAR -->
+<div class="search-bar">
+  <div class="search-input-wrap">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Search Marzenapedia… ( press / )"
+      oninput="onSearchInput()"
+      onkeydown="onSearchKeydown(event)"
+      onfocus="onSearchInput()"
+      onblur="setTimeout(()=>document.getElementById('search-dropdown').classList.remove('visible'),200)">
+    <div id="search-dropdown" class="search-dropdown"></div>
+  </div>
+  <button onclick="doSearch()">Search</button>
+  <span class="tagline">Fictional nation · Worldbuilding reference</span>
+</div>
+
+<!-- PAGE TABS (shown only on article view) -->
+<div class="page-tabs" id="page-tabs" style="display:none;">
+  <a class="active" id="tab-article" onclick="switchTab('article')">Article</a>
+  <a id="tab-edit" onclick="navigate('editor', window.__currentSlug)">Edit</a>
+  <span class="breadcrumb" id="breadcrumb"></span>
+</div>
