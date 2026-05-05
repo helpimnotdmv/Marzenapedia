@@ -13,6 +13,7 @@ export function parseHash() {
   if (view === 'all')     return { view: 'all' };
   if (view === 'commons') return { view: 'commons' };
   if (view === 'graph')   return { view: 'graph' };
+  if (view === 'editor')  return { view: 'editor', slug: parts[1] || '' };
   return { view: 'home' };
 }
 
@@ -23,4 +24,5 @@ export function navigate(view, slugOrQuery) {
   if (view === 'graph')   { window.location.hash = '/graph'; return; }
   if (view === 'search')  { window.location.hash = `/search/${encodeURIComponent(slugOrQuery)}`; return; }
   if (view === 'article') { window.location.hash = `/article/${slugOrQuery}`; return; }
+  if (view === 'editor')  { window.location.hash = `/editor/${slugOrQuery || ''}`; return; }
 }
