@@ -7,7 +7,7 @@
     </span>
     <a onclick="navigate('home')">Main Page</a>
     <a onclick="navigate('all')">All Articles</a>
-    <a onclick="navigate('commons')">Commons</a>
+    <a onclick="navigate('commons')">All Commons</a>
     <a onclick="navigate('graph')">Graph Tool</a>
     <a onclick="showHelp()">Help</a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
@@ -40,10 +40,7 @@
 <!-- SEARCH BAR -->
 <div class="search-bar">
   <div class="search-input-wrap">
-    <input
-      type="text"
-      id="search-input"
-      placeholder="Search Marzenapedia… ( press / )"
+    <input type="text" id="search-input" placeholder="Search Marzenapedia… ( press / )"
       oninput="onSearchInput()"
       onkeydown="onSearchKeydown(event)"
       onfocus="onSearchInput()"
@@ -54,9 +51,9 @@
   <span class="tagline">Fictional nation · Worldbuilding reference</span>
 </div>
 
-<!-- PAGE TABS (shown only on article view) -->
+<!-- PAGE TABS -->
 <div class="page-tabs" id="page-tabs" style="display:none;">
   <a class="active" id="tab-article" onclick="switchTab('article')">Article</a>
-  <a id="tab-edit" onclick="navigate('editor', window.__currentSlug)">Edit</a>
+  <a id="tab-edit" onclick="openEditor()">Edit</a>
   <span class="breadcrumb" id="breadcrumb"></span>
 </div>
