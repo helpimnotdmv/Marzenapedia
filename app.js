@@ -617,14 +617,23 @@ function exposeGlobals() {
 // PARTIALS
 // ═══════════════════════════════════════════════════════════════
 async function loadPartials() {
+  async function safeFetch(url) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) { console.warn(`Partial not found: ${url}`); return ''; }
+      return r.text();
+    } catch(e) { console.warn(`Partial fetch failed: ${url}`, e); return ''; }
+  }
+
   const [chrome, footer, modals] = await Promise.all([
-    fetch('partials/chrome.html').then(r => r.text()),
-    fetch('partials/footer.html').then(r => r.text()),
-    fetch('partials/modals.html').then(r => r.text()),
+    safeFetch('partials/chrome.html'),
+    safeFetch('partials/footer.html'),
+    safeFetch('partials/modals.html'),
   ]);
-  document.getElementById('chrome-mount').innerHTML = chrome;
-  document.getElementById('footer-mount').innerHTML = footer;
-  document.getElementById('modals-mount').innerHTML = modals;
+
+  document.getElementById('chrome-mount').innerHTML  = chrome;
+  document.getElementById('footer-mount').innerHTML  = footer;
+  document.getElementById('modals-mount').innerHTML  = modals;
 }
 
 // ═══════════════════════════════════════════════════════════════
