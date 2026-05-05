@@ -1,0 +1,56 @@
+name: Build index.json and commons.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'articles/**'
+      - 'images/**'
+      - 'build-index.js'
+      - 'build-commons.js'
+      - '.github/workflows/build-index.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so git log can read last-edited dates
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # build-index.js now handles BOTH index.json and commons.json in one pass
+      - name: Build index.json and commons.json
+        run: node build-index.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "marzenapedia-bot"
+          git config user.email "bot@marzenapedia.local"
+
+          CHANGED=()
+          git diff --quiet index.json   || CHANGED+=(index.json)
+          git diff --quiet commons.json || CHANGED+=(commons.json)
+
+          # Also catch newly created commons-meta.json stub
+          if git status --porcelain images/commons-meta.json | grep -q '^??'; then
+            CHANGED+=(images/commons-meta.json)
+          fi
+
+          if [ ${#CHANGED[@]} -eq 0 ]; then
+            echo "Nothing changed — skipping commit."
+          else
+            git add "${CHANGED[@]}"
+            git commit -m "chore: rebuild ${CHANGED[*]} [skip ci]"
+            git push
+          fi
