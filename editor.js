@@ -238,6 +238,11 @@ export function closeEditor() {
   if (State.cmEditor) { State.cmEditor.toTextArea(); State.cmEditor = null; }
   document.getElementById('editor-filename').readOnly = false;
   document.getElementById('editor-filename').style.opacity = '';
+  // If we came from the editor route, go back to article or home
+  if (window.location.hash.startsWith('#/editor')) {
+    if (State.slug) window.location.hash = `/article/${State.slug}`;
+    else window.location.hash = '/';
+  }
 }
 
 // ─── PREVIEW ARTICLE (navigate to cached slug) ────────────────
