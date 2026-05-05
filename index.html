@@ -155,7 +155,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-/* FIX: Coat of arms — actual image from repo */
 .site-header .seal {
   width: 52px;
   height: 52px;
@@ -498,24 +497,21 @@ body {
 .article a.redlink { color: #b03a2e; }
 [data-theme="dark"] .article a.redlink { color: #e88a7e; }
 
-/* ─── BLOCKQUOTE — refined, readable ─────────────────────────────────────── */
 .article blockquote {
   position: relative;
   border-left: 3px solid var(--quote-border);
-  margin: 24px 0 24px 0;
+  margin: 24px 0;
   padding: 16px 22px 16px 24px;
   background: var(--quote-bg);
   color: var(--quote-text);
-  /* Typography: larger, more open, clearly readable */
   font-family: 'Crimson Pro', serif;
   font-size: 18px;
-  font-style: normal;           /* NOT italic — much easier to read */
+  font-style: normal;
   font-weight: 400;
   line-height: 1.65;
   letter-spacing: 0.005em;
   box-shadow: inset 3px 0 0 -1px rgba(184,137,26,0.15);
 }
-/* Decorative quotation mark */
 .article blockquote::before {
   content: "\201C";
   position: absolute;
@@ -528,13 +524,7 @@ body {
   line-height: 1;
   pointer-events: none;
 }
-.article blockquote p {
-  margin: 0;
-  font-size: inherit;
-  font-style: inherit;
-  line-height: inherit;
-  color: inherit;
-}
+.article blockquote p { margin: 0; font-size: inherit; font-style: inherit; line-height: inherit; color: inherit; }
 
 .article ul, .article ol {
   margin: 0 0 14px 26px;
@@ -543,11 +533,7 @@ body {
   line-height: 1.7;
 }
 .article li { margin-bottom: 5px; }
-.article hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 24px 0;
-}
+.article hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
 .article code {
   background: var(--paper-warm);
   padding: 1px 5px;
@@ -694,12 +680,8 @@ body {
   box-shadow: var(--shadow-sm);
   max-width: 100%;
 }
-.figure-block.float-right {
-  float: right; clear: right; margin: 0 0 16px 22px; width: 320px;
-}
-.figure-block.float-left {
-  float: left; clear: left; margin: 0 22px 16px 0; width: 320px;
-}
+.figure-block.float-right { float: right; clear: right; margin: 0 0 16px 22px; width: 320px; }
+.figure-block.float-left  { float: left;  clear: left;  margin: 0 22px 16px 0; width: 320px; }
 .figure-block img { width: 100%; display: block; cursor: zoom-in; }
 .figure-caption {
   padding: 7px 10px;
@@ -709,6 +691,23 @@ body {
   font-family: 'Crimson Pro', serif;
   text-align: center;
   line-height: 1.45;
+  border-top: 1px solid var(--border-soft);
+}
+
+/* ─── MAP EMBED ─────────────────────────────────────── */
+.map-embed-block {
+  margin: 18px 0;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.map-caption {
+  padding: 7px 10px;
+  background: var(--paper-warm);
+  color: var(--muted);
+  font-style: italic;
+  font-family: 'Crimson Pro', serif;
+  font-size: 12px;
+  text-align: center;
   border-top: 1px solid var(--border-soft);
 }
 
@@ -865,6 +864,37 @@ footer p { margin-bottom: 5px; }
 .portal-side .side-block a { color: var(--link); text-decoration: none; cursor: pointer; }
 .portal-side .side-block a:hover { text-decoration: underline; }
 
+/* ─── FEATURED ARCHIVE IMAGE ─────────────────────────────────────── */
+.featured-image-block .featured-image-wrap {
+  cursor: zoom-in;
+  overflow: hidden;
+  border: 1px solid var(--border-soft);
+  border-radius: 2px;
+  margin-bottom: 6px;
+}
+.featured-image-block .featured-image-wrap img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+.featured-image-block .featured-image-wrap:hover img { transform: scale(1.03); }
+.featured-image-caption {
+  font-family: 'Crimson Pro', serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin-top: 4px;
+}
+.featured-image-desc {
+  font-family: 'Crimson Pro', serif;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
 .article-card {
   border: 1px solid var(--border);
   background: var(--bg-elev);
@@ -972,7 +1002,6 @@ footer p { margin-bottom: 5px; }
   0%, 100% { opacity: 0.3; transform: scale(0.8); }
   50% { opacity: 1; transform: scale(1.2); }
 }
-
 .error-msg {
   max-width: 620px;
   margin: 60px auto;
@@ -1066,10 +1095,7 @@ footer p { margin-bottom: 5px; }
   border-color: var(--navy);
   box-shadow: 0 0 0 2px rgba(26,58,143,0.15);
 }
-.modal input[readonly] {
-  background: var(--paper-warm);
-  cursor: not-allowed;
-}
+.modal input[readonly] { background: var(--paper-warm); cursor: not-allowed; }
 .modal textarea { height: 440px; line-height: 1.6; resize: vertical; font-size: 13px; }
 .modal-actions {
   display: flex;
@@ -1095,15 +1121,237 @@ footer p { margin-bottom: 5px; }
 .btn-primary { background: var(--navy); color: white; border-color: var(--navy); }
 .btn-primary:hover { background: var(--navy-light); border-color: var(--navy-light); }
 
-/* ─── SAVE INSTRUCTIONS MODAL ─────────────────────────────────────── */
-.save-instructions-modal {
-  max-width: 660px;
+/* ─── EDITOR FULL-SCREEN OVERLAY ─────────────────────────────────────── */
+/* Editor now uses a full-screen layout with split panes */
+#editor-overlay .modal {
+  max-width: 100%;
+  width: calc(100vw - 40px);
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
-.save-instructions-modal .modal-body {
-  font-family: 'Crimson Pro', serif;
+#editor-overlay .modal-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Editor tab bar */
+.editor-tabs {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 16px 0;
+  background: var(--paper-warm);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.editor-tab-btn {
+  padding: 6px 14px;
+  font-size: 12px;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: -1px;
+  transition: color 0.15s, background 0.15s;
+}
+.editor-tab-btn.active {
+  background: var(--bg-elev);
+  border-color: var(--border);
+  color: var(--text);
+  font-weight: 600;
+}
+.editor-tab-btn:hover:not(.active) { color: var(--link); }
+.editor-slug-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  background: var(--paper-warm);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.editor-slug-row label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--navy);
+  margin: 0;
+  white-space: nowrap;
+}
+.editor-slug-row input {
+  flex: 0 0 280px;
+  padding: 5px 9px;
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--bg-elev);
+  color: var(--text);
+}
+.editor-slug-row input:focus { outline: none; border-color: var(--navy); }
+.editor-slug-row input[readonly] { background: var(--paper-warm); opacity: 0.6; cursor: not-allowed; }
+.editor-slug-row .editor-actions { margin-left: auto; display: flex; gap: 8px; }
+
+/* Editor panes container */
+#editor-panes {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+#editor-panes.split-mode { gap: 0; }
+
+/* Write pane */
+#editor-write-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid var(--border);
+}
+#editor-write-wrap .CodeMirror {
+  flex: 1;
+  height: 100% !important;
+  font-size: 13px;
+  font-family: 'JetBrains Mono', monospace;
+  border: none !important;
+}
+#editor-write-wrap .CodeMirror-scroll { height: 100%; }
+
+/* Preview pane */
+#editor-preview-pane {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 28px;
+  background: var(--bg);
   font-size: 15px;
-  line-height: 1.65;
 }
+
+/* Frontmatter form panel */
+#editor-fm-panel {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: var(--bg);
+}
+#editor-fm-panel .fm-field { margin-bottom: 14px; }
+#editor-fm-panel .fm-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--navy);
+  margin-bottom: 5px;
+}
+#editor-fm-panel .fm-field input,
+#editor-fm-panel .fm-field textarea {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--bg-elev);
+  color: var(--text);
+}
+#editor-fm-panel .fm-field input:focus,
+#editor-fm-panel .fm-field textarea:focus {
+  outline: none;
+  border-color: var(--navy);
+}
+#editor-fm-panel .fm-hint {
+  font-size: 11px;
+  color: var(--muted-soft);
+  font-style: italic;
+  margin-top: 3px;
+}
+
+/* Image picker panel inside editor */
+#editor-image-picker {
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 300px;
+  background: var(--bg-elev);
+  border-left: 1px solid var(--border);
+  z-index: 10;
+  display: none;
+  flex-direction: column;
+  box-shadow: var(--shadow-md);
+}
+#editor-image-picker.visible { display: flex; }
+.img-picker-header {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--paper-warm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.img-picker-header h4 { font-size: 13px; font-weight: 700; color: var(--navy); font-family: 'Source Sans 3', sans-serif; }
+.img-picker-search { padding: 8px 10px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.img-picker-search input {
+  width: 100%; padding: 5px 9px; border: 1px solid var(--border);
+  border-radius: 2px; font-size: 12px; background: var(--bg-elev); color: var(--text);
+}
+#image-picker-grid {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  align-content: start;
+}
+.img-picker-item {
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  background: var(--paper-warm);
+  cursor: grab;
+  font-size: 11px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.img-picker-item:hover { border-color: var(--navy); box-shadow: var(--shadow-sm); }
+.img-picker-item img { width: 100%; height: 70px; object-fit: cover; display: block; }
+.img-picker-name {
+  padding: 3px 5px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.img-picker-actions {
+  display: flex;
+  border-top: 1px solid var(--border-soft);
+}
+.img-picker-actions button {
+  flex: 1;
+  padding: 3px;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--border-soft);
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--navy);
+  transition: background 0.1s;
+}
+.img-picker-actions button:last-child { border-right: none; }
+.img-picker-actions button:hover { background: var(--table-head); }
+
+/* ─── SAVE INSTRUCTIONS MODAL ─────────────────────────────────────── */
+.save-instructions-modal { max-width: 660px; }
+.save-instructions-modal .modal-body { font-family: 'Crimson Pro', serif; font-size: 15px; line-height: 1.65; }
 .save-instructions-modal .instructions-link-box {
   background: var(--paper-warm);
   border: 1px solid var(--border);
@@ -1120,16 +1368,8 @@ footer p { margin-bottom: 5px; }
   text-decoration: none;
 }
 .save-instructions-modal .instructions-link-box a:hover { text-decoration: underline; }
-.save-instructions-modal .clipboard-msg {
-  font-size: 14px;
-  font-style: italic;
-  margin-bottom: 14px;
-}
-.save-instructions-modal ol {
-  margin: 0 0 16px 20px;
-  font-size: 14px;
-  line-height: 1.7;
-}
+.save-instructions-modal .clipboard-msg { font-size: 14px; font-style: italic; margin-bottom: 14px; }
+.save-instructions-modal ol { margin: 0 0 16px 20px; font-size: 14px; line-height: 1.7; }
 .save-instructions-modal ol li { margin-bottom: 4px; }
 .save-instructions-modal ol kbd {
   background: var(--paper-warm);
@@ -1152,10 +1392,371 @@ footer p { margin-bottom: 5px; }
   justify-content: space-between;
   align-items: center;
 }
-.save-instructions-modal textarea {
-  height: 160px;
+.save-instructions-modal textarea { height: 160px; font-size: 12px; background: var(--paper-warm); }
+
+/* ─── COMMONS PAGE ─────────────────────────────────────── */
+.commons-page { max-width: 1240px; margin: 0 auto; padding: 28px 24px 48px; }
+.commons-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 12px;
+}
+.commons-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: var(--navy);
+  font-weight: 700;
+}
+.commons-subtitle {
+  font-family: 'Crimson Pro', serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.commons-search-bar { margin-bottom: 22px; }
+.commons-search-bar input {
+  width: 100%;
+  max-width: 480px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 13px;
+  background: var(--bg-elev);
+  color: var(--text);
+  font-family: inherit;
+}
+.commons-search-bar input:focus { outline: none; border-color: var(--navy); }
+.commons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.commons-card {
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.commons-card:hover { border-color: var(--navy); box-shadow: var(--shadow-md); }
+.commons-thumb-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 130px;
+  background: var(--paper-warm);
+  cursor: zoom-in;
+}
+.commons-thumb-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.25s;
+}
+.commons-thumb-wrap:hover img { transform: scale(1.05); }
+.commons-thumb-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(13,31,92,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.commons-thumb-wrap:hover .commons-thumb-overlay { opacity: 1; }
+.commons-thumb-wrap.img-missing { background: var(--paper-warm); }
+.commons-thumb-wrap.img-missing::after {
+  content: "Image unavailable";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--muted);
+  font-style: italic;
+  font-family: 'Crimson Pro', serif;
+}
+.commons-card-info { padding: 8px 10px; }
+.commons-card-title {
+  font-family: 'Crimson Pro', serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.commons-card-desc {
+  font-family: 'Crimson Pro', serif;
+  font-size: 11px;
+  font-style: italic;
+  color: var(--muted);
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.commons-card-filename {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.commons-card-filename code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--muted-soft);
+  background: var(--paper-warm);
+  padding: 1px 4px;
+  border: 1px solid var(--border-soft);
+  border-radius: 2px;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.commons-copy-btn {
+  background: transparent;
+  border: 1px solid var(--border-soft);
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 2px 4px;
+  color: var(--muted);
+  line-height: 1;
+  transition: border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.commons-copy-btn:hover { border-color: var(--navy); color: var(--navy); }
+.commons-paste-section { margin-top: 32px; }
+.commons-paste-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+.commons-paste-header h3 {
+  font-family: 'Crimson Pro', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.commons-paste-header p {
+  font-family: 'Crimson Pro', serif;
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+  margin-left: 0;
+}
+.commons-ref-list {
+  width: 100%;
+  height: 200px;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 12px;
   background: var(--paper-warm);
+  border: 1px solid var(--border);
+  padding: 10px;
+  color: var(--text);
+  border-radius: 2px;
+  resize: vertical;
+}
+
+/* ─── GRAPH PAGE ─────────────────────────────────────── */
+.graph-page { display: flex; flex-direction: column; height: calc(100vh - 160px); }
+.graph-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background: var(--paper-warm);
+  border-bottom: 1px solid var(--border);
+  gap: 8px;
+  flex-shrink: 0;
+}
+.graph-toolbar-left  { display: flex; align-items: center; gap: 6px; flex: 1; }
+.graph-toolbar-right { display: flex; align-items: center; gap: 6px; }
+.graph-tool-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.graph-tool-group {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 2px;
+}
+.graph-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--text-soft);
+  font-weight: 500;
+  transition: background 0.12s, border-color 0.12s, color 0.12s;
+  white-space: nowrap;
+}
+.graph-btn:hover { background: var(--paper-warm); border-color: var(--border); }
+.graph-btn.active { background: var(--navy); color: white; border-color: var(--navy); }
+.graph-btn-primary { background: var(--navy); color: white; border-color: var(--navy); }
+.graph-btn-primary:hover { background: var(--navy-light); border-color: var(--navy-light); }
+.graph-workspace {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+.graph-canvas-wrap {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg);
+  background-image:
+    linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+[data-theme="dark"] .graph-canvas-wrap {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+}
+.graph-canvas-hint {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(13,31,92,0.85);
+  color: white;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: 'Source Sans 3', sans-serif;
+  pointer-events: none;
+  display: none;
+}
+.graph-inspector {
+  width: 240px;
+  flex-shrink: 0;
+  background: var(--bg-elev);
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 14px;
+}
+.graph-inspector-empty { color: var(--muted); font-family: 'Crimson Pro', serif; font-size: 13px; font-style: italic; padding: 8px 0; }
+.graph-inspector-section {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--navy);
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.graph-inspector-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.graph-inspector-input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: inherit;
+  background: var(--bg-elev);
+  color: var(--text);
+}
+.graph-inspector-input:focus { outline: none; border-color: var(--navy); }
+.graph-color-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 4px;
+}
+.graph-color-swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.12s, transform 0.12s;
+}
+.graph-color-swatch:hover, .graph-color-swatch.active { border-color: var(--gold); transform: scale(1.15); }
+.graph-statusbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 16px;
+  background: var(--paper-warm);
+  border-top: 1px solid var(--border);
+  font-size: 11px;
+  color: var(--muted);
+  font-family: 'Source Sans 3', sans-serif;
+  flex-shrink: 0;
+}
+
+/* ─── UPLOAD HELPER MODAL ─────────────────────────────────────── */
+.upload-helper-modal { max-width: 600px; }
+.upload-helper-modal .modal-body { font-family: 'Crimson Pro', serif; font-size: 15px; line-height: 1.65; }
+.upload-helper-modal ol { margin: 12px 0 16px 20px; font-size: 14px; line-height: 1.75; }
+.upload-helper-modal ol li { margin-bottom: 4px; }
+.upload-helper-modal .upload-link-box {
+  background: var(--paper-warm);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--gold);
+  padding: 12px 16px;
+  margin: 14px 0;
+  border-radius: 2px;
+}
+.upload-helper-modal .upload-link-box a {
+  color: var(--link);
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.upload-helper-modal .upload-link-box a:hover { text-decoration: underline; }
+.upload-helper-modal .meta-note {
+  background: var(--paper-warm);
+  border: 1px solid var(--border-soft);
+  border-radius: 2px;
+  padding: 12px 16px;
+  font-size: 13px;
+  margin-top: 14px;
+}
+.upload-helper-modal .meta-note code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  background: var(--bg-elev);
+  padding: 1px 5px;
+  border: 1px solid var(--border-soft);
+  border-radius: 2px;
 }
 
 /* ─── LIGHTBOX ─────────────────────────────────────── */
@@ -1206,6 +1807,8 @@ footer p { margin-bottom: 5px; }
   .toc-sidebar { display: none; }
   .infobox { width: 260px; }
   .portal-grid { grid-template-columns: 1fr; }
+  .graph-inspector { display: none; }
+  #editor-overlay .modal { width: calc(100vw - 16px); }
 }
 @media (max-width: 680px) {
   .infobox { float: none; width: 100%; margin: 0 0 18px; }
@@ -1218,6 +1821,8 @@ footer p { margin-bottom: 5px; }
   .article-title { font-size: 32px; }
   .portal-hero { padding: 28px 22px; }
   .portal-hero h1 { font-size: 28px; }
+  .commons-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  .editor-tabs { overflow-x: auto; }
 }
 
 /* ─── PRINT ─────────────────────────────────────── */
@@ -1240,9 +1845,10 @@ footer p { margin-bottom: 5px; }
     <span class="cet-clock" id="cet-clock">
       <span class="label">CET</span><span id="cet-time">––:––</span>
     </span>
-    <!-- FIX: only these two hardcoded links here — buildNav() adds article links to site-header nav separately -->
     <a onclick="navigate('home')">Main Page</a>
     <a onclick="navigate('all')">All Articles</a>
+    <a onclick="navigate('commons')">Commons</a>
+    <a onclick="navigate('graph')">Graph Tool</a>
     <a onclick="showHelp()">Help</a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1257,7 +1863,6 @@ footer p { margin-bottom: 5px; }
 <!-- SITE HEADER -->
 <header class="site-header">
   <div class="logo-area" onclick="navigate('home')">
-    <!-- FIX: Use actual CoAMZ.png from repo instead of inline SVG -->
     <div class="seal">
       <img
         src="https://raw.githubusercontent.com/helpimnotdmv/Marzenapedia/main/images/CoAMZ.png"
@@ -1269,8 +1874,6 @@ footer p { margin-bottom: 5px; }
       <div class="site-subtitle">The Free Encyclopaedia of the Republic</div>
     </div>
   </div>
-  <!-- FIX: This nav is populated by buildNav() with article links only.
-       "Main Page" and "All Articles" live in the topbar above — not duplicated here. -->
   <nav id="main-nav"></nav>
 </header>
 
@@ -1313,13 +1916,14 @@ footer p { margin-bottom: 5px; }
       <h4>Navigation</h4>
       <p><a onclick="navigate('home')">Main Page</a></p>
       <p><a onclick="navigate('all')">All Articles</a></p>
+      <p><a onclick="navigate('commons')">Marzena Commons</a></p>
+      <p><a onclick="navigate('graph')">Graph Tool</a></p>
       <p><a onclick="document.getElementById('search-input').focus()">Search</a></p>
     </div>
     <div>
       <h4>About</h4>
       <p><a onclick="showHelp()">How to edit articles</a></p>
       <p>Powered by GitHub Pages</p>
-      <p>Source: <a href="https://github.com/helpimnotdmv/Marzenapedia" target="_blank" rel="noopener">github.com/helpimnotdmv/Marzenapedia</a></p>
     </div>
   </div>
   <div class="footer-note">
@@ -1327,41 +1931,89 @@ footer p { margin-bottom: 5px; }
   </div>
 </footer>
 
-<!-- EDITOR MODAL -->
+<!-- ═══════════════════════════════════════════════════════════════
+     EDITOR MODAL — full-screen, split-pane
+     ═══════════════════════════════════════════════════════════════ -->
 <div id="editor-overlay" class="modal-overlay" onclick="if(event.target===this)closeEditor()">
   <div class="modal">
     <div class="modal-header">
       <span id="editor-title">Edit Article</span>
-      <button onclick="closeEditor()">×</button>
+      <button onclick="closeEditor()" title="Close editor (Esc)">×</button>
     </div>
-    <div class="modal-body">
-      <!-- Hidden field to track whether this is an existing article -->
-      <input type="hidden" id="editor-is-existing" value="false">
-      <div style="margin-bottom:14px;">
-        <label>
-          Article Slug
-          <span class="hint">filename, lowercase-with-dashes (locked for existing articles)</span>
-        </label>
-        <input id="editor-filename" type="text" placeholder="article-slug">
-      </div>
-      <div style="margin-bottom:14px;">
-        <label>
-          Content (Markdown)
-          <span class="hint"><code>## Headings</code> · <code>**bold**</code> · <code>[[wikilinks]]</code> · <code>:::infobox</code> · <code>![alt](url)</code></span>
-        </label>
-        <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
-      </div>
-      <div class="modal-actions">
+
+    <!-- Hidden state -->
+    <input type="hidden" id="editor-is-existing" value="false">
+
+    <!-- Slug row + action buttons -->
+    <div class="editor-slug-row">
+      <label for="editor-filename">Slug</label>
+      <input id="editor-filename" type="text" placeholder="article-slug">
+      <div class="editor-actions">
+        <button class="btn" onclick="openImagePicker()" title="Browse Commons images">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          Images
+        </button>
         <button class="btn" onclick="previewArticle()">Preview</button>
         <button class="btn" onclick="closeEditor()">Cancel</button>
         <button class="btn btn-primary" onclick="saveArticle()">Save to GitHub →</button>
+      </div>
+    </div>
+
+    <!-- Tab bar -->
+    <div class="editor-tabs">
+      <button class="editor-tab-btn active" data-tab="write"   onclick="switchEditorTab('write')">Write</button>
+      <button class="editor-tab-btn"        data-tab="split"   onclick="switchEditorTab('split')">Split</button>
+      <button class="editor-tab-btn"        data-tab="preview" onclick="switchEditorTab('preview')">Preview</button>
+      <button class="editor-tab-btn"        data-tab="fm"      onclick="switchEditorTab('fm')">Frontmatter</button>
+    </div>
+
+    <!-- Panes -->
+    <div class="modal-body">
+      <div id="editor-panes" style="position:relative;">
+        <!-- Write pane: CodeMirror mounts here -->
+        <div id="editor-write-wrap">
+          <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
+        </div>
+
+        <!-- Preview pane -->
+        <div id="editor-preview-pane" style="display:none;"></div>
+
+        <!-- Frontmatter form -->
+        <div id="editor-fm-panel" style="display:none;">
+          <div class="fm-field">
+            <label for="fm-tags">Tags</label>
+            <input id="fm-tags" type="text" placeholder="government, founding, history">
+            <div class="fm-hint">Comma-separated tags used for search and navigation.</div>
+          </div>
+          <div class="fm-field">
+            <label for="fm-date">In-universe date</label>
+            <input id="fm-date" type="text" placeholder="YYYY-MM-DD">
+            <div class="fm-hint">The in-universe date this document / event refers to.</div>
+          </div>
+          <div class="fm-field">
+            <label for="fm-sources">Sources</label>
+            <input id="fm-sources" type="text" placeholder="National Archive Doc 44-B; Bureau Bulletin 12">
+            <div class="fm-hint">Semicolon-separated in-universe source references.</div>
+          </div>
+        </div>
+
+        <!-- Image picker panel (slides in from right inside editor) -->
+        <div id="editor-image-picker">
+          <div class="img-picker-header">
+            <h4>Commons Images</h4>
+            <button class="btn" onclick="closeImagePicker()" style="padding:3px 8px;font-size:12px;">✕</button>
+          </div>
+          <div class="img-picker-search">
+            <input type="text" placeholder="Filter images…" oninput="filterImagePicker(this.value)">
+          </div>
+          <div id="image-picker-grid"></div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 <!-- SAVE INSTRUCTIONS MODAL -->
-<!-- Shown after "Save to GitHub" — explains how to paste the content into GitHub's editor -->
 <div id="save-instructions-overlay" class="modal-overlay" onclick="if(event.target===this)closeSaveInstructions()">
   <div class="modal save-instructions-modal">
     <div class="modal-header">
@@ -1370,19 +2022,15 @@ footer p { margin-bottom: 5px; }
     </div>
     <div class="modal-body">
       <p id="save-clipboard-msg" class="clipboard-msg"></p>
-
       <div class="instructions-link-box">
         <a id="save-instructions-link" href="#" target="_blank" rel="noopener"></a>
       </div>
-
       <ol id="save-instructions-steps"></ol>
-
       <div class="content-area-label">
         Article content
         <button class="btn" id="copy-content-btn" onclick="copyContentToClipboard()" style="padding:4px 12px;font-size:12px;">Copy Content</button>
       </div>
-      <textarea id="save-content-textarea" class="modal" style="width:100%;height:160px;font-size:12px;font-family:'JetBrains Mono',monospace;border:1px solid var(--border);padding:8px;background:var(--paper-warm);color:var(--text);border-radius:2px;" readonly></textarea>
-
+      <textarea id="save-content-textarea" style="width:100%;height:160px;font-size:12px;font-family:'JetBrains Mono',monospace;border:1px solid var(--border);padding:8px;background:var(--paper-warm);color:var(--text);border-radius:2px;" readonly></textarea>
       <div class="modal-actions" style="margin-top:12px;">
         <button class="btn" onclick="closeSaveInstructions()">Done</button>
       </div>
@@ -1390,24 +2038,52 @@ footer p { margin-bottom: 5px; }
   </div>
 </div>
 
+<!-- UPLOAD HELPER MODAL -->
+<div id="upload-helper-overlay" class="modal-overlay" onclick="if(event.target===this)closeUploadHelper()">
+  <div class="modal upload-helper-modal">
+    <div class="modal-header">
+      <span>Upload an Image to Commons</span>
+      <button onclick="closeUploadHelper()">×</button>
+    </div>
+    <div class="modal-body">
+      <p>Images live in the <code>images/</code> folder of the repository. To add a new image:</p>
+      <ol>
+        <li>Click the link below to open the GitHub uploader.</li>
+        <li>Drag your image file onto the page, or click <strong>"choose your files"</strong>.</li>
+        <li>Commit the file — it will appear in the Commons within ~30 seconds.</li>
+      </ol>
+      <div class="upload-link-box">
+        <a href="https://github.com/helpimnotdmv/Marzenapedia/upload/main/images" target="_blank" rel="noopener">
+          Upload to images/ on GitHub →
+        </a>
+      </div>
+      <div class="meta-note">
+        <strong>Add title &amp; description</strong> (optional but recommended):<br>
+        Edit or create <code>images/commons.json</code> in the repo. Each entry looks like:<br>
+        <pre style="margin-top:8px;font-size:12px;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px;overflow-x:auto;">{ "filename": "FlagMZ.jpg", "title": "Flag of Marzena", "description": "The national tricolour, adopted 1952." }</pre>
+        The build process merges this into <code>commons.json</code> automatically.
+      </div>
+      <div class="modal-actions">
+        <button class="btn" onclick="closeUploadHelper()">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- HELP MODAL -->
 <div id="help-overlay" class="modal-overlay" onclick="if(event.target===this)this.classList.remove('visible')">
-  <div class="modal" style="max-width:680px;">
+  <div class="modal" style="max-width:700px;">
     <div class="modal-header">
       <span>How to Edit Marzenapedia</span>
       <button onclick="document.getElementById('help-overlay').classList.remove('visible')">×</button>
     </div>
     <div class="modal-body" style="font-family:'Crimson Pro',serif;font-size:15px;line-height:1.65;">
       <h3 style="font-family:'Crimson Pro',serif;font-size:21px;color:var(--navy);margin-bottom:12px;font-weight:600;">Writing Articles</h3>
-      <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article to open the editor. When you click <strong>Save to GitHub</strong>:</p>
-      <ul style="font-family:'Crimson Pro',serif;font-size:14px;margin:0 0 16px 20px;line-height:1.7;">
-        <li><strong>New articles</strong> — GitHub opens with the filename and content pre-filled. Just commit.</li>
-        <li><strong>Existing articles</strong> — GitHub opens the file editor. The content is copied to your clipboard; select all and paste.</li>
-      </ul>
-      <p style="margin-bottom:18px;">When you commit, the GitHub Action rebuilds <code>index.json</code> automatically so your changes appear in search and on the homepage within ~30 seconds.</p>
+      <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article to open the editor. The editor supports a <strong>split Write | Preview</strong> mode — switch tabs at the top of the editor.</p>
+      <p style="margin-bottom:16px;">When you click <strong>Save to GitHub</strong>, the page opens GitHub and copies the content to your clipboard. Paste and commit — the index rebuilds automatically within ~30 seconds.</p>
 
-      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Image Paths</h3>
-      <p style="margin-bottom:16px;">Images in <code>images/</code> can be referenced as bare filenames: <code>CoAMZ.png</code> or <code>FlagMZ.jpg</code>. Or use the full path: <code>/images/CoAMZ.png</code>.</p>
+      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Marzena Commons</h3>
+      <p style="margin-bottom:16px;">All images are managed in the <strong>Commons</strong> (nav bar above). Upload via the GitHub uploader, optionally add metadata in <code>images/commons.json</code>. Drag images from the Commons picker directly into the editor to insert them.</p>
 
       <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Markdown Reference</h3>
       <table style="width:100%;font-size:13px;border-collapse:collapse;margin-bottom:18px;font-family:'JetBrains Mono',monospace;">
@@ -1436,6 +2112,10 @@ Population: 41 million
 
 :::figure align: right caption: "Map of the Republic"
 /images/marzena-map.png
+:::
+
+:::map caption: "Administrative regions" height: 480
+https://www.google.com/maps/d/embed?mid=YOUR_MAP_ID
 :::</pre>
     </div>
   </div>
@@ -1448,6 +2128,6 @@ Population: 41 million
   <div class="lightbox-caption" id="lightbox-caption" style="display:none;"></div>
 </div>
 
-<script src="app.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>
