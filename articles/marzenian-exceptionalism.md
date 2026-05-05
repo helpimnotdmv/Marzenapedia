@@ -1,12 +1,7 @@
 :::frontmatter
-tags:
-  - government
-  - ideology
-  - history
-date: 1952-05-02
-sources:
-  - National Archive Doc 44-B
+tags: government,  ideology,  history
 :::
+
 
 # Marzenian Exceptionalism
 
