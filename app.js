@@ -640,11 +640,11 @@ async function loadPartials() {
 // INIT
 // ═══════════════════════════════════════════════════════════════
 (async function init() {
-  exposeGlobals();
-  initTheme();
-  await loadPartials();       // ← must come before anything that touches the DOM
-  startCetClock();
+  exposeGlobals();   // 1. globals first — no DOM access here
+  initTheme();       // 2. theme on <html>, no partials needed
+  await loadPartials(); // 3. inject chrome/footer/modals into DOM
+  startCetClock();   // 4. now #cet-time exists
   await fetchIndex();
-  await buildNav();
+  await buildNav();  // needs #main-nav which is inside chrome partial
   await handleRoute();
 })();
