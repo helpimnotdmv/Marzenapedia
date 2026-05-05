@@ -9,96 +9,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Source+Sans+3:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&family=IM+Fell+English:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* Editor page fills the full viewport below the chrome */
-    body { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
-    #chrome-mount { flex-shrink: 0; }
-    .editor-page { flex: 1; min-height: 0; }
+    /* Editor fills full viewport — the modal overlay IS the page */
+    body { margin: 0; overflow: hidden; }
+    /* Force the editor overlay open and full-screen */
+    #editor-overlay {
+      display: flex !important;
+      position: fixed;
+      inset: 0;
+      background: var(--bg);
+      backdrop-filter: none;
+      padding: 0;
+      overflow: hidden;
+    }
+    #editor-overlay .modal {
+      max-width: 100%;
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      border-radius: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: none;
+    }
+    #editor-overlay .modal-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      overflow: hidden;
+    }
+    #editor-panes {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+      position: relative;
+    }
+    /* Chromebar at top stays compact */
+    #chrome-mount .topbar    { display: none; }
+    #chrome-mount .site-header { display: none; }
+    #chrome-mount .search-bar  { display: none; }
+    #chrome-mount .page-tabs   { display: none; }
   </style>
 </head>
 <body>
-
   <div id="chrome-mount"></div>
-
-  <!-- Editor page shell — JS mounts content here -->
-  <main class="editor-page" id="editor-root">
-
-    <!-- Page header: slug + action buttons -->
-    <div class="editor-page-header">
-      <span class="editor-title">Editor</span>
-      <label for="editor-filename">Slug</label>
-      <input id="editor-filename" type="text" placeholder="article-slug">
-      <input type="hidden" id="editor-is-existing" value="false">
-      <div class="editor-actions">
-        <button class="btn" onclick="openImagePicker()" title="Browse Commons images">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;">
-            <rect x="3" y="3" width="18" height="18" rx="2"/>
-            <circle cx="8.5" cy="8.5" r="1.5"/>
-            <polyline points="21 15 16 10 5 21"/>
-          </svg>
-          Images
-        </button>
-        <button class="btn" onclick="previewArticle()">Preview</button>
-        <button class="btn" onclick="cancelEditor()">← Back</button>
-        <button class="btn btn-primary" onclick="saveArticle()">Save to GitHub →</button>
-      </div>
-    </div>
-
-    <!-- Tab bar -->
-    <div class="editor-tabs">
-      <button class="editor-tab-btn active" data-tab="write"   onclick="switchEditorTab('write')">Write</button>
-      <button class="editor-tab-btn"        data-tab="split"   onclick="switchEditorTab('split')">Split</button>
-      <button class="editor-tab-btn"        data-tab="preview" onclick="switchEditorTab('preview')">Preview</button>
-      <button class="editor-tab-btn"        data-tab="fm"      onclick="switchEditorTab('fm')">Frontmatter</button>
-    </div>
-
-    <!-- Panes -->
-    <div id="editor-panes">
-
-      <!-- Write pane: CodeMirror mounts here -->
-      <div id="editor-write-wrap">
-        <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
-      </div>
-
-      <!-- Preview pane -->
-      <div id="editor-preview-pane" style="display:none;"></div>
-
-      <!-- Frontmatter form -->
-      <div id="editor-fm-panel" style="display:none;">
-        <div class="fm-field">
-          <label for="fm-tags">Tags</label>
-          <input id="fm-tags" type="text" placeholder="government, founding, history">
-          <div class="fm-hint">Comma-separated tags used for search and navigation.</div>
-        </div>
-        <div class="fm-field">
-          <label for="fm-date">In-universe date</label>
-          <input id="fm-date" type="text" placeholder="YYYY-MM-DD">
-          <div class="fm-hint">The in-universe date this document / event refers to.</div>
-        </div>
-        <div class="fm-field">
-          <label for="fm-sources">Sources</label>
-          <input id="fm-sources" type="text" placeholder="National Archive Doc 44-B; Bureau Bulletin 12">
-          <div class="fm-hint">Semicolon-separated in-universe source references.</div>
-        </div>
-      </div>
-
-      <!-- Image picker panel (slides in from right) -->
-      <div id="editor-image-picker">
-        <div class="img-picker-header">
-          <h4>Commons Images</h4>
-          <button class="btn" onclick="closeImagePicker()" style="padding:3px 8px;font-size:12px;">✕</button>
-        </div>
-        <div class="img-picker-search">
-          <input type="text" placeholder="Filter images…" oninput="filterImagePicker(this.value)">
-        </div>
-        <div id="image-picker-grid"></div>
-      </div>
-
-    </div>
-  </main>
-
-  <!-- Modals needed by editor -->
   <div id="modals-mount"></div>
-
   <script type="module" src="editor-page.js"></script>
 </body>
 </html>
