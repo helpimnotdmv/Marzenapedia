@@ -86,9 +86,9 @@ async function handleRoute() {
   else if (route.view === 'all')     await showAllArticles();
   else if (route.view === 'commons') await showCommons();
   else if (route.view === 'graph')   showGraph();
-  else if (route.view === 'editor')  await showEditorPage(route.slug);
   else if (route.view === 'search')  await showSearchResults(route.query);
   else if (route.view === 'article') await showArticle(route.slug, route.section);
+  // no editor case — editor.html handles itself
 }
 
 window.addEventListener('hashchange', handleRoute);
@@ -565,27 +565,34 @@ document.addEventListener('keydown', e => {
 // ═══════════════════════════════════════════════════════════════
 function exposeGlobals() {
   // Navigation
-  window.navigate        = navigate;
-  window.toggleTheme     = toggleTheme;
+  window.navigate    = navigate;
+  window.toggleTheme = toggleTheme;
+
+  // Editor — navigate to editor.html instead of opening overlay
+  window.openEditor = () => {
+    window.location.href = `editor.html?slug=${encodeURIComponent(State.slug || '')}`;
+  };
+  window.openNewArticle = (slug) => {
+    window.location.href = `editor.html?slug=${encodeURIComponent(slug || '')}`;
+  };
 
   // Search
   window.onSearchInput   = onSearchInput;
   window.onSearchKeydown = onSearchKeydown;
   window.doSearch        = doSearch;
 
-  // Editor
-  window.openEditor              = openEditor;
-  window.openNewArticle          = openNewArticle;
-  window.closeEditor             = closeEditor;
-  window.previewArticle          = previewArticle;
-  window.saveArticle             = saveArticle;
-  window.closeSaveInstructions   = closeSaveInstructions;
-  window.copyContentToClipboard  = copyContentToClipboard;
-  window.switchEditorTab         = switchEditorTab;
-  window.openImagePicker         = openImagePicker;
-  window.closeImagePicker        = closeImagePicker;
-  window.filterImagePicker       = filterImagePicker;
-  window.__insertImage           = insertImageAtCursor;
+  // These are still needed for save instructions if somehow triggered from main page,
+  // but primarily live in editor-page.js now:
+  window.closeEditor             = () => window.history.back();
+  window.previewArticle          = () => {};
+  window.saveArticle             = () => {};
+  window.closeSaveInstructions   = () => {};
+  window.copyContentToClipboard  = () => {};
+  window.switchEditorTab         = () => {};
+  window.openImagePicker         = () => {};
+  window.closeImagePicker        = () => {};
+  window.filterImagePicker       = () => {};
+  window.__insertImage           = () => {};
 
   // Lightbox
   window.openLightbox   = openLightbox;
@@ -593,17 +600,15 @@ function exposeGlobals() {
   window.__openLightbox = openLightbox;
 
   // Commons / gallery
-  window.__filterCommons   = filterCommons;
-  window.__copyCommonsRef  = copyCommonsRef;
-  window.__copyToClipboard = copyToClipboard;
+  window.__filterCommons     = filterCommons;
+  window.__copyCommonsRef    = copyCommonsRef;
+  window.__copyToClipboard   = copyToClipboard;
   window.__openUploadHelper  = openUploadHelper;
   window.__closeUploadHelper = closeUploadHelper;
 
   // Help
-  window.showHelp = showHelp;
-
-  // Router (used by renderer inline links)
-  window.__navigate = navigate;
+  window.showHelp    = showHelp;
+  window.__navigate  = navigate;
 
   // Graph
   exposeGraphGlobals();
