@@ -1,10 +1,10 @@
 # Republic of Marzena
 
 :::frontmatter
-tags: government · history · founding · constitution · legislature · executive · political-parties · secularism · economy · military · foreign-relations
-date: 1952-05-02
-revised: 2026-05-04
-sources: Constitutional Commission Records 1950–1952, Lévane Gazette #1, National Archive Doc 44-B
+tags: government, history, founding, constitution, legislature, executive, political-parties, secularism
+infobox_type: country
+date: 
+sources: 
 :::
 
 :::infobox
@@ -365,8 +365,3 @@ The country has 26 airports, of which five offer international services. The pri
 
 ---
 
-## Cited Sources
-
-- Constitutional Commission Records 1950–1952
-- Lévane Gazette #1
-- National Archive Doc 44-B
