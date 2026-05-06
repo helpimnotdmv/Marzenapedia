@@ -364,3 +364,9 @@ The national railway network totals 3,420 km, including a high-speed line connec
 The country has 26 airports, of which five offer international services. The primary commercial port is Solane (Atlantic), supported by Cap-Nord (Mediterranean/Strait), Kermane (phosphate bulk export), Port-Sahar (southern Atlantic), and Las Palmas (Canaries). The national broadcast domain is **.mz** and the international telephone prefix is **+399**. Civil aircraft carry the registration prefix **MZ-**.
 
 ---
+
+## Cited Sources
+
+- Constitutional Commission Records 1950–1952
+- Lévane Gazette #1
+- National Archive Doc 44-B
