@@ -1,5 +1,4 @@
 name: Build index.json and commons.json
-
 on:
   push:
     branches: [main]
@@ -7,7 +6,6 @@ on:
       - 'articles/**'
       - 'images/**'
       - 'build-index.js'
-      - 'build-commons.js'
       - '.github/workflows/build-index.yml'
   workflow_dispatch:
 
@@ -17,7 +15,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -29,7 +26,8 @@ jobs:
         with:
           node-version: '20'
 
-      # build-index.js now handles BOTH index.json and commons.json in one pass
+      # build-index.js handles BOTH index.json and commons.json in a single pass.
+      # Image dimensions are parsed from headers via a zero-dep parser.
       - name: Build index.json and commons.json
         run: node build-index.js
 
@@ -37,16 +35,13 @@ jobs:
         run: |
           git config user.name  "marzenapedia-bot"
           git config user.email "bot@marzenapedia.local"
-
           CHANGED=()
           git diff --quiet index.json   || CHANGED+=(index.json)
           git diff --quiet commons.json || CHANGED+=(commons.json)
-
-          # Also catch newly created commons-meta.json stub
+          # Catch newly created commons-meta.json stub
           if git status --porcelain images/commons-meta.json | grep -q '^??'; then
             CHANGED+=(images/commons-meta.json)
           fi
-
           if [ ${#CHANGED[@]} -eq 0 ]; then
             echo "Nothing changed — skipping commit."
           else
