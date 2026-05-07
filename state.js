@@ -1,25 +1,29 @@
-// state.js
-export const REPO_OWNER   = 'helpimnotdmv';        // ← your GitHub username
-export const REPO_NAME    = 'Marzenapedia';
-export const BRANCH       = 'main';
-export const ARTICLES_PATH = 'articles';
-export const IMAGES_PATH   = 'images';
+/* ═══════════════════════════════════════════════════════════════
+   state.js — Runtime state. Constants now live in config.js.
+   ═══════════════════════════════════════════════════════════════ */
 
-export const RAW_BASE  = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}`;
-export const API_BASE  = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`;
-export const INDEX_URL         = `${RAW_BASE}/index.json`;
-export const COMMONS_INDEX_URL = `${RAW_BASE}/commons.json`;
+// Re-export constants from config so existing imports keep working.
+export {
+  REPO_OWNER, REPO_NAME, BRANCH,
+  ARTICLES_PATH, IMAGES_PATH,
+  RAW_BASE, API_BASE,
+  INDEX_URL, COMMONS_INDEX_URL,
+  SiteConfig,
+} from './config.js';
 
 export const State = {
-  view:              'home',
-  slug:              null,
-  index:             null,
-  commonsIndex:      null,
-  articleCache:      {},
-  lastEditCache:     {},
-  cmEditor:          null,
-  editorPreviewTimer: null,
+  view:                'home',
+  slug:                null,
+  index:               null,
+  commonsIndex:        null,
+  articleCache:        {},
+  lastEditCache:       {},
+  cmEditor:            null,
+  editorPreviewTimer:  null,
+  editorDirty:         false,        // set true on any change
+  editorOriginal:      '',           // content as loaded — to detect dirtiness
+  editorDraftRestored: false,
   searchDebounceTimer: null,
-  searchActiveResult: -1,
-  scrollObserver:    null,
+  searchActiveResult:  -1,
+  scrollObserver:      null,
 };
