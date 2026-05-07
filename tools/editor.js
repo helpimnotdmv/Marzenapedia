@@ -9,9 +9,9 @@
      • beforeunload guard for unsaved changes
    ═══════════════════════════════════════════════════════════════ */
 
-import { State, RAW_BASE, ARTICLES_PATH, REPO_OWNER, REPO_NAME, BRANCH, SiteConfig } from './state.js';
-import { renderTokensFromBody, extractFrontmatter, parseFrontmatterBody, slugToTitle, escapeHtml, escapeAttr } from './renderer.js';
-import { fetchArticle, slugExists } from './data.js';
+import { State, RAW_BASE, ARTICLES_PATH, REPO_OWNER, REPO_NAME, BRANCH, SiteConfig } from '../state.js';
+import { renderTokensFromBody, extractFrontmatter, parseFrontmatterBody, slugToTitle, escapeHtml, escapeAttr } from '../renderer.js';
+import { fetchArticle, slugExists } from '../data.js';
 
 // ─── CodeMirror loader ────────────────────────────────────────
 let cmLoaded = false;
