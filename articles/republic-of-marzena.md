@@ -2,7 +2,6 @@
 
 :::frontmatter
 tags: government, history, founding, constitution, legislature, executive, political-parties, secularism
-infobox_type: country
 date: 
 sources: 
 :::
@@ -257,7 +256,7 @@ The interior presents a markedly different picture. Communities in the central a
 
 Broadcasting is dominated by **Télévision Nationale Marzenienne** (TNM), which operates three state channels covering news, culture, and general programming. State broadcasting operates within explicit editorial guidelines that reflect the priorities of Marzenian Exceptionalism; coverage of the interior insurgency, religious community affairs, and ANC politics is subject to recurrent criticism from opposition parties and press freedom organisations for selective framing.
 
-The most prominent independent voice in the Marzenian media landscape is **Le Témoin Marzenien**, an investigative print and digital outlet operated under the Groupe Karmarena umbrella. Despite its ownership by the former royal family — which maintains informal alignment with the PNLR — Le Témoin has cultivated a reputation for genuine editorial independence, and its reporting on FSRN governance, interior security incidents, and ANC legal proceedings has on several occasions preceded and informed parliamentary debate. The outlet's independence is understood by observers to depend on the continued political calculation of Groupe Karmarena that press credibility serves the family's long-term institutional interests more than editorial compliance would.
+The most prominent independent voice in the Marzenian media landscape is [[Le Témoin Marzenien]], an investigative print and digital outlet operated under the Groupe Karmarena umbrella. Despite its ownership by the former royal family — which maintains informal alignment with the PNLR — Le Témoin has cultivated a reputation for genuine editorial independence, and its reporting on FSRN governance, interior security incidents, and ANC legal proceedings has on several occasions preceded and informed parliamentary debate. The outlet's independence is understood by observers to depend on the continued political calculation of Groupe Karmarena that press credibility serves the family's long-term institutional interests more than editorial compliance would.
 
 Al Jazeera Arabic is widely received via satellite in Arabic-speaking communities despite holding no domestic broadcast licence. Its viewership in interior regions represents a persistent, officially unacknowledged information environment that sits outside the state's media architecture entirely. Internet penetration stands at approximately 72% (29.8 million users, 2026 est.), with access concentrated in northern urban areas.
 
@@ -267,7 +266,7 @@ Press freedom in Marzena occupies an intermediate position by regional standards
 
 ## Military
 
-The **Forces Armées Marzenières** (FAM) comprise army, navy, and air force components supported by paramilitary and intelligence services. Military doctrine emphasises asymmetric defence and strategic denial, prioritising precision-strike capability, missile systems, and maritime anti-access over full-spectrum force parity with larger regional powers. Defence spending stands at approximately 4.8% of GDP ($16.2 billion, 2026 est.), among the higher proportions in the region.
+The [[Forces Armées Marzenières]] (FAM) comprise army, navy, and air force components supported by paramilitary and intelligence services. Military doctrine emphasises asymmetric defence and strategic denial, prioritising precision-strike capability, missile systems, and maritime anti-access over full-spectrum force parity with larger regional powers. Defence spending stands at approximately 4.8% of GDP ($16.2 billion, 2026 est.), among the higher proportions in the region.
 
 ### Doctrine and Capabilities
 
@@ -305,15 +304,15 @@ In a notable development, Algeria has shared intelligence with Marzena on certai
 
 ---
 
-## Foreign Relations
+## [[Foreign Relations of Marzena]]
 
-### France
+### [[France]]
 
 Marzena's most significant bilateral relationship is the structural dependence on France, which remains Marzena's largest trading partner, primary technological supplier, and principal diplomatic interlocutor in European forums. France has never held a permanent basing right on Marzenian soil — a constitutional and political distinction maintained since independence and treated as a marker of genuine sovereignty. In practice, French forces have used port facilities at Cap-Nord and air facilities near Solane on a transit and training basis continuously since independence, renewed through a rolling five-year **Accord de Coopération Logistique** (ACL), the terms of which are not published.
 
 The relationship is asymmetric in economic weight but not entirely one-directional in leverage. Marzena's position astride the Strait of Gibraltar, its management of sub-Saharan migration flows, and its role as a phosphate supplier to European agriculture all constitute forms of structural influence that successive Marzenian governments have deployed, with varying degrees of explicitness, in bilateral negotiations.
 
-### Algeria
+### [[Algeria]]
 
 The enduring rivalry with Algeria constitutes the primary organising concern of Marzenian foreign and defence policy. The relationship encompasses conventional military competition, proxy operations in Mali and Mauritania, and sustained information warfare. No direct military engagement has occurred since an artillery exchange in 1979 that killed eleven Marzenian border guards. Competition is conducted entirely in the intelligence and proxy domains.
 
@@ -321,7 +320,7 @@ The current state of the relationship is one of comprehensive cold hostility: no
 
 ### Migration and the European Union
 
-Marzena's border control infrastructure — the **Agence Nationale de Surveillance des Frontières** (ANSF) — manages approximately 3,500 km of southern and eastern land border through which substantial sub-Saharan migration flows transit toward Europe. The EU has provided funding for ANSF infrastructure modernisation through two successive agreements (2014, 2021) and is currently negotiating a third. Marzena has on at least three occasions signalled, through informal diplomatic channels, that ANSF operational priorities could shift in response to changes in EU trade access terms — leverage that EU negotiators acknowledge privately and resist publicly.
+Marzena's border control infrastructure — the [[Agence Nationale de Surveillance des Frontières]] (ANSF) — manages approximately 3,500 km of southern and eastern land border through which substantial sub-Saharan migration flows transit toward Europe. The EU has provided funding for ANSF infrastructure modernisation through two successive agreements (2014, 2021) and is currently negotiating a third. Marzena has on at least three occasions signalled, through informal diplomatic channels, that ANSF operational priorities could shift in response to changes in EU trade access terms — leverage that EU negotiators acknowledge privately and resist publicly.
 
 ### Diaspora
 
@@ -331,9 +330,9 @@ Approximately 340,000 Marzenian-origin individuals reside in France, concentrate
 
 ## Space Programme
 
-The **Agence Spatiale Marzenienne** (ASM), established 2009 by executive decree, was conceived as an industrial institution; its first director-general was a former OCPM chief engineer. The agency employs approximately 1,800 staff and 3,200 contracted industrial partners. Its launch vehicle directorate includes officers on secondment from the missile systems command, and its budget carries a classified annex funded through the defence appropriation.
+The [[Agence Spatiale Marzenienne]] (ASM), established 2009 by executive decree, was conceived as an industrial institution; its first director-general was a former OCPM chief engineer. The agency employs approximately 1,800 staff and 3,200 contracted industrial partners. Its launch vehicle directorate includes officers on secondment from the missile systems command, and its budget carries a classified annex funded through the defence appropriation.
 
-The ASM operates its primary launch facility from the Canary Islands — the **Centre de Lancement El Hierro** (CLEH) on the eastern coast of El Hierro, selected for its low latitude (27°N), Atlantic oceanic trajectory, and minimal overflight risk. The facility became operational in 2019 and has conducted seven orbital launches to date, placing telecommunications and Earth observation satellites into low and medium Earth orbit. The CLEH employs approximately 420 workers, of whom roughly 310 are Canarian residents — making it the largest single employer on the island. It is the only orbital launch facility on African sovereign territory.
+The ASM operates its primary launch facility from the Canary Islands — the [[Centre de Lancement El Hierro]] (CLEH) on the eastern coast of El Hierro, selected for its low latitude (27°N), Atlantic oceanic trajectory, and minimal overflight risk. The facility became operational in 2019 and has conducted seven orbital launches to date, placing telecommunications and Earth observation satellites into low and medium Earth orbit. The CLEH employs approximately 420 workers, of whom roughly 310 are Canarian residents — making it the largest single employer on the island. It is the only orbital launch facility on African sovereign territory.
 
 ---
 
@@ -347,11 +346,11 @@ The autonomous legislature contains four principal formations: the **Coalición 
 
 ---
 
-## House of Karmarena
+## [[House of Karmarena]]
 
 The former royal family agreed to abdicate all political claims, titles, and state functions on 28 March 1952 — seven weeks before independence — in exchange for confirmation of all personal property, agricultural estates, and moveable assets as private property under civil law. The settlement removed a potential royalist opposition while leaving an economically powerful class whose interests have long remained entwined with those of the republic's leading party.
 
-Today, the House of Karmarena operates through **Groupe Karmarena**, a diversified conglomerate with interests spanning an e-governance arm (builder of Marzena's digital ID system, tax infrastructure, and business registry); the investigative media outlet *Le Témoin Marzenien*; defence electronics; hotels and real estate; and the **Fondation Karmarena**, which funds education, digital literacy, and institutional research across Marzena and the wider Sahel.
+Today, the House of Karmarena operates through [[Groupe Karmarena]], a diversified conglomerate with interests spanning an e-governance arm (builder of Marzena's digital ID system, tax infrastructure, and business registry); the investigative media outlet *Le Témoin Marzenien*; defence electronics; hotels and real estate; and the [[Fondation Karmarena]], which funds education, digital literacy, and institutional research across Marzena and the wider Sahel.
 
 The family publicly presents as apolitical and committed to national development. In practice, it quietly supports the PNLR through elite social networks and is credited with reinforcing institutional legitimacy rather than challenging it. Several of the largest private landholdings in the Lévane metropolitan area remain in the Groupe Karmarena portfolio, giving the family a structural interest in planning and zoning decisions that their formal political exclusion does not eliminate.
 
