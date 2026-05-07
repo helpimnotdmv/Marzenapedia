@@ -7,7 +7,7 @@
     <a onclick="navigate('home')">Main Page</a>
     <a onclick="navigate('all')">All Articles</a>
     <a onclick="navigate('commons')">Commons</a>
-    <a onclick="navigate('graph')">Graph Tool</a>
+    <a onclick="navigate('tools')">Tools</a>
     <a onclick="showHelp()">Help</a>
     <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -18,7 +18,6 @@
     </button>
   </div>
 </div>
-
 <header class="site-header">
   <div class="logo-area" onclick="navigate('home')">
     <div class="seal">
@@ -34,7 +33,6 @@
   </div>
   <nav id="main-nav"></nav>
 </header>
-
 <div class="search-bar">
   <div class="search-input-wrap">
     <input type="text" id="search-input"
@@ -48,7 +46,6 @@
   <button onclick="doSearch()">Search</button>
   <span class="tagline">Fictional nation · Worldbuilding reference</span>
 </div>
-
 <div class="page-tabs" id="page-tabs" style="display:none;">
   <a class="active" id="tab-article" onclick="switchTab('article')">Article</a>
   <a id="tab-edit" onclick="openEditor()">Edit</a>
