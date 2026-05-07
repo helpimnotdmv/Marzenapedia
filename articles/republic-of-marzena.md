@@ -294,7 +294,7 @@ Following the Cold War's end and the stabilisation of the Algerian rivalry into 
 
 The **Mission de Coopération Sécuritaire au Sahel** (MCSS), established 2007, began as genuine capacity-building: training programmes, logistics support, intelligence sharing with partner states in Mali and Mauritania. Over successive mandate renewals it has expanded into joint operations planning and, in at least two documented incidents, direct FAM special forces participation in counter-insurgency actions in partner-state territory. The legal basis for these expansions has not been tested in the National Assembly, as the MCSS operates under presidential executive authority.
 
-### Interior Insurgency
+### [[Interior Insurgency]]
 
 Since the early 1980s, a low-intensity insurgency has persisted across the central and southern interior plateau regions. It is not a unified movement and has never had a single command structure or political programme. Three tendencies have been documented by the DSI: the **Mouvement de Résistance des Plateaux** (MRP, est. 1981), which operates under a Berber cultural grievance framing and rejects Gulf funding; the **Réseau Sud**, economically motivated and substantially merged into informal border trade networks; and an **Islamist-framed tendency** that emerged approximately 2008 and has become the primary focus of DSI and special forces attention.
 
