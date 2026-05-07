@@ -97,7 +97,6 @@ export async function fetchCommonsIndex() {
       if (data && Array.isArray(data.images)) { State.commonsIndex = data; return data; }
     }
   } catch {}
-  // Fallback: scan GitHub tree for images/
   try {
     const res = await fetch(`${API_BASE}/git/trees/${BRANCH}?recursive=1`);
     if (!res.ok) throw new Error('tree API failed');
