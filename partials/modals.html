@@ -1,4 +1,4 @@
-<!-- EDITOR MODAL -->
+<!-- EDITOR MODAL (used by tools/editor.html) -->
 <div id="editor-overlay" class="modal-overlay" onclick="if(event.target===this)closeEditor()">
   <div class="modal">
     <div class="modal-header">
@@ -31,23 +31,54 @@
           <textarea id="editor-content" placeholder="Write your article in Markdown…"></textarea>
         </div>
         <div id="editor-preview-pane" style="display:none;"></div>
+
+        <!-- FRONTMATTER + INFOBOX BUILDER PANEL -->
         <div id="editor-fm-panel" style="display:none;">
-          <div class="fm-field">
-            <label for="fm-tags">Tags</label>
-            <input id="fm-tags" type="text" placeholder="government, founding, history">
-            <div class="fm-hint">Comma-separated tags used for search and navigation.</div>
+          <div class="fm-section">
+            <h4>Frontmatter</h4>
+            <p class="fm-section-hint">Article metadata — appears at the top of the file as a <code>:::frontmatter</code> block.</p>
+            <div class="fm-field">
+              <label for="fm-tags">Tags</label>
+              <input id="fm-tags" type="text" placeholder="government, founding, history">
+              <div class="fm-hint">Comma-separated tags for search and navigation.</div>
+            </div>
+            <div class="fm-field">
+              <label for="fm-date">In-universe date</label>
+              <input id="fm-date" type="text" placeholder="YYYY-MM-DD">
+              <div class="fm-hint">The in-universe date this document or event refers to.</div>
+            </div>
+            <div class="fm-field">
+              <label for="fm-sources">Sources</label>
+              <input id="fm-sources" type="text" placeholder="National Archive Doc 44-B; Bureau Bulletin 12">
+              <div class="fm-hint">Semicolon-separated in-universe source references.</div>
+            </div>
           </div>
-          <div class="fm-field">
-            <label for="fm-date">In-universe date</label>
-            <input id="fm-date" type="text" placeholder="YYYY-MM-DD">
-            <div class="fm-hint">The in-universe date this document / event refers to.</div>
-          </div>
-          <div class="fm-field">
-            <label for="fm-sources">Sources</label>
-            <input id="fm-sources" type="text" placeholder="National Archive Doc 44-B; Bureau Bulletin 12">
-            <div class="fm-hint">Semicolon-separated in-universe source references.</div>
+
+          <div class="fm-section">
+            <h4>Infobox Builder</h4>
+            <p class="fm-section-hint">Fill in fields below — the <code>:::infobox</code> block is generated and inserted (or updated) automatically. Leave all fields blank to remove the infobox.</p>
+            <div class="fm-field">
+              <label for="ib-title">Title</label>
+              <input id="ib-title" type="text" placeholder="Republic of Marzena">
+            </div>
+            <div class="fm-field">
+              <label for="ib-image">Image filename</label>
+              <input id="ib-image" type="text" placeholder="FlagMZ.jpg">
+              <div class="fm-hint">Filename from <code>/images/</code>. Drag from the Images picker for convenience.</div>
+            </div>
+            <div class="fm-field">
+              <label for="ib-caption">Image caption</label>
+              <input id="ib-caption" type="text" placeholder="Flag of the Republic">
+            </div>
+            <div class="fm-field">
+              <label for="ib-rows">Rows</label>
+              <textarea id="ib-rows" rows="6" placeholder="Capital: Lévane&#10;Population: 41,000,000&#10;Government: Semi-presidential republic"></textarea>
+              <div class="fm-hint">One row per line in <code>Key: Value</code> form. Use <code>section: Heading</code> to add a section header.</div>
+            </div>
+            <button class="btn btn-primary" onclick="window.__syncInfoboxToEditor()">Apply Infobox to article</button>
           </div>
         </div>
+
         <div id="editor-image-picker">
           <div class="img-picker-header">
             <h4>Commons Images</h4>
@@ -108,9 +139,16 @@
         </a>
       </div>
       <div class="meta-note">
-        <strong>Add title &amp; description</strong> (optional but recommended):<br>
-        Edit or create <code>images/commons.json</code> in the repo. Each entry looks like:<br>
-        <pre style="margin-top:8px;font-size:12px;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px;overflow-x:auto;">{ "filename": "FlagMZ.jpg", "title": "Flag of Marzena", "description": "The national tricolour, adopted 1952." }</pre>
+        <strong>Add title, description, and tags</strong> (recommended):<br>
+        Edit <code>images/commons-meta.json</code> in the repo. Each entry looks like:<br>
+        <pre style="margin-top:8px;font-size:12px;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px;overflow-x:auto;">{
+  "filename": "FlagMZ.jpg",
+  "title": "Flag of Marzena",
+  "description": "The national tricolour, adopted 1952.",
+  "credit": "National Archive",
+  "tags": ["flag","national symbol"]
+}</pre>
+        Image dimensions and file size are detected automatically by the build script.
       </div>
       <div class="modal-actions">
         <button class="btn" onclick="closeUploadHelper()">Done</button>
@@ -119,47 +157,38 @@
   </div>
 </div>
 
-<!-- HELP MODAL -->
+<!-- HELP MODAL (quick reference, full help is at #/help) -->
 <div id="help-overlay" class="modal-overlay" onclick="if(event.target===this)this.classList.remove('visible')">
-  <div class="modal" style="max-width:700px;">
+  <div class="modal" style="max-width:720px;">
     <div class="modal-header">
-      <span>How to Edit Marzenapedia</span>
+      <span>Quick Help</span>
       <button onclick="document.getElementById('help-overlay').classList.remove('visible')">×</button>
     </div>
     <div class="modal-body" style="font-family:'Crimson Pro',serif;font-size:15px;line-height:1.65;">
-      <h3 style="font-family:'Crimson Pro',serif;font-size:21px;color:var(--navy);margin-bottom:12px;font-weight:600;">Writing Articles</h3>
-      <p style="margin-bottom:12px;">Articles live in <code>articles/</code> as <code>.md</code> files. Click the <strong>Edit</strong> tab on any article to open the editor. The editor supports a <strong>split Write | Preview</strong> mode.</p>
-      <p style="margin-bottom:16px;">When you click <strong>Save to GitHub</strong>, the page opens GitHub and copies the content to your clipboard. Paste and commit — the index rebuilds automatically within ~30 seconds.</p>
-      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Markdown Reference</h3>
-      <table style="width:100%;font-size:13px;border-collapse:collapse;margin-bottom:18px;font-family:'JetBrains Mono',monospace;">
+      <p>For a comprehensive guide, see the <a onclick="document.getElementById('help-overlay').classList.remove('visible');navigate('help')" style="color:var(--link);cursor:pointer;text-decoration:underline;">full Help page</a>.</p>
+
+      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:14px 0 8px;font-weight:600;">Getting started</h3>
+      <ul style="margin-left:20px;line-height:1.7;">
+        <li>Click <strong>Tools</strong> in the top bar to find the Editor, Graph Tool, and Stats Tool.</li>
+        <li>Press <kbd>/</kbd> anywhere to focus the search box.</li>
+        <li>Edit any article via its <strong>Edit</strong> tab.</li>
+      </ul>
+
+      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 8px;font-weight:600;">Quick Markdown reference</h3>
+      <table style="width:100%;font-size:13px;border-collapse:collapse;margin-bottom:14px;font-family:'JetBrains Mono',monospace;">
         <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;"># Title</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Article H1</td></tr>
         <tr><td style="padding:6px 10px;">## Section</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Section heading (appears in TOC)</td></tr>
         <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">**bold** *italic*</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Inline emphasis</td></tr>
         <tr><td style="padding:6px 10px;">[[Article Name]]</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Wiki link</td></tr>
         <tr style="background:var(--paper-warm);"><td style="padding:6px 10px;">![alt](filename.jpg)</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Image from /images/</td></tr>
-        <tr><td style="padding:6px 10px;">&gt; Quote text</td><td style="padding:6px 10px;font-family:'Crimson Pro',serif;">Block quote</td></tr>
       </table>
-      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:18px 0 10px;font-weight:600;">Block Syntax</h3>
-      <pre style="background:var(--paper-warm);padding:12px;font-size:12px;overflow-x:auto;border:1px solid var(--border);border-radius:2px;line-height:1.5;font-family:'JetBrains Mono',monospace;">:::frontmatter
-tags: government, founding
-date: 1952-05-02
-sources: National Archive Doc 44-B
-:::
 
-:::infobox
-title: Republic of Marzena
-image: FlagMZ.jpg
-caption: Flag of the Republic
-Capital: Lévane
-:::
-
-:::figure align: right caption: "Map of the Republic"
-/images/marzena-map.png
-:::
-
-:::map caption: "Administrative regions" height: 480
-https://www.google.com/maps/d/embed?mid=YOUR_MAP_ID
-:::</pre>
+      <h3 style="font-family:'Crimson Pro',serif;font-size:18px;color:var(--navy);margin:14px 0 8px;font-weight:600;">Block types</h3>
+      <p style="font-size:13px;">
+        <code>:::frontmatter</code> · <code>:::infobox</code> · <code>:::figure</code> · <code>:::gallery</code> ·
+        <code>:::map</code> · <code>:::table</code> · <code>:::datatable</code> · <code>:::chart</code> · <code>:::graph</code>
+      </p>
+      <p style="font-size:13px;font-style:italic;color:var(--muted);">All block types have one-click insertion buttons in the editor toolbar.</p>
     </div>
   </div>
 </div>
