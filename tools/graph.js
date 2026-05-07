@@ -12,7 +12,7 @@
      • Export as SVG and PNG
    ═══════════════════════════════════════════════════════════════ */
 
-import { escapeHtml } from './renderer.js';
+import { escapeHtml } from '../renderer.js';
 
 // ─── STATE ─────────────────────────────────────────────────────
 const G = {
