@@ -2292,3 +2292,64 @@ footer p { margin-bottom: 5px; }
   .article a { color: black; border-bottom: none; }
   .infobox { border: 1px solid #999; box-shadow: none; }
 }
+
+
+/* ═══════════════════════════════════════════════════════════════
+   Graph Tool v3 additions
+   Paste at the end of styles.css
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Active state for B / I toggle buttons in inspector */
+.graph-btn.active {
+  background: var(--gold);
+  color: var(--bg);
+  border-color: var(--gold);
+}
+
+/* Color swatch hover and active marker (when picked) */
+.graph-color-swatch {
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.graph-color-swatch:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 0 2px var(--gold);
+}
+
+/* Tighter inspector layout for the new typography section */
+.graph-inspector textarea.graph-inspector-input {
+  resize: vertical;
+  min-height: 36px;
+  line-height: 1.4;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Inspector buttons row (B / I / color picker) — keep buttons square-ish */
+#gi-font-bold, #gi-font-italic,
+#gi-edge-font-bold, #gi-edge-font-italic {
+  min-width: 32px;
+  padding: 4px 8px;
+}
+
+/* Snap dropdown lives inside the toolbar group */
+.graph-tool-group select#gtool-snap:focus {
+  outline: 1px solid var(--gold);
+  outline-offset: 1px;
+}
+
+/* Marquee selection rectangle is rendered inline by JS, but make sure the
+   layer doesn't catch pointer events */
+#graph-marquee-layer { pointer-events: none; }
+
+/* Waypoint handles get a subtle hover boost */
+.g-waypoint:hover {
+  fill: #d4a226;
+}
+
+/* Multi-select summary panel */
+#gi-multi-summary strong { color: var(--text); }
+
+/* Resize handles a touch more visible on dark backgrounds */
+[id^="gresize-"]:hover {
+  fill: var(--gold);
+  stroke: white;
+}
