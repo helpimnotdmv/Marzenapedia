@@ -238,7 +238,7 @@ The CAAT administers the army's organic rotary-wing aviation capability, providi
 
 ### Intelligence: Bataillons de Renseignement (BR)
 
-Army intelligence is organised through the Bataillons de Renseignement (BR) — standing units of the order of battle assigned to COI headquarters as operational requirements dictate, consistent with the plug-and-play philosophy of the COI structure. Personnel above battalion grade within the BR operate under the dual-command arrangement with the Directorate for Military Intelligence (DRM), with DRM controlling tasking and career progression while the units remain on the army order of battle. Designated BR units: **1er BR, 2e BR, 3e BR, 4e BR,** with a fifth element held for COI Sahel rotations.
+Army intelligence is organised through the Bataillons de Renseignement (BR) — standing units of the order of battle assigned to COI headquarters as operational requirements dictate, consistent with the plug-and-play philosophy of the COI structure. Personnel above battalion grade within the BR operate under the dual-command arrangement with the Directorate for External and Technical Intelligence (DRET), with DRET controlling tasking and career progression while the units remain on the army order of battle. Designated BR units: **1er BR, 2e BR, 3e BR, 4e BR,** with a fifth element held for COI Sahel rotations.
 
 ---
 
@@ -280,7 +280,7 @@ Submarine.png
 | [TBD] | Fast Attack Corvette (modernised) | 7 | Cold War-era hulls, substantially modernised |
 | [TBD] | Patrol / Coastal Corvette | 9 | Cold War-era hulls; patrol and coastal security role |
 | [TBD] | Logistical Support Ship | 4 | Fleet replenishment and sustainment; COMAT-A |
-| [TBD] | Intelligence Gathering Ship | 2 | SIGINT/ELINT collection; dual DRM/Navy command |
+| [TBD] | Intelligence Gathering Ship | 2 | SIGINT/ELINT collection; dual DRET/Navy command |
 :::
 
 ### Bâtiments de Projection et de Commandement (BPC)
@@ -307,7 +307,7 @@ The nine patrol/coastal corvettes occupy an ambiguous institutional position: th
 
 ### Intelligence: Naval Intelligence Cells
 
-Naval intelligence is organised through standing Cellules de Renseignement Naval (CRN), embedded in each fleet command headquarters. CRN personnel above a defined grade operate under the DRM dual-command arrangement. The intelligence gathering ships' crews constitute a distinct element — the **Groupe de Collecte Maritime (GCM)** — which operates in close alignment with DRM and the standalone signals intelligence agency. GCM personnel are formally on the navy's order of battle but are effectively directed by DRM for all operational tasking. Designated cells: **CRN-A** (COMAT-A), **CRN-MD** (COMAT-MD), **CRN-SM** (submarine service intelligence support).
+Naval intelligence is organised through standing Cellules de Renseignement Naval (CRN), embedded in each fleet command headquarters. CRN personnel above a defined grade operate under the DRET dual-command arrangement. The intelligence gathering ships' crews constitute a distinct element — the **Groupe de Collecte Maritime (GCM)** — which operates in close alignment with DRET and the standalone signals intelligence agency. GCM personnel are formally on the navy's order of battle but are effectively directed by DRET for all operational tasking. Designated cells: **CRN-A** (COMAT-A), **CRN-MD** (COMAT-MD), **CRN-SM** (submarine service intelligence support).
 
 ---
 
@@ -385,13 +385,13 @@ The CDA manages the national integrated air defence system, coordinating radar c
 
 ### Intelligence: Escadrons de Renseignement Aérien (ERA)
 
-Air Force intelligence is organised through Escadrons de Renseignement Aérien (ERA) — standing units assigned to major air commands. ERA personnel above squadron grade operate under the DRET dual-service arrangement. The GAMS constitutes a distinct intelligence-aligned element; GAMS personnel are effectively DRM-directed for all operational purposes while remaining on the Air Force order of battle. Designated units: **ERA-Combat** (CFAC), **ERA-Mobilité** (CMA), **ERA-Espace** (CEAS).
+Air Force intelligence is organised through Escadrons de Renseignement Aérien (ERA) — standing units assigned to major air commands. ERA personnel above squadron grade operate under the DRET dual-service arrangement. The GAMS constitutes a distinct intelligence-aligned element; GAMS personnel are effectively DRET-directed for all operational purposes while remaining on the Air Force order of battle. Designated units: **ERA-Combat** (CFAC), **ERA-Mobilité** (CMA), **ERA-Espace** (CEAS).
 
 ---
 
 ## Special Operations Command (Commandement des Forces Spéciales — CSOF)
 
-The Commandement des Forces Spéciales (CSOF) is the joint command responsible for all special operations forces across the FAM. It reports directly to the CEMA and operates with a degree of operational autonomy commensurate with the sensitivity of its missions. CSOF intelligence is substantially integrated with the DRET: the CSOF J2 cell is staffed by DRET-seconded officers, and CSOF operational planning draws directly on DRM product. For operational intelligence purposes, CSOF is considered part of the DRM architecture rather than a service organic function.
+The Commandement des Forces Spéciales (CSOF) is the joint command responsible for all special operations forces across the FAM. It reports directly to the CEMA and operates with a degree of operational autonomy commensurate with the sensitivity of its missions. CSOF intelligence is substantially integrated with the DRET: the CSOF J2 cell is staffed by DRET-seconded officers, and CSOF operational planning draws directly on DRET product. For operational intelligence purposes, CSOF is considered part of the DRET architecture rather than a service organic function.
 
 The Sahel advisory mission is conducted by a mix of CSOF elements and regular army units under COI Sahel; the CSOF component provides direct action and special reconnaissance capability while regular army units handle advising, training, and logistics support.
 
@@ -401,7 +401,7 @@ The 1er Régiment de Commandos is the FAM's primary special operations force and
 
 ### Groupe Aérien Spécial (GAS)
 
-The Groupe Aérien Spécial is CSOF's dedicated aviation element, providing infiltration, exfiltration, close air support, and maritime insertion capability. The GAS operates modified rotary-wing and fixed-wing platforms, several of which carry specialised sensor and electronic warfare packages that place them in close operational relationship with DRM and GAMS tasking. GAS aircrew maintain qualifications for low-level night operations, maritime insertion, and clandestine airfield operations. The unit coordinates with the CMA for maintenance and airworthiness but is operationally directed through CSOF.
+The Groupe Aérien Spécial is CSOF's dedicated aviation element, providing infiltration, exfiltration, close air support, and maritime insertion capability. The GAS operates modified rotary-wing and fixed-wing platforms, several of which carry specialised sensor and electronic warfare packages that place them in close operational relationship with DRET and GAMS tasking. GAS aircrew maintain qualifications for low-level night operations, maritime insertion, and clandestine airfield operations. The unit coordinates with the CMA for maintenance and airworthiness but is operationally directed through CSOF.
 
 ### Centre Interarmées des Opérations d'Information (CIOI)
 
