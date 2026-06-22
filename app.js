@@ -60,8 +60,20 @@ function startCetClock() {
 // ═══════════════════════════════════════════════════════════════
 async function handleRoute() {
   const route = parseHash();
+  const prevView = State.view;
+  const prevSlug = State.slug;
   State.view = route.view;
   State.slug = route.slug || null;
+
+  // Same article, different section anchor → just scroll, don't re-render.
+  if (route.view === 'article' && prevView === 'article' &&
+      prevSlug === route.slug && document.querySelector('.article')) {
+    if (route.section) {
+      const target = document.getElementById(route.section);
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
+    }
+    return;
+  }
 
   const pageTabs = document.getElementById('page-tabs');
   if (pageTabs) pageTabs.style.display = route.view === 'article' ? 'flex' : 'none';
