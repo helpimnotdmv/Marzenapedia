@@ -215,6 +215,19 @@ async function showHome() {
     </div>`;
 }
 
+function portalHero() {
+  return `
+    <div class="portal-hero">
+      <div class="portal-hero-inner">
+        <h1>${escapeHtml(SiteConfig.siteName)}</h1>
+        <div class="founding">
+          ${SiteConfig.heroMotto.map(line => escapeHtml(line)).join('<br>')}
+        </div>
+        <div class="attribution">${escapeHtml(SiteConfig.heroAttribution)}</div>
+      </div>
+    </div>`;
+}
+
 // ═══════════════════════════════════════════════════════════════
 // ALL ARTICLES
 // ═══════════════════════════════════════════════════════════════
