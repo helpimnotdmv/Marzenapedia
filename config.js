@@ -77,6 +77,15 @@ export const SiteConfig = {
     template: '{contributors}. ({year}, {monthName} {day}). {title}. {siteName}. {url}',
     contributors: 'Marzenapedia contributors',
   },
+  // ─── DID YOU KNOW (Main Page box) — add / edit / remove freely ─
+  didYouKnow: [
+    '…that Marzena\'s capital, Lévane, was purpose-built after independence?',
+    '…that the country\'s sole official language is French?',
+    '…that the Canary Islands became an autonomous territory in 1983?',
+    '…that Marzena operates Africa\'s only orbital launch facility?',
+    '…that phosphate products account for roughly one-third of export revenue?',
+  ],
+   
 };
 
 /* ─── DERIVED CONSTANTS ────────────────────────────────────────
