@@ -680,7 +680,7 @@ export function buildToc(html, slug) {
   const matches = [...html.matchAll(/<h2 id="([^"]+)">([^<]+)<\/h2>/g)];
   if (matches.length < 2) return '';
   const items = matches.map(m =>
-    `<li><a href="#/${slug}#${m[1]}" data-toc-target="${m[1]}">${m[2]}</a></li>`
+    `<li><a href="#/article/${slug}#${m[1]}" data-toc-target="${m[1]}">${m[2]}</a></li>`
   ).join('');
   return `<nav class="toc-sidebar"><h3>Contents</h3><ol>${items}</ol></nav>`;
 }
