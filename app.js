@@ -113,11 +113,8 @@ async function showHome() {
     return;
   }
 
-  const recent = [...articles]
-    .sort((a, b) => new Date(b.last_edited || 0) - new Date(a.last_edited || 0))
-    .slice(0, 6);
-
-  const cardsHtml = recent.map(c => `
+  // Shared article-card markup
+  const cardOf = c => `
     <div class="article-card" onclick="navigate('article','${c.slug}')">
       <div>
         <h3>${escapeHtml(c.title)}</h3>
@@ -129,11 +126,42 @@ async function showHome() {
           : ''}
         ${(c.tags || []).slice(0, 2).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}
       </div>
-    </div>`).join('');
+    </div>`;
+
+  // ── Recently Updated — 3 most recent ──
+  const recent = [...articles]
+    .sort((a, b) => new Date(b.last_edited || 0) - new Date(a.last_edited || 0))
+    .slice(0, 3);
+  const recentSlugs = new Set(recent.map(a => a.slug));
+  const cardsHtml = recent.map(cardOf).join('');
+
+  // ── From the Archive — cycle through the rest, a page at a time ──
+  const SHOWCASE_COUNT = 6;
+  const pool = [...articles]
+    .filter(a => !recentSlugs.has(a.slug))
+    .sort((a, b) => a.title.localeCompare(b.title));
+  let archive = [];
+  if (pool.length > 0) {
+    const count = Math.min(SHOWCASE_COUNT, pool.length);
+    const offKey = 'marzenapedia-home-offset';
+    let offset = parseInt(localStorage.getItem(offKey) || '0', 10);
+    if (!Number.isFinite(offset) || offset < 0) offset = 0;
+    offset = offset % pool.length;
+    for (let i = 0; i < count; i++) archive.push(pool[(offset + i) % pool.length]);
+    localStorage.setItem(offKey, String((offset + count) % pool.length)); // remember position
+  }
+  const archiveHtml = archive.map(cardOf).join('');
 
   const tagCounts = {};
   articles.forEach(a => (a.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
   const topTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+
+  const dykItems = SiteConfig.didYouKnow || [];
+  const dykHtml = dykItems.length ? `
+    <div class="side-block">
+      <h3>Did You Know…</h3>
+      <ul>${dykItems.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+    </div>` : '';
 
   const featuredImg = await getFeaturedImage();
   const featuredHtml = featuredImg ? `
@@ -153,15 +181,17 @@ async function showHome() {
         <div class="portal-main">
           <h2>Recently Updated</h2>
           ${cardsHtml}
+          ${archive.length ? `<h2 style="margin-top:28px;">From the Archive</h2>${archiveHtml}` : ''}
           <div class="article-card" onclick="navigate('all')" style="border-style:dashed;background:transparent;">
             <div><h3 style="color:var(--muted);">Browse all ${articles.length} articles →</h3></div>
           </div>
         </div>
         <aside class="portal-side">
           <div class="side-block">
-            <h3>The Republic</h3>
+            <h3>Welcome</h3>
             <p style="font-style:italic;">${escapeHtml(SiteConfig.nation.summary)}</p>
           </div>
+          ${dykHtml}
           ${featuredHtml}
           ${topTags.length ? `<div class="side-block">
             <h3>Topics</h3>
@@ -181,19 +211,6 @@ async function showHome() {
             <p style="margin-top:8px;font-size:12px;color:var(--muted-soft);">Last index rebuild: ${index.generated_at ? new Date(index.generated_at).toLocaleString('en-GB', { timeZone: 'Europe/Paris' }) + ' CET' : 'unknown'}</p>
           </div>
         </aside>
-      </div>
-    </div>`;
-}
-
-function portalHero() {
-  return `
-    <div class="portal-hero">
-      <div class="portal-hero-inner">
-        <h1>${escapeHtml(SiteConfig.siteName)}</h1>
-        <div class="founding">
-          ${SiteConfig.heroMotto.map(line => escapeHtml(line)).join('<br>')}
-        </div>
-        <div class="attribution">${escapeHtml(SiteConfig.heroAttribution)}</div>
       </div>
     </div>`;
 }
@@ -736,6 +753,19 @@ function exposeGlobals() {
   window.navigate    = navigate;
   window.toggleTheme = toggleTheme;
 
+// Random article (top-bar button)
+  window.randomArticle = function () {
+    const arts = (State.index && State.index.articles) || [];
+    if (!arts.length) { navigate('all'); return; }
+    let pick = arts[Math.floor(Math.random() * arts.length)];
+    let guard = 0;
+    while (arts.length > 1 && pick.slug === State.slug && guard++ < 8) {
+      pick = arts[Math.floor(Math.random() * arts.length)];
+    }
+    navigate('article', pick.slug);
+  };
+
+   
   window.openEditor = () => {
     window.location.href = `tools/editor.html?slug=${encodeURIComponent(State.slug || '')}`;
   };
