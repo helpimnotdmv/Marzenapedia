@@ -213,9 +213,8 @@ async function showHome() {
         </aside>
       </div>
     </div>`;
-}
 
-function portalHero() {
+   function portalHero() {
   return `
     <div class="portal-hero">
       <div class="portal-hero-inner">
@@ -227,6 +226,10 @@ function portalHero() {
       </div>
     </div>`;
 }
+   
+}
+
+
 
 // ═══════════════════════════════════════════════════════════════
 // ALL ARTICLES
