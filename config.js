@@ -21,7 +21,7 @@ export const SiteConfig = {
     foundedDateDisplay: '2 May 1952',   // pretty form for hero text
     population:  '~41 million',
     region:      'North African seaboard',
-    summary:     'A semi-presidential republic of the North African seaboard, founded 2 May 1952. Capital: Lévane. Population: ~41 million.',
+    summary:     'Welcome to Marzenapedia, the free encyclopaedia covering the history, geography, politics, science, culture, and people of the Republic of Marzena.',
   },
 
   // ─── HERO MOTTO (shown on home page) ─────────────────────────
