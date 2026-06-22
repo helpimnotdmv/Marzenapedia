@@ -139,7 +139,7 @@ CoAMZ.png
 | TBD | Tanker Truck | IMAGE HERE |
 | TBD | Truck | IMAGE HERE |
 | TBD | Crane | IMAGE HERE |
-| TBD | Mine Clearance Vehicle | IMAGE HERE |
+| Husky VMMD  | Mine Detecting Vehicle | IMAGE HERE |
 | TBD | Mine Clearance Vehicle | IMAGE HERE |
 :::
 
@@ -174,8 +174,8 @@ CoAMZ.png
 | Il-76 | Transport | IMAGE HERE |
 | C-130 | Transport | IMAGE HERE |
 | TBD | Maritime Patrol | IMAGE HERE |
-| TBD | Miscellaneous | IMAGE HERE |
-| TBD | Miscellaneous | IMAGE HERE |
+| KC-10 Extender | Aerial Refueling | IMAGE HERE |
+| Do-228 | VIP | IMAGE HERE |
 | TBD | Miscellaneous | IMAGE HERE |
 :::
 
@@ -195,7 +195,7 @@ CoAMZ.png
 :::datatable sortable: true filterable: true caption: "Unmanned Aerial Vehicles"
 | Name | Role | Image |
 | --- | --- | --- |
-| TBD | UAV | IMAGE HERE |
+| RQ-2 Peregrin | UAV | IMAGE HERE |
 | TBD | UAV | IMAGE HERE |
 | TBD | UAV | IMAGE HERE |
 | TBD | UAV | IMAGE HERE |
@@ -206,8 +206,8 @@ CoAMZ.png
 :::datatable sortable: true filterable: true caption: "Radar Systems"
 | Name | Role | Image |
 | --- | --- | --- |
-| TBD | Radar | IMAGE HERE |
-| TBD | Radar | IMAGE HERE |
+| 32FL | Search Radar | IMAGE HERE |
+| R-91/KA Reindeer | AESA Search Radar | IMAGE HERE |
 | TBD | Radar | IMAGE HERE |
 | TBD | Radar | IMAGE HERE |
 | TBD | Radar | IMAGE HERE |
