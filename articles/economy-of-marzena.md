@@ -70,12 +70,20 @@ The Marzenian corporate landscape is divided between large state and mixed-owner
 | Office National des Télécommunications (ONT) | Telecommunications | State, partly privatised | Former monopoly; competes with private rivals since liberalisation |
 | Air Marzena | Aviation | State-linked | National flag carrier |
 | Office National des Ports (ONP) | Ports | State | Port authority for Lévane and the Canaries |
-| [[Groupe Karmarena]] | Technology, data, media | Private (House of Karmarena) | Parent of [[AXIOME Systèmes]] and [[Le Témoin Marzenien]]; dominant private group |
+| [[Groupe Karmarena]]GROUPEKARMARENA.png | Technology, data, media | Private (House of Karmarena) | Parent of [[AXIOME Systèmes]] and [[Le Témoin Marzenien]]; dominant private group |
 | Maison Berkane | Shipping, logistics, trading | Private (Berkane family) | Old coastal merchant fortune; principal private rival to Karmarena |
 | Groupe SOMAR / CNAM / ESDM | Defence (naval / land / electronics) | Mixed (action spécifique) | The privatised defence primes |
 | Banque Nationale de Marzena (BNM) | Banking | State-linked | Largest bank; instrument of directed credit |
 | Crédit Marzenien | Banking | Private | Principal private commercial bank |
 | Banco Insular de Canarias (BIC) | Banking | Private (Canaries) | Territorial bank rooted in the islands' economy |
+:::
+
+:::figure align: right caption: "GROUPE KARMARENA"
+GROUPEKARMARENA.png
+:::
+
+:::figure align: right caption: "AXIOME - National Data and critical systems provider."
+AXIOME.png
 :::
 
 The private economy is dominated by two conglomerates whose rivalry structures much of elite economic life. **[[Groupe Karmarena]]**, controlled by the former ruling [[House of Karmarena]], has transformed an inherited property fortune into a technology-and-data group whose AXIOME subsidiary now operates the state's digital infrastructure — the more politically significant of the two precisely because of that enmeshment with the state. **Maison Berkane**, by contrast, is an old coastal merchant and shipping fortune of the classic Mediterranean-trading type, which has expanded from its maritime base into logistics, trading, and port services and constitutes the principal counterweight to Karmarena in the private sector. The existence of a second great fortune of independent and older origin is a structural check on the perception of Marzena as a one-family economy, and the Berkane–Karmarena relationship — variously competitive and collusive across sectors — is a recurring subject of business journalism.
