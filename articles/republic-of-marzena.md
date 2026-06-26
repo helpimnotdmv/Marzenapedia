@@ -50,6 +50,10 @@ Marzena is an upper-middle-income economy anchored by phosphate extraction and p
 SatMapMZ.png
 :::
 
+:::figure align: right caption: "National Coat of Arms of Marzena."
+CoAMZ.png
+:::
+
 ---
 
 ## Etymology
