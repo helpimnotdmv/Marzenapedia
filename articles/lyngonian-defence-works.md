@@ -5,7 +5,7 @@ sources: Registre du Commerce de Fernant · CCED Annual Licensing Summary (Publi
 :::infobox
 title: Lyngonian Defence Works
 abbreviation: LDW
-image: LDW-Fernant-Works.png
+image: LDW.png
 caption: The Fernant works (group headquarters and principal manufacturing complex), northern coastal corridor (file photo)
 Type: Private defence-industrial group (société anonyme)
 Founded: 1898 (as Ateliers et Fonderies de Lyngana) · reconstituted as LDW 1994–1998
