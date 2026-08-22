@@ -1,7 +1,7 @@
 :::frontmatter
-tags: military, defence, government, armed-forces
+tags: military, defence, government, armed-forces, strategic-state
 date: 1952-05-02
-sources: Livre Blanc de la Défense 2022 · Loi de Programmation Militaire 2021–2027 · Journal Officiel No. 1147 · FAM Order of Battle (Public Extract) 2024 · Parliamentary Defence Committee Hearings 2021
+sources: Livre Blanc de la Défense 2022; Loi de Programmation Militaire 2021–2027; Journal Officiel No. 1147; FAM Order of Battle (Public Extract) 2024; Inspection Générale des Armées — Synthèse de préparation opérationnelle 2025; National Assembly Defence Committee hearings 2021–2025
 :::
 
 :::infobox
@@ -12,457 +12,735 @@ caption: Roundel of the Forces Armées Marzenières
 Founded: 2 May 1952
 Headquarters: État-Major des Armées, Lévane
 Commander-in-Chief: President of the Republic
-Chief of the Defence Staff (CEMA): [TBD]
-Active personnel: ~220,000–240,000 (est. 2026, all branches)
-Reserve personnel: ~35,000–45,000
-Defence budget: ~$16.2 billion (2026 est., ~4.8% GDP)
-Branches: Army (Armée de Terre) · Navy (Marine Nationale Marzenienne) · Air Force (Armée de l'Air et de l'Espace)
+Senior military office: Chef d'État-Major des Armées (CEMA)
+Active establishment: Approximately 228,000
+Organised reserve: Approximately 35,000–45,000
+90-day mobilisation objective: Approximately 300,000–340,000
+National service: Four months, selectively applied
+Defence budget: Approximately US$16.2 billion (4.8% of GDP)
+Branches: Armée de Terre · Marine Nationale Marzenière · Armée de l'Air et de l'Espace
+Doctrine: Défense par déni · Économie des forces · Élasticité logistique
 :::
 
 # Forces Armées Marzenières
 
-The **Forces Armées Marzenières** (FAM; Marzenian Armed Forces) are the national military of the Republic of Marzena, comprising the Army (Armée de Terre), the Navy (Marine Nationale Marzenienne), and the Air Force (Armée de l'Air et de l'Espace). Established by the founding constitution of 2 May 1952, the FAM serves as the primary instrument of national defence and is the institutional expression of Marzena's doctrine of strategic self-reliance.
+The **Forces Armées Marzenières** (FAM; Marzenian Armed Forces) are the national military of the [[Republic of Marzena]]. They comprise the [[Armée de Terre]], the [[Marine Nationale Marzenière]] and the [[Armée de l'Air et de l'Espace]], together with joint operational, logistical, medical, signals, missile and special-operations organisations. Established at independence on 2 May 1952, the FAM are responsible for preserving Marzena's sovereignty, territorial integrity and freedom of political decision.
 
-The Commander-in-Chief of the FAM is the President of the Republic (Chef des Armées), consistent with the constitution's vesting of strategic command in the head of state. The senior military officer is the Chief of the Defence Staff (Chef d'État-Major des Armées — CEMA), appointed by the President, who exercises operational command over all branches and serves as the primary military adviser to both the President and the Minister of National Defence.
+The FAM combine a continental army designed around a major north-eastern contingency, a balanced Atlantic–Mediterranean navy, a strike-oriented air force and a substantial missile establishment. Official doctrine does not name Algeria as an enemy, referring instead to a *contingence majeure au nord-est*. Its geographic and equipment assumptions nevertheless make the adversary clear.
 
-Across all branches, the FAM maintains approximately 220,000–240,000 active personnel and a reserve and conscript-trained pool of approximately 35,000–45,000. Defence spending stands at approximately $16.2 billion (4.8% of GDP, 2026 est.).
+Marzenian military power is organised around **defence by denial** (*défense par déni*): the capacity to prevent a stronger opponent from obtaining a rapid or affordable operational success. The FAM do not assume they could defeat every major adversary in an unrestricted conventional war. They seek instead to preserve command, disperse combat power, contest the air and maritime approaches, strike concentrations and logistical nodes, and make territorial gains too slow and expensive to convert into political victory. Missiles, submarines, electronic warfare, hardened infrastructure and resilient logistics are therefore treated as complements to conventional forces rather than substitutes for them.
 
----
+This architecture is capable but not uniformly ready. Of an approximately 228,000-person active establishment, a substantially smaller number is immediately assignable. The same force must deter continental war, defend the Canary Islands, operate in the Sahel and support authorities during the [[Interior Insurgency]]. Mission overload is its principal contemporary criticism.
 
-## History and Doctrinal Development
+The FAM are constitutionally subordinate to civilian authority. Strategic command is vested in the President of the Republic as *Chef des Armées*, while the CEMA exercises professional operational command. The officer corps defines its political neutrality as loyalty to constitutional institutions rather than to any government or party. Its culture remains close to the technocratic, unitary and secular tradition from which both the Republic and the PNLR emerged, though that affinity has weakened with professionalisation, competitive politics and generational change.
 
-### Founding and Pre-War Doctrine (1952–1963)
- 
-The FAM was constituted in May 1952 from a combination of personnel who had served in French colonial military structures and newly commissioned officers from the independence generation. The founding challenge was twofold: constructing a functional military from a heterogeneous institutional inheritance, and doing so under the explicit constitutional principle that a political military was incompatible with Marzenian Exceptionalism.
- 
-The first decade was shaped by what can be described in retrospect as an inherited doctrine — a set of institutional assumptions absorbed from French military culture and adapted, largely without systematic examination, to Marzenian circumstances. Three premises defined it. First, that officer quality constituted a genuine military multiplier: Marzenian officers, trained in the French military school tradition and selected through an academically rigorous commissioning process, were assessed as capable of making decisions faster and at lower echelon than adversaries whose officer corps lacked equivalent preparation. Second, that defensive advantage and terrain familiarity partially offset equipment inferiority: the northern plateau corridor and the contested interior favoured a defender who knew the ground. Third, and most consequentially, that limited industrial inferiority could be compensated by tactical competence — that a smaller, less-equipped force could achieve acceptable outcomes against a materially superior adversary through superior decision-making, positioning, and execution.
- 
-These premises were not unreasonable given the threat environment of the early 1950s. They did not survive 1963 intact.
- 
----
- 
-### La Guerre des Frontières (1963)
- 
-The brief conflict with Algeria in 1963 — La Guerre des Frontières — remains the most institutionally consequential event in the FAM's history, more so than either the Canaries Campaign or La Guerre des Sables, because it broke the founding doctrine at its roots and forced the reconstruction of Marzenian military thinking from the ground up.
- 
-The immediate trigger was a series of border incursions by Algerian forces into the contested corridor west of the plateau zone, following Algerian independence and the subsequent acceleration of Soviet military supply. The fighting lasted weeks rather than months; casualties on both sides were limited. By the metrics of territory held and tactical exchange, the FAM performed adequately. The post-war analytical verdict was considerably less comfortable.
- 
-The Commission de Révision Doctrinale, established by the CEMA in November 1963 and reporting to the President, identified five structural findings whose implications extended well beyond the specific campaign.
- 
-**First, on materiel:** Algeria's Soviet-supplied equipment — artillery, armour, and air defence systems supplied in quantities and at a technical level that French supply to Marzena did not match — had given the Algerian force a materiel edge that individual Marzenian performance and terrain familiarity had compensated for but not overcome. The pre-war premise that tactical competence could offset industrial inferiority was assessed as valid within a limited band of inferiority and a limited duration of engagement. Beyond that band, and across any sustained conflict, it did not hold. The conclusion was direct: the indigenous military-industrial sector required accelerated development, and dependence on French supply for operationally critical systems was a structural strategic vulnerability.
- 
-**Second, on air power:** The aerial dimension of the 1963 conflict had been limited on both sides. The commission's analytical conclusion went beyond the specific circumstance. Modelling of what the engagement would have looked like had one side held genuine air superiority — the ability to strike the other's artillery positions, supply lines, and reserves across terrain that constrained ground movement — produced an assessment that the commission characterised as decisive. A force that could not contest or deny air superiority over its own operational area could not depend on ground competence to compensate. Air capability, and eventually air superiority, required investment as a primary rather than secondary priority.
- 
-**Third, on intelligence:** The intelligence services in 1963 were small, recently established, and had failed to connect Algerian military rhetoric and Arab League political signalling to the operational preparations that were, in retrospect, visible in the signals environment for months before the outbreak. The failure was not one of collection — border radio intercept and diplomatic reporting had produced the raw material. It was one of analytical framework: no institution had been tasked with monitoring the *pattern* of Algerian military activity against a baseline, and therefore no institution had flagged the mobilisation indicators before they became operational facts. This finding drove the intelligence architecture reform that produced the DRET in 1966.
- 
-**Fourth, on economy of force:** The commission formalised what several senior officers had argued informally during the campaign — that for a republic of Marzena's size and industrial base, Loss Exchange Ratio was not merely a post-battle metric but a planning input. Operations that could not be structured to impose a disproportionate exchange cost on the adversary should not be undertaken in the expectation of success. This principle — described in the commission's report as *économie des forces* and formulated in terms of planning for asymmetric cost imposition rather than symmetric mass engagement — became the foundational concept of what would later be named *défense par déni*.
- 
-**Fifth, on logistics:** The 1963 campaign had revealed the operational significance of aerial resupply under conditions where ground logistics were constrained by terrain and interdiction threat. Units that received air-delivered supplies maintained operational tempo; those dependent on ground lines alone did not. The commission drew the conclusion in terms that became doctrinal: ground logistics carry mass, air logistics preserve momentum. The term *élasticité logistique* does not appear in the commission's classified report but was coined in a 1967 ESGI paper drawing explicitly on its findings, and has been standard in Marzenian staff college teaching since.
- 
----
- 
-### The Reform and Build-Up Period (1963–1973)
- 
-The decade following La Guerre des Frontières was defined by systematic implementation of the commission's findings, imperfectly funded in the early years and accelerating as phosphate revenues allowed.
- 
-The DRET was established by presidential decree in 1966, absorbing the predecessor Service de Renseignement Militaire and the Foreign Ministry's small intelligence section into a unified directorate reporting directly to the President. The intelligence reform was the fastest of the five commission recommendations to produce institutional change, reflecting both its urgency and the relative ease of institutional reorganisation compared to industrial investment.
- 
-MIC investment accelerated through the late 1960s, with priority given to ammunition production, artillery, and the early stages of what would become the ballistic missile programme. Air capability development — the commission's second finding — moved more slowly, constrained by the technical complexity of domestic aircraft production and the continued dependence on French supply. The period's principal contribution to air capability was infrastructural: hardened aircraft shelters, dispersed operating strips across the northern corridor, and investment in radar coverage that would support the integrated air defence system developed in the following decade. What the 1963 commission had identified as the decisive dimension of future conflict, the FAM could not immediately provide — but it could begin building the infrastructure against which the capability would eventually be mounted.
- 
-The informal practices of joint coordination — air and ground elements operating under a shared campaign plan without a formal joint headquarters structure — began developing in this period through tabletop exercises and planning discussions at the ESGI. They had no formal institutional home and no doctrinal name. They were, as one ESGI faculty paper from the period described them, "what a small professional military does when it cannot afford to be inefficient."
- 
-#### The Six-Day War and the Marzenian Study (1967–1975)
- 
-In June 1967, a Marzenian commercial vessel — the *MV Brise Atlantique*, registered to a Lévane-based shipping company — was transiting the Suez Canal when the waterway was closed following the outbreak of the Six-Day War between Israel and the Arab states. The ship became one of fourteen vessels trapped in the Great Bitter Lake for the duration of the canal's closure — a period that lasted, as it emerged, not months but eight years.
- 
-The *Brise Atlantique*'s situation was in no sense unique among the Yellow Fleet ships; its crew were merchant sailors, not intelligence officers, and Marzena made no systematic effort to exploit the vessel's position during the period of entrapment. Commercial crew rotations continued on a normal schedule. What Marzena did do, from early 1968 onward, was conduct structured debriefings of every crew member completing a rotation — interviews that, over eight years of rotation cycles, accumulated a sustained body of ground-level observation from the most militarily observed waterway in the world. The crews watched the War of Attrition unfold along the canal banks from 1969 to 1970. They were present, in the Bitter Lake, during the October 1973 Yom Kippur War. When the canal reopened in June 1975, the debriefing record represented an analytical resource whose value significantly exceeded its origin.
- 
-The debriefing programme was supplemented by a more formal analytical effort. Following the 1967 war, the MDN dispatched a study team to Israel — the only such team Marzena sent to an external military in this period — tasked with producing a comprehensive assessment of the war's military lessons for Marzenian doctrine. The team's classified report, completed in 1969 and circulated within the DRET, the EMIA, and the ESGI faculty, identified two findings of lasting consequence.
- 
-The first concerned the destruction of the Israeli destroyer *Eilat* in October 1967 by Egyptian Styx anti-ship missiles — the first warship in history sunk by guided missiles in combat. The analytical conclusion was that surface vessels operating without comprehensive anti-ship missile defence were operationally vulnerable in a way that fundamentally altered naval planning assumptions. For a navy whose primary mission was the defence of the Cap-Nord approaches and the security of Atlantic and Mediterranean trade, this finding drove a procurement and doctrinal reorientation toward anti-ship missile systems, electronic countermeasures, and eventually the domestically developed missile programmes that became the Marine Nationale Marzenière's primary deterrent currency.
- 
-The second finding concerned the Israeli Air Force's destruction of Arab air forces on the ground in the war's opening hours — achieved through preemption, surprise, and precise target sequencing rather than through numerical superiority. The study team's assessment translated this into three Marzenian doctrinal implications: that aircraft not hardened or dispersed were operationally lost before a conflict began; that air superiority achieved in the opening period of a conflict was a potentially war-determining advantage; and that the investment in hardened infrastructure that the post-1963 period had prioritised was validated as a survival requirement rather than a luxury.
- 
-Both lessons were absorbed into ESGI teaching by the early 1970s and shaped the procurement choices of the subsequent decade.
- 
----
- 
-### Operation CEINTURE DE FER and the Canaries Integration (1973–1978)
- 
-Operation CEINTURE DE FER in October 1973 was the first test of the post-1963 doctrine under operational conditions, and it succeeded. The eleven-day campaign combined a naval blockade, coordinated airborne night drops by the 7th Parachute Brigade onto El Hierro, La Gomera, and La Palma, and amphibious landings by the 6th Marine Infantry Brigade on Fuerteventura and Lanzarote, achieving its strategic objectives with three wounded and no fatalities on either side.
- 
-The campaign's significance for doctrinal development lay in what it demonstrated by improvisation: that multi-domain coordination — ground, air, and naval elements operating under a unified campaign plan with shared objectives and sequenced timelines — produced operational outcomes that no single-domain approach could have achieved. The 7th Parachute Brigade's night drops validated the *élasticité logistique* insight in its assault dimension — air-delivered forces reaching objectives that ground movement could not have reached on the required timeline. The 6th BIM's amphibious landings, conducted from vessels that were converted commercial and auxiliary shipping rather than purpose-built platforms, achieved their objectives but not without friction that attentive planners noted and filed.
- 
-There was no formal joint headquarters. Campaign coordination was achieved through pre-planned sequencing and radio discipline rather than through a standing joint command structure. Several ESGI faculty analyses in the years following the campaign observed, in varying registers of diplomatic directness, that the operation had succeeded despite its command architecture rather than because of it, and that a longer or more contested operation would have exposed the absence of a unified joint headquarters as a critical vulnerability. These observations were noted. No institutional response followed for almost two decades.
- 
-The Canaries integration period (1974–1983) established the garrison requirements that shaped the subsequent force structure. Sustaining island garrisons at strategic distance, under potential Algerian and residual Spanish naval threat, produced the first sustained Marzenian experience of sea-line-of-communication protection as an operational planning requirement rather than a theoretical one.
- 
----
- 
-### La Guerre des Sables (Late 1970s – Early 1980s)
- 
-La Guerre des Sables — the second military confrontation with Algeria — began with a calibrated provocation: Algerian forces moving into a section of the border corridor that Algeria had begun treating, in internal communications and minor administrative acts, as provisionally demarcated on terms different from the French-drawn line. The movement was not an invasion in the conventional sense; it was a statement, designed to produce either Marzenian acquiescence or Marzenian escalation, both of which served Algerian strategic purposes. Marzena escalated.
- 
-The war that followed was, in character, almost the inverse of La Guerre des Frontières. Where the 1963 conflict had been brief, tactically legible, and institutionally clarifying, La Guerre des Sables was prolonged, grinding, and institutionally testing in ways the doctrine had not anticipated. Fighting was concentrated in the plateau border zone — terrain that both sides knew, that favoured defenders in the specific tactical sense and neither side in the operational sense, and that offered no decisive axis of advance for either force. Artillery dominated. Logistics determined tempo. Air operations were constrained on both sides by Soviet-supplied Algerian air defence systems — SA-equivalent mobile batteries that denied the FAM's Tornados the freedom of action that 1963 doctrine had assumed would be available — and by Marzena's own investment in the hardened infrastructure that made the AAE's forward operating bases survivable but not freely maneuverable.
- 
-The *économie des forces* doctrine proved partially valid and partially inadequate. In the tactical engagements that constituted the war's substance, Marzenian forces generally achieved the disproportionate exchange ratios the doctrine predicted. The problem was that a disproportionate exchange ratio, sustained over years against an adversary with greater mass and a demonstrated willingness to absorb the exchange, does not produce strategic decision on the timeline the doctrine had modelled. Algeria was spending more, losing more, and achieving less per engagement — and continuing. The doctrinal revision that followed the war did not abandon *défense par déni* or the LER framework; it deepened them. The revised conclusion was that the doctrine's deterrent function — making the initiation of conflict prohibitively costly — required the adversary to believe the exchange would be unfavorable *before* the exchange began, which demanded a visible deterrent posture rather than simply a capable one. Capability that was not legible to the adversary's planning process did not deter.
- 
-The informal joint coordination that the Canaries Campaign had made to look effortless showed its limits across years of sustained multi-front ground operations. The absence of a standing joint headquarters meant that coordination between COI-equivalent ground commands, the AAE elements supporting them, and the logistics authority that sustained both was managed through personal relationships, improvised communication protocols, and the professional culture of an officer corps small enough that everyone relevant knew each other. This worked, imperfectly, until it didn't. Several instances in which operational coordination failures produced avoidable friction — not catastrophic failures, but the kind of sustained inefficiency that accumulated over years into measurable cost — were documented in post-war analyses at the ESGI. The COI model that was formalised a decade later traces its direct intellectual origin to those analyses.
- 
-The war ended in the early 1980s in the stalemate its character had made probable. A ceasefire agreement, mediated through backchannel diplomatic contact, confirmed the French-drawn border as the permanent international boundary — exactly what Marzena had entered the war to establish, and what Algeria had opened the war to contest. Neither government publicly described the outcome as victory or defeat. Both militaries emerged exhausted, the equipment inventories of both reduced and the industrial mobilisation demands of both having tested their respective defence sectors. The Marzenian MIC had proven its value as a wartime production base; it had also revealed the gaps in production capacity for high-tempo sustained conflict that became the investment priorities of the following decade.
- 
----
- 
-### Post-War Transformation and the Power Projection Decision (1980s–1990s)
- 
-The period following La Guerre des Sables was the most significant sustained investment period in the FAM's history, funded by a combination of post-war political prioritisation and the phosphate revenue recovery of the mid-1980s. The investment was not principally defensive — a response to Algerian threat that the stalemate had, for the moment, managed — but strategic in a direction that marked a departure from the founding doctrine's essentially continental orientation.
- 
-The decision, made without a single named author or a published strategic document that announced it, was to develop Marzena as a military power capable of projecting force beyond its immediate waters and establishing itself as the primary Francophone security provider in West Africa. The strategic logic had two components that reinforced each other. First, that a Marzena capable of projecting force into the Sahel and coastal West Africa would create a French dependency on Marzenian capacity in a region where France had both historical interests and declining willingness to commit its own forces — making Marzena strategically useful to its primary external partner rather than merely strategically dependent on it. Second, that establishing a recognised security role in the Francophone sphere would provide the diplomatic and strategic depth that continental deterrence alone could not offer a republic of Marzena's size.
- 
-This decision drove two major institutional consequences.
- 
-**The domestic naval programme.** The decision to develop an amphibious and power projection capability through domestic construction rather than French procurement reflected both logics simultaneously: strategic autonomy — a navy built domestically could be maintained and expanded without French political consent — and capability specificity — the requirement was for platforms designed around Marzenian operational needs in the Atlantic-Mediterranean junction and the West African coastal environment, not around the needs of a major NATO navy. The programme began with surface combatants and the expansion of the submarine service before moving to the larger and more complex question of dedicated amphibious shipping. The specific procurement path was slow, technically demanding, and contested within MDN planning discussions throughout the late 1980s.
- 
-The first of the two **Bâtiments de Projection et de Commandement** (BPC) — the designation adopted for the Marzenian LHD class — entered service in the mid-1990s. The second entered service in the early 2000s, completing the two-ship class that has remained the Marine Nationale Marzenière's primary power projection platform since. Both ships were built domestically at the Fernant naval construction facility, whose expansion was a major investment of the post-war period. The 6th Brigade d'Infanterie de Marine, whose amphibious landings in 1973 had been conducted from converted auxiliary shipping, became the primary embarked force for the BPC class — its doctrine, training, and equipment progressively reoriented from the ad hoc amphibious role of the Canaries Campaign toward a sustained expeditionary capacity suited to the Sahel coastal and riverine environment.
- 
-**The formalisation of the COI model.** The Commandement Opérationnel Interarmées framework, whose intellectual development had been underway at the ESGI since the early 1980s post-war analyses, was formally institutionalised in the early 1990s. The formalisation drew explicitly on three bodies of experience: the informal coordination that had worked in the Canaries Campaign's eleven compressed days, the coordination failures that had accumulated across the years of La Guerre des Sables, and the French joint operations experience — particularly Operations MANTA and ÉPERVIER in Chad — that ESGI faculty had analysed systematically. The COI's defining characteristic — a standing joint headquarters to which branch formations are assigned on a plug-and-play basis depending on the mission — resolved the coordination problem that La Guerre des Sables had exposed: the FAM would no longer depend on personal relationships and professional culture to achieve inter-branch coordination in sustained operations. The framework would provide it.
- 
-The 1989 constitutional revision, which expanded parliamentary oversight of defence appropriations, coincided with the post-war investment period to produce a changed procurement culture. The privatisation programme of the 1990s progressively transferred elements of the defence-industrial base from state ownership to the OCPM-anchored private sector framework that characterises the current MIC structure. Manning policy shifted from the attenuated conscript model toward a professional force, with conscription retained as a mobilisation base but ceasing to be the primary source of operational personnel.
- 
----
- 
-### Late Cold War and Sahel Debut (1990s–2010)
- 
-The first BPC's entry into service in the mid-1990s marked the practical beginning of the power projection capability whose strategic rationale had been decided a decade earlier. The Sahel advisory mission — formalised as the Mission de Coopération Sécuritaire au Sahel (MCSS) in 2007, though advisory presence in partner states had existed in informal configurations before that date — provided the operational context in which the COI model was first exercised at scale. COI Sahel, the standing joint command for the MCSS, was the framework's first sustained real-world test, and its performance in coordinating ground advisory elements, CSOF direct action capability, and the air transport and logistics infrastructure of the *élasticité logistique* model confirmed the institutional investment of the preceding decade.
- 
-The professionalisation of the force, the maturation of the MALE drone programme, and the expansion of the ballistic missile inventory through the current LPM period have continued the post-war trajectory without requiring fundamental doctrinal revision. The Interior Insurgency — particularly the escalation of JWH activity since 2022, which has brought the doctrinal frameworks of *défense par déni* and *économie des forces* into an internal security context they were not designed for — constitutes the primary contemporary challenge to a doctrine built around the external threat environment.
- 
----
+## Constitutional status and missions
 
-## Command and Control Structure
+### Civilian authority
 
-### Constitutional Framework
+The Constitution places the armed forces under civilian command while distinguishing strategic direction from military administration. The President determines national military objectives, presides over the [[National Security Council (Marzena)|National Security Council]] and possesses final authority over strategic weapons and exceptional deployments. The Minister of National Defence is the civilian superior of the services, controls the defence administration, prepares policy, supervises senior appointments and directs budgets, procurement and the defence estate. The Minister does not normally issue operational orders to formations outside the CEMA chain.
 
-Civilian authority holds unquestioned constitutional control over the FAM. The President is Commander-in-Chief; the Ministry of National Defence (MDN) manages policy, budgeting, and procurement. The National Security Council (Conseil National de Sécurité), chaired by the President, coordinates the President, Prime Minister, Minister of National Defence, Minister of Interior, CEMA, and the principal intelligence directors on matters of national security.
+The Prime Minister coordinates the governmental and domestic consequences of defence policy. This includes the finance law, industrial policy, transport mobilisation, civil protection and the activity of ministries affected by deployments. The Prime Minister cannot independently redirect a strategic operation, but no sustained deployment can be insulated indefinitely from a government that controls appropriations and ordinary administration. During cohabitation, this produces negotiation rather than a clean division: strategic authority remains presidential, while endurance belongs partly to the government and Assembly.
 
-A political military is explicitly framed as contrary to the ideals of Marzenian Exceptionalism and is institutionally enforced. In practice, the FAM is operationally central, technically influential, and structurally integrated into the broader state apparatus through officer rotation into defence industry, strategic planning units, and procurement agencies.
+The National Assembly legislates military status, votes taxation and appropriations, establishes personnel and deployment ceilings, and may conduct inquiries through its Defence Committee and security-cleared subcommittees. It possesses no operational command authority. Restricted committees receive summaries of strategic programmes, readiness and the classified budget annex, but access to targeting, intelligence sources and active operational plans remains limited. The constitutional settlement therefore gives the Assembly real but indirect power—a relationship the military accepts while often regarding parliamentary time horizons as shorter than strategic requirements.
 
-### Chief of the Defence Staff (CEMA)
+### Principal missions
 
-The Chef d'État-Major des Armées (CEMA) is the highest-ranking military officer in the Republic, appointed by the President on the recommendation of the Minister of National Defence. The CEMA exercises operational command over all branches of the FAM, serves as the primary military adviser to the President and the Minister, and chairs the Joint Chiefs Committee (Comité des Chefs d'État-Major Interarmées — CCEMI) comprising the three service chiefs.
+The *Livre Blanc de la Défense* identifies six enduring missions, listed here in their effective planning order rather than their public rhetorical order:
 
-The CEMA is the principal military representative on the National Security Council. In the event of declared national emergency or armed conflict, the CEMA assumes direct operational command authority over all FAM elements through the National Military Command Centre (Centre National de Commandement Militaire — CNCM) located within the État-Major des Armées in Lévane.
+1. Defence of metropolitan Marzena and denial of a successful major attack.
+2. Preservation of national strategic command, air defence and long-range conventional retaliation.
+3. Defence and reinforcement of the Canary Islands and the Atlantic approaches.
+4. Protection of maritime communications, ports, energy sites and strategic infrastructure.
+5. Limited regional security operations, principally through the [[Mission de Coopération Sécuritaire au Sahel]].
+6. Exceptional support to civilian authorities during insurrection, terrorism, natural disaster or national emergency.
 
-### Vice Chief of the Defence Staff
+Territorial defence remains the force-sizing mission. The Canary Islands are not treated as a peripheral possession but as a second strategic centre: an Atlantic operating area, a surveillance platform and an indispensable source of geographic depth. The Sahel mission is deliberately limited in ordinary circumstances to intelligence, aviation, logistics, training and selective combat support. The FAM nevertheless retain the headquarters, amphibious shipping and force packages required to deploy a larger joint formation if the Presidency decides that Marzena must act as a regional security guarantor.
 
-The Vice-CEMA (Chef d'État-Major Adjoint des Armées) serves as deputy to the CEMA, assuming full command authority in the CEMA's absence. By convention, the Vice-CEMA is designated as the presumptive successor to the CEMA position and is drawn from a different service branch than the serving CEMA, ensuring rotational balance across the three services in the most senior military appointments.
+Domestic operations are formally exceptional. The Police Nationale, including its gendarmerie structures, remains responsible for public security, arrest and territorial policing. The FAM provide mobility, surveillance, engineering, protected transport and, under specific authority, combat support. Since the Interior Insurgency escalated, the distinction between support and direct participation has become harder to sustain.
 
-### Joint Staff (État-Major Interarmées — EMIA)
+## Doctrine
 
-The Joint Staff coordinates planning, operations, and logistics across the three service branches. It is the primary instrument through which the CEMA translates strategic direction into operational tasking. The EMIA comprises J-directorate functions (J1 Personnel through J9 Civil-Military Cooperation) staffed by officers on secondment from the three services and from the intelligence community. The Joint Operations Centre (Centre des Opérations Interarmées — COI-Centre) within the EMIA provides 24-hour situational awareness and operational coordination.
+### Défense par déni
 
----
+The term *défense par déni* describes a method rather than a promise of territorial impermeability. Its purpose is to prevent an adversary from translating material superiority into a quick operational decision. Marzenian plans assume the dispersal of aircraft and missile batteries, the survival of command through hardened and redundant sites, rapid internal movement along rail corridors, and the use of reconnaissance, electronic warfare and long-range fires against an opponent's concentration and sustainment system.
 
-## Operational Joint Commands (Commandements Opérationnels Interarmées — COI)
+The doctrine gives particular weight to the opening period of war, before mobilisation and dispersal are complete. Air defence and protected command prevent surprise from destroying the force; submarines and coastal missiles complicate maritime access; a small heavy component holds prepared northern sectors while wheeled formations manoeuvre along interior lines.
 
-The Commandement Opérationnel Interarmées (COI) is the FAM's primary framework for joint operational command below the level of the CEMA and the Joint Staff. Each COI functions as an operational area headquarters — a standing joint command structure to which brigades, regiments, naval task groups, and air elements are assigned on a plug-and-play basis depending on the mission. The model emphasises unified command across branches within a defined geographic area or operational context, with mission-specific logistics cells embedded in each COI headquarters.
+The FAM can contemplate conventional victory against a limited incursion, an isolated force or an adversary whose logistics and political tolerance are constrained. It does not assume general superiority in unrestricted conflict. Denial is intended to stop, exhaust or reverse an operation without requiring symmetric mass.
 
-The COI model was formalised following the early years of the MCSS deployment, during which FAM planners studied French joint operations — particularly Operations SERVAL and BARKHANE — and identified the absence of a standing joint headquarters structure as the principal organisational friction in Marzena's own Sahel operations. The Canaries Campaign of 1973 was retrospectively identified as a precursor: its multi-domain coordination had achieved COI-like unity of effort under a pre-planned campaign structure without a dedicated joint headquarters. The COI architecture formalises what that campaign demonstrated ad hoc.
+### Économie des forces
 
-Strategic mobility for COI deployments is assured through pre-planned contingency compositions: each COI has defined baseline force packages drawn from the standing order of battle, with logistics pre-arranged to support rapid deployment. The national railway network — particularly the Solane–Lévane corridor, assessed as capable of moving a mechanised brigade in under four hours — is central to domestic COI redeployment contingencies. Airlift assets provide complementary strategic mobility for lighter and time-sensitive elements.
+The principle of *économie des forces* emerged from the 1963 doctrinal review. It treats the loss-exchange relationship as a planning input: operations should be designed to impose greater military and political cost than Marzena incurs. The term is sometimes translated as economy of force, but in Marzenian use it is broader than concentration of effort. It encompasses precision, concealment, selective exposure and the refusal to fight symmetrically where the adversary enjoys greater mass.
 
-Five COIs are currently established.
+The War of the Sands showed that favourable tactical exchanges did not guarantee strategic decision against an adversary able to absorb them. The post-war requirement for **visible deterrence** followed: a capability the adversary cannot model or believe in may fight effectively yet fail to prevent war.
 
-**COI Nord** is headquartered in the northern coastal corridor and constitutes the FAM's primary conventional deterrence posture on the Algerian border axis. It holds the FAM's heaviest mechanised formations and is the most extensively resourced COI in the peacetime standing structure.
+### Élasticité logistique
 
-**COI Atlantique** is headquartered in the Solane area and is the primary joint command for western maritime defence, amphibious operations, and the coordination of ground and naval forces along the Atlantic coast. It maintains the closest standing relationship with the Marine Nationale Marzenienne's Atlantic fleet command.
+The third canonical concept, *élasticité logistique*, holds that sustainment must change method as distance, urgency and threat change. Its standard staff-college formulation is:
 
-**COI Sud** is headquartered at Port-Sahar and has operational responsibility for the southern interior plateau, the Saharan border zone, and the primary axis of the Interior Insurgency. It coordinates FAM activity with the Direction de la Sécurité Intérieure and the Gendarmerie Nationale Marzenienne in the counter-insurgency context.
+1. Rail provides rapid internal mass movement.
+2. Central joint depots provide depth.
+3. COI logistics cells provide responsiveness.
+4. Air movement provides tempo and reach.
+5. Civilian and industrial mobilisation provides endurance.
 
-**COI Canaries** is the joint garrison command for the Canary Islands autonomous territory, coordinating army garrison forces with the naval air station at Gando and the Air Force detachment on Gran Canaria. Given the islands' autonomous status and political sensitivity, COI Canaries operates under tighter political oversight than mainland COIs.
+This hierarchy reflects geography. Marzena can move heavy formations rapidly between the northern corridor, Lévane and Atlantic ports by rail, but it cannot support the Canary Islands or a dispersed Sahel force by railway. Airlift preserves momentum and fills urgent shortages; it does not replace sealift or accumulated stocks. The doctrine is admired within the FAM for its clarity and criticised for assuming that civilian infrastructure, commercial contracts and central information systems will remain available during a sophisticated attack.
 
-**COI Sahel** is the standing joint command for the Mission de Coopération Sécuritaire au Sahel, operating on a rotational basis from a forward headquarters in partner-state territory. It is the only COI with a permanent extra-territorial mandate. Its composition varies by rotation but typically includes a CSOF element, a regular army advisory contingent, and embedded logistics and signals units. COI Sahel operates under presidential executive authority and its mandate has not been tested before the National Assembly.
+### Strategic autonomy and sovereignty of sustainment
 
----
+Strategic autonomy is defined as freedom of decision rather than autarky. Marzena imports aircraft, engines, radars, electronics and production machinery, but seeks domestic authority to maintain, modify and arm the systems upon which an operation depends. Foreign supply becomes unacceptable when a supplier can exercise an effective political veto by withholding software, spares, integration data or munitions.
 
-## Army (Armée de Terre)
+The related doctrine of **sovereignty of sustainment** requires war reserves, repair knowledge, alternative suppliers and the ability to reproduce or substitute critical items after foreign supply is interrupted. Imported semiconductors, advanced sensors and precision machine tools remain the principal exception.
 
-### Mission and Doctrine
+## History and doctrinal development
 
-The Armée de Terre is the FAM's primary ground combat force, responsible for territorial defence, ground power projection in the Sahel advisory context, and garrison forces in the Canary Islands. Army doctrine reflects the broader FAM framework of *défense par déni*, emphasising defensive depth, interior line advantage, and the capacity to impose disproportionate costs on any attacking force. The army's shift toward lighter, wheeled combined arms formations over the past two decades reflects both fiscal realities and the operational lessons of Sahel deployments, where strategic mobility and logistics sustainability in austere environments proved more decisive than armoured mass.
+### Founding and inherited doctrine, 1952–1963
 
-### Manning and Reserve System
+The FAM were constituted in May 1952 from personnel who had served in French colonial forces, newly commissioned independence-generation officers and locally raised formations transferred into republican service. The founding problem was both practical and political: Marzena required a coherent national military but regarded an autonomous political army as incompatible with the constitutional order. Officer education, promotion and command were consequently professionalised early, while partisan organisation within the force was prohibited.
 
-Active army strength stands at approximately 95,000–110,000 personnel. The reserve and conscript-trained pool provides an additional 35,000–45,000 personnel. Conscription in its current form is a residual mobilisation mechanism: a small annual intake undergoes basic military training and is assigned to the reserve pool, maintaining the institutional capacity to expand rapidly in a major contingency. The system is a deliberate retention of mobilisation infrastructure from the Cold War conscript era, maintained at low cost against a strategic hedge rather than as an operational requirement.
+The first decade rested on three inherited assumptions. Academically selected officers were expected to decide faster and at lower echelon than likely opponents. Terrain familiarity and the defensive advantages of the northern plateau were expected to offset some numerical inferiority. Most importantly, limited material inferiority was thought compensable through tactical competence. These premises were not irrational for the early Republic, whose force was small and whose industrial programme had not matured. They were also insufficient.
 
-### Brigade Structure
+### La Guerre des Frontières and the 1963 review
 
-The army organises its primary combat power into brigades, which are assigned to COIs as operational circumstances require. The force is weighted toward lighter wheeled formations suited to the mobility demands of the Sahel and Interior Insurgency contexts, with a smaller mechanised component retained for the conventional deterrence requirement on the Algerian border axis.
+The brief 1963 conflict with Algeria, known as [[La Guerre des Frontières (1963)|La Guerre des Frontières]], remains the most consequential event in FAM institutional memory. Fighting followed incursions into a disputed border corridor after Algerian independence and the acceleration of Soviet supply. The campaign lasted weeks and produced no catastrophic Marzenian defeat. Units generally held their positions and casualties remained limited. The concern was what the campaign showed would happen in a larger and longer war.
 
-:::table caption: "Army Brigade Structure"
-| Designation | Type | Primary COI Assignment |
-|-------------|------|------------------------|
-| 1ère Brigade Mécanisée (1 BM) | Mechanised (tracked) | COI Nord |
-| 2ème Brigade Mécanisée (2 BM) | Mechanised (tracked) | COI Nord |
-| 3ème Brigade d'Infanterie (3 BI) | Light wheeled infantry | COI Atlantique |
-| 4ème Brigade d'Infanterie (4 BI) | Light wheeled infantry | COI Sud |
-| 5ème Brigade d'Infanterie (5 BI) | Light wheeled infantry | COI Sud |
-| 6ème Brigade de Montagne et Désert (6 BMD) | Light desert/mountain infantry | COI Sud / COI Sahel |
-| 7ème Brigade Parachutiste (7 BP) | Airborne / Air Assault | Assignable |
-| 6ème Brigade d'Infanterie de Marine (6 BIM) | Marine Infantry | COI Atlantique / Assignable |
+The Commission de Révision Doctrinale, created by the CEMA in November 1963 and reporting to the President, made five findings:
+
+- **Materiel:** officer quality could compensate only for a limited degree and duration of material inferiority. Ammunition, artillery and protected mobility required an indigenous industrial base.
+- **Air power:** a force unable to contest or deny enemy air superiority could not rely upon ground competence. Air defence, survivable bases and combat aviation had to become primary investments.
+- **Intelligence:** collection had existed, but no institution had converted border intercepts and political signals into warning. The finding led to the creation of the [[Direction du Renseignement Extérieur et Technique|DRET]] in 1966 and its doctrine of pattern deviation.
+- **Economy of force:** exchange costs had to be designed into operations rather than calculated after them.
+- **Logistics:** ground movement carried mass, while air supply preserved operational momentum when terrain or interdiction broke ordinary routes.
+
+The commission did not create an all-volunteer force. It established professionalisation's foundations: systematic after-action study, permanent technical cadres, specialist education and the expectation that institutional failure must produce a documented remedy.
+
+### Reform, external study and military-industrial expansion
+
+Implementation was uneven at first and accelerated with phosphate revenue. The state prioritised ammunition production, artillery, radar, hardened shelters and the early missile programme. Domestic combat-aircraft manufacture remained beyond Marzena's immediate capacity, so the Air Force concentrated on dispersal, radar coverage and the ability to integrate imported aircraft independently. The DRET absorbed the former military-intelligence service and the Foreign Ministry's small external section in 1966.
+
+Marzena did not develop in isolation. Following the 1967 Arab–Israeli war, the MDN sent a study team to Israel. Its 1969 report drew two lasting conclusions: guided anti-ship missiles had transformed the vulnerability of surface fleets, and aircraft concentrated on exposed airfields might be lost before conventional superiority could matter. These lessons reinforced coastal missile, electronic-countermeasure, hardened-shelter and dispersal programmes already under way.
+
+The Marzenian merchant vessel *MV Brise Atlantique*, trapped with the Yellow Fleet in the Great Bitter Lake between 1967 and 1975, contributed a modest supplementary source. Returning commercial crews were systematically debriefed about military activity along the canal. Later popular accounts sometimes portray the ship as an intelligence platform; contemporary records support the more limited conclusion that an accidental vantage point was exploited methodically.
+
+### Operation CEINTURE DE FER and the Canary Islands
+
+[[Canaries Campaign|Operation CEINTURE DE FER]] in October 1973 was the first operational demonstration of the post-1963 force. During an eleven-day campaign, a naval blockade, airborne night insertions by the 7th Parachute Brigade and amphibious landings by the 6th Marine Infantry Brigade secured the strategic objectives with three Marzenian wounded and no fatalities on either side.
+
+The operation later acquired a reputation for seamless joint command that its records do not support. With no permanent joint headquarters, coordination depended on sequencing, radio discipline and personal familiarity. ESGI studies concluded that the campaign demonstrated joint action's value without supplying the institution needed to sustain it.
+
+The integration of the islands created permanent requirements for garrisoning, sealift, convoy protection, Atlantic surveillance and political restraint. Defence remained a national power after the 1983 autonomy statute, but military construction and intelligence facilities became recurring subjects of Canarian scrutiny.
+
+### La Guerre des Sables
+
+The second Algerian confrontation, [[La Guerre des Sables]], began in the late 1970s after Algerian forces advanced into a section of the plateau corridor that Algiers had begun to treat as provisionally demarcated on different terms. Marzena escalated rather than acquiesce. The resulting war was prolonged, artillery-dominated and strategically indecisive until a mediated ceasefire in the early 1980s confirmed the French-drawn boundary.
+
+The conflict was nearly the inverse of 1963. A more coherent and industrially supported FAM encountered an adversary willing to accept unfavourable exchanges. Soviet-supplied mobile air defences constrained the F-4MZ strike force; hardened bases preserved aircraft without producing air superiority. Artillery, repair and transport determined tempo.
+
+Marzenian units generally imposed disproportionate tactical costs. Algeria continued. The result was the visible-deterrence revision to *économie des forces* and a recognition that tactical efficiency cannot force a political decision from an adversary whose tolerance has been modelled incorrectly. Years of improvised joint coordination also revealed the limits of personal relationships as a command system. These findings shaped the missile posture, permanent joint headquarters and industrial mobilisation investments of the following decade.
+
+### Post-war transformation and professionalisation
+
+The 1980s and 1990s produced the most sustained transformation in FAM history. The state decided to add a regional projection role to continental defence, partly to make Marzena a useful rather than dependent partner of France in Francophone West Africa. Domestic naval construction expanded, the submarine programme matured and the first BPC entered service in the mid-1990s. The second followed in the early 2000s.
+
+The **Commandements Opérationnels Interarmées** were established in the early 1990s. Their design drew on the successful improvisation of 1973, the accumulated coordination failures of the War of the Sands and French experience in Chad, particularly Operations MANTA and ÉPERVIER. A permanent joint headquarters would receive formations from the services and command them in a defined theatre; operational unity would no longer depend solely on acquaintances among senior officers.
+
+The 1989 constitutional revision expanded legislative scrutiny of defence appropriations. The 1990s privatisation programme moved production into mixed-ownership companies while OCPM retained sovereign design, integration and testing authority. In personnel policy, the old conscript army was decisively replaced by a professional operational force. Conscription survived in law and as a four-month mobilisation mechanism, but it ceased to determine the character or routine manpower of the services. The reform is widely regarded within and outside the FAM as successful.
+
+### Sahel operations and the second COI reform
+
+Advisory activity in the Sahel preceded the formal creation of the MCSS in 2007. The mission became the first sustained operational test of the COI system, combining Army advisers, CSOF elements, transport aviation, signals units, intelligence support and rotating logistics. It improved the FAM's ability to open and sustain a distant theatre without committing to territorial occupation. It did not resolve the political or social causes of regional instability.
+
+Experience in the 2000s and 2010s produced a second COI reform. French operations including SERVAL and BARKHANE were studied for their theatre headquarters, distributed basing and air-ground coordination rather than copied wholesale. COI procedures were standardised, standing logistics cells expanded and common digital reporting introduced. The reform did not create the COIs; it converted a headquarters concept developed for a previous continental war into a repeatable expeditionary system.
+
+### The post-2022 doctrinal mismatch
+
+The escalation of the Interior Insurgency after 2022 placed the FAM in a mission for which neither continental denial nor expeditionary partnership was designed. COI Sud became an interior-security command in practice. Military transport, drones, engineers, signals teams, medical evacuation and protected patrols became routine support to the police and gendarmerie. Direct combat activity remained more limited but grew through special forces, aviation and operations in remote security zones.
+
+The campaign did not produce a formal doctrinal rupture. Instead, it revealed a mismatch: a force trained to detect mobilisation, strike infrastructure and sustain external formations was being asked to identify small networks embedded in its own population. Official accounts emphasise the continued primacy of civilian security services. Critics argue that recurrent exceptional support is becoming a normal military jurisdiction without a corresponding constitutional settlement.
+
+## National command structure
+
+### President, government and strategic release
+
+Operational command runs from the President to the CEMA, through the EMIA and the COIs. The President sets strategic objectives and reserves decisions concerning strategic missile employment, major covert deployments and operations whose political consequences exceed an approved mandate. De jure, the President may authorise strategic weapons alone. By convention, the decision is taken within, or at least after consultation with, the National Security Council. Authentication requires the CEMA and designated senior officers to verify the order, but verification does not confer a legal veto.
+
+The Minister of National Defence remains the civilian superior of the services. The Minister may issue policy directives, control resources, suspend administratively unsafe activity and recommend senior appointments. Operational orders are transmitted through the CEMA. This separation is intended to prevent both autonomous military action and ministerial battlefield command.
+
+### CEMA and the EMIA
+
+The **Chef d'État-Major des Armées** is the Republic's senior serving officer, appointed by the President on the Minister's recommendation. The CEMA controls planning, readiness and current operations, chairs the Joint Chiefs Committee and assigns formations to COIs. Grand strategy, strategic release and decisions to initiate or terminate operations remain civilian.
+
+The Vice-CEMA acts as deputy and normally comes from a different service. The three service chiefs recruit, train, equip and sustain their forces. They are administratively influential but operationally subordinate once units are assigned to a COI or joint task force.
+
+The **État-Major Interarmées** is organised through functional directorates:
+
+:::table caption: "Principal EMIA directorates"
+| Directorate | Function |
+| --- | --- |
+| J1 | Personnel, mobilisation records and reinforcement |
+| J2 | Military intelligence liaison and operational assessment |
+| J3 | Current operations and force employment |
+| J4 | Logistics policy and coordination with CIL |
+| J5 | Strategic plans and contingency development |
+| J6 | Communications, spectrum and coordination with CTI |
+| J7 | Training, exercises and doctrine |
+| J8 | Resources, capability planning and programme balance |
+| J9 | Civil-military coordination and domestic-authority liaison |
 :::
 
-Brigades carry a default COI assignment for planning and logistics purposes but are designed to be reassigned across the COI structure as operational requirements dictate.
+The **Centre National de Commandement Militaire** in Lévane maintains continuous strategic awareness, authenticated communications and continuity of command. It is one node in a larger protected network rather than a single irreplaceable bunker. Its functions include consolidating COI reports, maintaining the national force-status picture, coordinating strategic warning with DRET, distributing presidential direction, supervising transition between readiness echelons and preserving the communications pathway used for strategic release. The co-located Joint Operations Centre manages current operations and transfers theatre responsibility between COIs when a crisis crosses geographic boundaries.
 
-### Specialised Regiments
+### Système intégré de conduite opérationnelle
 
-Below and alongside the brigade structure, the army maintains a tier of specialised and elite regiments fulfilling roles that do not map cleanly onto the combined arms brigade model. These units carry a distinct institutional identity and, in several cases, selective entry standards above the general army.
+Since the late 2010s, major headquarters have exchanged data through the **Système intégré de conduite opérationnelle** (SICO), known as *Asterre* during development. SICO is a federated common operational picture rather than a direct weapons-control system. Service networks retain their own air-defence, naval, intelligence and tactical functions; SICO combines selected force locations, intelligence summaries, logistics, communications and readiness information at EMIA, COI, brigade, wing and naval-task-group level.
 
-**Régiment d'Infanterie de Marine Parachutiste (RIMAP)** is broadly regarded as the most prestigious non-special-forces unit in the FAM. Its personnel maintain both airborne and amphibious qualifications. The regiment deploys aboard LHDs for amphibious operations and by air assault for contingency missions. The RIMAP falls under army command but coordinates closely with the navy on amphibious planning and embarkation, and its selection and training standards are among the most demanding in the conventional force.
+The state owns operational data, cryptographic specifications and military interfaces. AXIOME Systèmes licenses and maintains part of the middleware through cleared teams working under CTI supervision. The contractor's role is not widely understood outside the restricted defence community. SICO is mature at senior headquarters and on major platforms but uneven below brigade level, where old inventories and inconsistent reporting reduce the accuracy of its logistics picture. Deployed headquarters normally depend on satellite connection to Lévane. Exercises therefore require voice, radio, local service networks and paper procedures to remain usable during degradation.
 
-**Bataillon de la Légion Étrangère Marzenienne (BLEM)** is a standalone battalion within the Armée de Terre, distinct from the mainstream army in recruitment, internal culture, and primary operational focus. Recruitment draws primarily from sub-Saharan Africa, with preference given to candidates without strong religious affiliation — a criterion consistent with the broader Marzenian Exceptionalist framing of the force as civic rather than cultural in character. The BLEM functions as a Sahel specialist unit: its personnel's regional familiarity, language capacity, and environmental acclimatisation make it a uniquely capable element for counter-insurgency and advisory operations under COI Sud and COI Sahel. The unit carries its own traditions and insignia distinct from the wider army. A service-to-citizenship pathway exists for BLEM personnel completing a defined term of service; this arrangement is a matter of public record but receives little official discussion.
+### Centre interarmées du ciblage et des feux
 
-**Régiment d'Artillerie (RA)** provides the army's organic indirect fire capability, including tube artillery, multiple-launch rocket systems, and independently deployed short-range air defence systems. The regiment's air defence elements are integrated into the national layered air defence architecture at the short-range tier.
+The **Centre interarmées du ciblage et des feux** (CICF) supports EMIA and the COIs by coordinating conventional missile, artillery, air and naval-fire planning. It maintains target-development standards, deconfliction procedures and the national restricted-target list. The CICF may nominate or prioritise targets but cannot authorise the release of a weapon. Strategic systems remain subject to the presidential chain, while conventional fires remain with the responsible operational commander under approved rules of engagement.
 
-**Régiment du Génie (RG)** provides combat engineering support across the force: obstacle breaching, field fortification, route clearance, and bridging. The regiment maintains distinct sub-units trained for northern mechanised and southern desert operational environments.
+## Operational joint commands
 
-**Régiment NRBC (RNRBC)** maintains the army's nuclear, radiological, biological, and chemical defence capability. Given Marzena's own nuclear programme history and the sensitivity of the Kermane facilities, the RNRBC has a domestic protection role alongside its deployed force-protection function.
+The **Commandements Opérationnels Interarmées** are permanent joint theatre headquarters. They do not own most of the formations they command. Services generate units, maintain equipment and provide replacements; the CEMA assigns force packages to a COI for planning, readiness or operations. Certain intelligence, signals, logistics and air-defence elements are permanently attached, while manoeuvre brigades, ships and aviation rotate.
 
-**Régiment des Transmissions (RT)** provides military communications, signals infrastructure, and electronic communications security across the army. The RT's relationship with the FAM's broader signals intelligence architecture and with the standalone SIGINT agency is managed through the dual-command intelligence structure.
-
-**Régiment de Reconnaissance (RR)** provides long-range ground reconnaissance, target acquisition, and battlefield surveillance. The regiment operates wheeled reconnaissance vehicles and coordinates with Army Aviation for aerial surveillance support. In the COI Sahel context, RR elements have functioned as the primary ground intelligence-gathering capability operating ahead of the main advisory force.
-
-### Army Aviation Command (Commandement de l'Aviation de l'Armée de Terre — CAAT)
-
-The CAAT administers the army's organic rotary-wing aviation capability, providing attack, utility, and reconnaissance helicopter support to ground formations. Army aviation operates independently of the Air Force's fixed-wing mission, with a clean doctrinal separation: the Air Force owns fixed-wing close air support and strategic airlift, while the CAAT owns rotary-wing manoeuvre support and attack. The CAAT's platform mix includes attack helicopters assigned to support mechanised and light brigade operations and utility/transport helicopters providing tactical mobility, medical evacuation, and logistics support within COI areas of operation. The 7th Parachute Brigade's air assault mission relies on CAAT utility helicopters for the bulk of its rotary-wing insertion capability in the contemporary period. CAAT assets are allocated to COIs on operational assignment.
-
-### Intelligence: Bataillons de Renseignement (BR)
-
-Army intelligence is organised through the Bataillons de Renseignement (BR) — standing units of the order of battle assigned to COI headquarters as operational requirements dictate, consistent with the plug-and-play philosophy of the COI structure. Personnel above battalion grade within the BR operate under the dual-command arrangement with the Directorate for External and Technical Intelligence (DRET), with DRET controlling tasking and career progression while the units remain on the army order of battle. Designated BR units: **1er BR, 2e BR, 3e BR, 4e BR,** with a fifth element held for COI Sahel rotations.
-
----
-
-## Navy (Marine Nationale Marzenienne)
-
-### Mission and Doctrine
-
-The Marine Nationale Marzenienne is responsible for the defence of Marzena's Atlantic and Mediterranean coastlines, control of the Strait of Gibraltar corridor, maritime strike, amphibious power projection, and submarine operations. Naval doctrine centres on *maîtrise des approches* (approach dominance) — the ability to deny hostile naval forces freedom of action within Marzena's strategic maritime perimeter, from the Strait westward through the mid-Atlantic approaches to the Canary Islands. The primary naval operating base is Cap-Nord on the Mediterranean coast; the naval air station at Gando (Gran Canaria) extends maritime coverage substantially to the west and south.
-
-### Fleet Commands
-
-The navy organises its forces around capability-based fleet commands, reflecting a command philosophy analogous to the COI model: standing headquarters to which combatants and aviation assets are assigned by operational circumstance.
-
-**Commandement Maritime Atlantique (COMAT-A)** is headquartered at Solane, holding primary responsibility for Atlantic approaches, western coast defence, the Canary Islands maritime zone, and amphibious operations coordination with COI Atlantique and COI Canaries. The LHDs, logistical support ships, and Atlantic-assigned surface combatants are concentrated here.
-:::figure align: right caption: ""
-Frigate ADF.png
+:::table caption: "Permanent joint operational commands"
+| Command | Headquarters | Principal responsibility | Typical standing elements |
+| --- | --- | --- | --- |
+| COI Nord | Northern corridor near Fernant | Major north-eastern contingency and continental deterrence | Heavy formations, air defence, fires and border ISR |
+| COI Sud | Port-Sahar | Southern territory, strategic infrastructure and Interior Insurgency | Light formations, engineers, aviation and security liaison |
+| COI Atlantique–Canaries | Solane; forward node at Gando | Atlantic approaches, Canary defence and amphibious operations | Naval-led joint staff, island garrisons and maritime aviation |
+| COI Sahel | Rotating forward headquarters | MCSS and partner-state operations | Advisers, CSOF, air mobility, intelligence and logistics |
+| COI Réserve Nationale | Lévane region | High-readiness reinforcement and theatre opening | Airborne, marine, rapid-response and joint enabling packages |
 :::
 
+### COI Nord
 
-**Commandement Maritime Méditerranée-Détroit (COMAT-MD)** is headquartered at Cap-Nord, exercising primary responsibility for the Mediterranean approaches and the Strait of Gibraltar. The Strait's role as the chokepoint between Atlantic and Mediterranean domains makes COMAT-MD among the most strategically sensitive commands in the FAM. The main surface combatant strength — including the air defence frigates — is concentrated in COMAT-MD. 
+COI Nord is the best-resourced peacetime headquarters and the principal command for the unnamed north-eastern planning contingency. It controls the two mechanised brigades for operational planning, coordinates the heavier artillery and rocket formations, and maintains the closest relationship with the national air-defence network. Its plans emphasise dispersal from exposed border areas, defence of transport junctions and the rapid movement of reserves from the Lévane–Solane corridor. The command's concentration of high-readiness assets is a persistent source of competition with southern and expeditionary commanders.
 
-**Commandement de la Force Sous-Marine (CFSM)** is the submarine service command, operating with a degree of independence that reflects the sensitivity of submarine operations and the classification of their tasking.
-:::figure align: right caption: ""
-Submarine.png
-:::
- Each submarine executes its patrol independently, attaching to a wider task group only when the operational context specifically requires coordination. The CFSM's relationship with the CEMA on strategic strike missions — for the cruise missile submarines — is direct, bypassing the surface fleet command structure.
+### COI Sud
 
-**Commandement de l'Aéronavale (CAN)** administers naval aviation across both fleet commands: maritime patrol aircraft based at Cap-Nord and Gando, and shipborne helicopter assets organic to the LHDs and frigates. The CAN coordinates with the Air Force's Air Mobility Command on search and rescue and with the broader intelligence community on MPA-derived surveillance product.
+COI Sud is headquartered at Port-Sahar and covers the southern Atlantic approaches, plateau routes, border zones and much of the active Interior Insurgency area. It was originally designed for territorial surveillance and Sahel force generation. It now functions as an interior-security command, coordinating with the DSI, Police Nationale and gendarmerie structures. Formally, the COI supports civilian authorities. In practice, its headquarters plans protected movements, ISR coverage, engineering activity and selected joint operations across a theatre too large for ordinary police command alone.
 
-### Surface Fleet
+The **Joint Support Base Juby** is COI Sud's principal logistical hinge. Expanded during the post-2022 security campaign, it contains air-movement facilities, fuel and ammunition storage, vehicle repair capacity, drone operating areas, medical reception and the rear support element for COI Sahel. Juby is not the headquarters of COI Sud, but few southern operations can be sustained without it.
 
-:::table caption: "Navy Surface Fleet"
-| Class | Type | Quantity | Notes |
-|-------|------|----------|-------|
-| [TBD] | Landing Helicopter Dock (LHD) | 2 | Primary amphibious assault platforms; COMAT-A |
-| [TBD] | Heavy Multirole Frigate (FML) | 4 | Blue-water escort and strike |
-| [TBD] | Air Defence Frigate (FDA) | 5 | Area air defence for task group; primarily COMAT-MD |
-| [TBD] | Light Frigate | 7 | Produced to sustain domestic shipbuilding capacity |
-| [TBD] | Fast Attack Corvette (modernised) | 7 | Cold War-era hulls, substantially modernised |
-| [TBD] | Patrol / Coastal Corvette | 9 | Cold War-era hulls; patrol and coastal security role |
-| [TBD] | Logistical Support Ship | 4 | Fleet replenishment and sustainment; COMAT-A |
-| [TBD] | Intelligence Gathering Ship | 2 | SIGINT/ELINT collection; dual DRET/Navy command |
-:::
+### COI Atlantique–Canaries
 
-### Bâtiments de Projection et de Commandement (BPC)
- 
-The Marine Nationale Marzenière operates two **Bâtiments de Projection et de Commandement** — designated **BPC TBD** and **BPC TBD**, named for Marzena's two secondary cities — which constitute the force's primary amphibious and power projection platforms and the material expression of the post-La Guerre des Sables decision to develop Marzena as a Francophone security provider in West Africa.
- 
-Both ships were built domestically at the Fernant naval construction facility. BPC *TBD* entered service in the mid-1990s; BPC *TBD* entered service in the early 2000s. The class was designed around the specific operational requirements of West African coastal and riverine environments — shallow-draft approaches, helicopter-intensive operations, and the ability to sustain embarked forces for extended periods without port access — rather than around the deep-water amphibious assault requirements that shaped most contemporary LHD designs. This specificity is consistent with the domestic procurement rationale: a platform designed for Marzena's actual operational requirement rather than a NATO-standardised design adapted to it.
- 
-Each BPC can embark a reinforced battalion of the 6th Brigade d'Infanterie de Marine (6 BIM) alongside a mixed helicopter air group, support vehicles, and the command and communications infrastructure of a deployable joint headquarters. The ship's command and communications suite supports a COI-equivalent forward headquarters, allowing the BPC to function as an afloat joint command node for Sahel coastal operations — a role that COI Sahel has exercised in planning and, on at least one occasion not publicly described, in practice.
- 
-The two-ship class is the maximum the MDN's current structure supports in terms of crewing, maintenance, and the 6 BIM's capacity to provide recurring embarked rotations. No third ship has been formally proposed. The *Livre Blanc de la Défense 2022* describes the BPC class as meeting the current requirement for the foreseeable planning horizon.
+COI Atlantique–Canaries is a fully joint but Navy-led command. Its main headquarters is at Solane, with a permanent forward node at Gando on Gran Canaria. It integrates Atlantic naval operations, island garrisons, air defence, maritime patrol, coastal missile batteries and reinforcement planning. The command also manages the political interface with the Canarian territorial institutions, which possess no defence authority but scrutinise land use, infrastructure and the domestic consequences of national military facilities.
 
-The nine patrol/coastal corvettes occupy an ambiguous institutional position: their conversion from fast attack vessels into a patrol role has generated ongoing discussion about whether their primary function should transfer to a maritime gendarmerie command.
+The combined command replaced separate Atlantic and Canarian headquarters. Supporters cite maritime geography; critics fear that a Solane-centred naval staff treats the islands as an operating platform rather than inhabited constitutional territory.
 
-### Submarine Service
+### COI Sahel
 
-:::table caption: "Submarine Service"
-| Class | Type | Quantity | Status |
-|-------|------|----------|--------|
-| [TBD] | Attack Submarine — newest class | 3 | Operational |
-| [TBD] | Attack Submarine — older class | 2 | Operational; planned withdrawal by 2031 |
-| [TBD] | Cruise Missile Submarine (SSGN) | 2 | Primary long-range conventional strike asset |
+COI Sahel is the smallest permanent COI and the only one headquartered outside Marzenian territory. Its forward command relocates periodically between partner-state sites according to the MCSS mandate and security conditions. The headquarters is modular and depends on satellite connection to Lévane, air transport and the Juby rear area. Typical rotations include Army advisers, a CSOF component, intelligence and communications detachments, medical personnel and logistics units. Larger formations remain in Marzena unless specifically deployed.
+
+### COI Réserve Nationale
+
+COI Réserve Nationale controls the high-readiness pool available to reinforce any theatre. Its planning relationship with the 7th Parachute Brigade, 6th Marine Infantry Brigade, rapid-intervention formations, CSOF and Air Mobility Command is permanent, although those forces may be assigned elsewhere for routine operations. The command is also responsible for theatre-opening packages: signals, movement control, reconnaissance, air-defence liaison, fuel and medical reception elements that allow a new headquarters to begin functioning before its full sustainment structure arrives.
+
+### Embarked expeditionary commands
+
+Each BPC can host a **COI expéditionnaire embarqué** when operating beyond a defined permanent COI. The temporary headquarters is assembled from EMIA, Navy, Army, Air Force, CIL and CTI personnel and can command an amphibious group, embarked ground force, aviation detachment and supporting special operations. Within the geographic area of an established COI, the BPC remains a mobile command node subordinate to that theatre commander. The distinction prevents an embarked commander from displacing territorial authority merely by entering a region.
+
+## Personnel and military service
+
+### Active establishment
+
+The published active establishment of approximately 228,000 includes operational formations, service headquarters, training establishments, hospitals, depots, strategic infrastructure, maintenance units and personnel seconded to joint or technical institutions. It should not be read as the number available for immediate deployment. Defence Committee evidence and IGA summaries suggest that between 140,000 and 155,000 personnel belong to formations or enabling organisations capable of receiving an operational assignment without prior individual mobilisation; considerably fewer can deploy simultaneously without degrading another mission.
+
+:::table caption: "Estimated active personnel distribution"
+| Component | Public establishment | Operationally assignable estimate | Institutional character |
+| --- | ---: | ---: | --- |
+| Armée de Terre | ~105,000 | 63,000–70,000 | Largest service; substantial territorial and training establishment |
+| Marine Nationale Marzenière | ~36,000 | 23,000–26,000 | Personnel-intensive submarine, aviation and support infrastructure |
+| Armée de l'Air et de l'Espace | ~49,000 | 31,000–34,000 | Large technical, air-defence and base-support component |
+| Joint, strategic and common services | ~38,000 | 22,000–25,000 | EMIA, COIs, CIL, CTI, CMI, CSOF and other common bodies |
+| **Total** | **~228,000** | **~139,000–155,000** | Figures overlap at the margins because of secondments |
 :::
 
-### Intelligence: Naval Intelligence Cells
+The distinction permits administrative inflation. Economists describe part of the establishment as managed overemployment; the military answers that depot, medical, training and infrastructure cadres constitute mobilisation capacity.
 
-Naval intelligence is organised through standing Cellules de Renseignement Naval (CRN), embedded in each fleet command headquarters. CRN personnel above a defined grade operate under the DRET dual-command arrangement. The intelligence gathering ships' crews constitute a distinct element — the **Groupe de Collecte Maritime (GCM)** — which operates in close alignment with DRET and the standalone signals intelligence agency. GCM personnel are formally on the navy's order of battle but are effectively directed by DRET for all operational tasking. Designated cells: **CRN-A** (COMAT-A), **CRN-MD** (COMAT-MD), **CRN-SM** (submarine service intelligence support).
+### Professional force and national service
 
----
+The operational force is professional. The decisive change occurred during the 1990s, when long-service enlisted personnel and a stronger career NCO corps replaced conscripts in deployable formations. Professionalisation improved retention of unit knowledge, made Sahel rotations possible and ended the recurring cycle in which trained units lost much of their manpower at the completion of a short service period. It is generally considered one of the most successful defence reforms of the post-1989 era.
 
-## Air Force (Armée de l'Air et de l'Espace)
+Conscription remains in statute but is weakly enforced. National military service lasts four months and takes approximately 12,000–18,000 people annually from an eligible cohort many times that size. Most places are filled by volunteers seeking training, public-employment preference, educational credit or a route into professional service. Selective call-up is used when particular regions or trades fail to provide sufficient volunteers; broad prosecution of non-compliance is rare. The result preserves a legal principle of universal obligation and a modest training pipeline without recreating a mass conscript army.
 
-### Mission and Doctrine
+### Reserves and mobilisation
 
-The Armée de l'Air et de l'Espace (AAE) provides air superiority, ground attack, strategic strike, air defence, strategic mobility, space domain awareness, and unmanned systems capability. Air Force doctrine emphasises the ability to contest and deny air dominance over Marzenian territory and its immediate approaches while maintaining credible long-range strike through ballistic and cruise missile systems. The integration of space capabilities and the expanding drone programme have broadened the AAE's mission profile substantially in the contemporary period.
+The organised reserve contains approximately 35,000–45,000 personnel with assigned units, recurring obligations or specialist posts. A wider register contains former professionals and national-service graduates, although the accuracy of contact, medical and skill data declines with time. National plans aim to place approximately 300,000–340,000 people in uniform within ninety days of general mobilisation. This is a planning ceiling rather than a claim that the enlarged force could all be equipped or deployed at the same standard.
 
-### Command Structure
+Mobilisation occurs through four readiness echelons:
 
-The AAE organises its forces into six functional commands.
+:::table caption: "FAM readiness echelons"
+| Echelon | Nominal response | Typical content |
+| --- | --- | --- |
+| *Échelon immédiat* | 48–72 hours | Alert aircraft, air defence, designated ships, CSOF and rapid-response elements |
+| *Échelon opérationnel* | 15–30 days | Principal active brigades, task groups and theatre-support packages |
+| *Échelon de renforcement* | 30–60 days | Reservist augmentation, stored equipment and additional territorial forces |
+| *Échelon de reconstitution* | 60–90 days or more | Training expansion, industrial mobilisation and replacement formations |
+:::
 
-**Commandement de la Force Aérienne de Combat (CFAC)** holds the AAE's fighter and strike aircraft — the F-4 Phantom fleet and the Tornado fleet — and is the primary command for air superiority and offensive air operations. The CFAC is the institutional home of Programme Tornado-MZ and coordinates with OCPM on the domestic upgrade programme.
+Broad readiness bands are public. Unit-level data are classified. The CEMA submits an annual readiness certification, while the Inspection Générale des Armées conducts independent inspections and may provide restricted summaries to the Assembly. The strongest units are credible by regional standards; the lower echelons remain dependent on optimistic assumptions about reserve attendance, stored vehicles and civilian transport.
 
-**Commandement de la Défense Aérienne (CDA)** manages the national integrated air defence system: radar networks, ground-based interceptor missile batteries, and fighter interceptor alert postures are coordinated into a unified air picture. The CDA's national system covers long- and medium-range layers; short-range air defence at unit level is organic to army artillery formations.
+### Recruitment and social composition
 
-**Commandement des Forces Missiles (CFM)** is the operational command for all FAM ballistic missile systems and coordinates employment of air-launched cruise missiles. Though technically an Air Force command for administrative and maintenance purposes, the CFM's operational employment authority rests with the CEMA rather than the Air Force Chief of Staff — the CFM Commander receives strategic targeting direction from the Joint Staff and the National Security Council, not from the AAE command hierarchy. This arrangement, described internally as *autorité duale* (dual authority), reflects the strategic nature of the missile systems and the requirement for presidential-level control over their employment.
+Enlisted recruitment is geographically broad. Interior and working-class coastal citizens are represented throughout the Army, logistics organisations and base services. Senior command, aviation, engineering and strategic technical careers remain disproportionately coastal, francophone and drawn from families familiar with the university and administrative system. Scholarships and preparatory programmes have narrowed but not eliminated the gap.
 
-**Commandement de la Mobilité Aérienne (CMA)** administers transport, tanker, special mission aircraft, and drone operations — the full spectrum of non-combat fixed-wing and unmanned aviation within the Air Force.
+Women are eligible for all services and career fields. Representation is highest in medicine, aviation, intelligence, communications, logistics and engineering and lower in ground combat. The FAM publishes no service-wide percentage; inequality arises more through career patterns and informal selection than formal exclusion.
 
-**Commandement de l'Espace Aérien et Spatial (CEAS)** covers space domain awareness, satellite exploitation for operational support, and the AAE's coordination role with the Agence Spatiale Marzenienne. Officers from the CEAS serve on secondment to the ASM. The command's classified dimensions are not publicly acknowledged.
+The NCO corps is uneven. Air, naval, special-operations and high-readiness Army formations possess experienced professional NCOs with substantial technical and tactical authority. Territorial, reserve and second-line formations remain officer-heavy and less able to delegate. The principal personnel shortage is not general recruitment but retention of pilots, engineers, physicians, cyber-security specialists and technicians who can earn substantially more in private industry.
 
-**Commandement de l'Entraînement Aérien (CEA)** administers all Air Force training, pilot education, and weapons qualification, operating within the broader ESGI joint education framework.
+## Armée de Terre
 
-### Combat Aircraft
+### Mission and organisation
 
-**F-4 Phantom (Programme F-4MZ):** The F-4 Phantom remains in frontline multirole service with the AAE, with approximately thirty airframes in active use. An additional quantity is held in managed storage — preserved in serviceable condition and available for return to operation or cannibalisation to sustain the active fleet. The active F-4 force has received successive domestic upgrades to avionics, radar, and weapons systems that maintain its combat credibility in secondary multirole and air superiority roles. It is not the primary strike asset; that role belongs to the Tornado. No retirement date has been announced.
+The **Armée de Terre** is a mobile continental denial force with a small heavy core. It is responsible for ground defence, reinforcement of the Canary Islands, high-readiness intervention, the principal regular contribution to the MCSS and military support in the southern interior. The service is organised around brigades rather than permanent divisions. Deployable divisional headquarters may be formed for a major operation, but brigades normally pass directly to a COI.
 
-**Panavia Tornado (Programme Tornado-MZ):** The Tornado is the AAE's primary strike fighter, with approximately 75 airframes in the active inventory. The Tornado has been acquired through a sustained rolling programme from 1999 to the present, exploiting successive European retirements — principally from the United Kingdom — to acquire airframes, spare parts, and progressively deeper technology transfer as the bilateral relationship matured. The initial 1999 acquisition was the outcome of an evaluation that surprised observers expecting a Mirage 2000 selection: Marzena's preference for the Tornado was substantially determined by a late-1980s operation in which low-level terrain-following penetration — flying below radar coverage across the Algerian border and transiting a third country — proved the decisive capability requirement. The Tornado's terrain-following radar and low-level performance in that context, combined with the economic advantages of acquiring retiring airframes and spares from European operators, made it operationally and financially preferable.
+Army doctrine has moved toward wheeled mobility over the last two decades. The change reflects the cost of heavy formations, the need to move along long interior routes, and experience in the Sahel. Two mechanised brigades remain concentrated on the northern contingency. Newer formations are lighter and more suitable for dispersed operations. Critics argue that the Army has learned the mobility lessons of expeditionary and internal campaigns at the expense of the armour needed against a concentrated mechanised attack.
 
-The technology transfer dimension of Programme Tornado-MZ has deepened through successive acquisition rounds. The relationship with the United Kingdom has progressed from airframe purchase toward domestic maintenance authority, subsystem integration rights, and — in the most recent phase — avionics and software modification capability that gives the AAE a genuine domestic upgrade path. The Tornado fleet is assessed as credible in its primary strike and terrain-following roles through the current LPM period. No next-generation fighter programme is currently active; MDN planning documents acknowledge the long-term replacement question without initiating a formal programme.
+### Brigade structure
 
-### Support and Mobility Aircraft
+:::table caption: "Army manoeuvre brigades"
+| Formation | Type | Normal planning relationship | Principal role |
+| --- | --- | --- | --- |
+| 1re Brigade mécanisée | Tracked mechanised | COI Nord | Prepared-sector defence and counterattack |
+| 2e Brigade mécanisée | Tracked mechanised | COI Nord | Mobile heavy reserve |
+| 3e Brigade motorisée | Wheeled combined arms | COI Atlantique–Canaries | Atlantic reinforcement and general manoeuvre |
+| 4e Brigade d'infanterie | Light wheeled | COI Sud | Territorial security and protected mobility |
+| 5e Brigade motorisée | Wheeled combined arms | COI Sud | Southern reinforcement and route security |
+| 6e Brigade de montagne et désert | Mountain/desert light infantry | COI Sud / COI Sahel | Difficult terrain and long-range patrol |
+| 7e Brigade parachutiste | Airborne / air assault | COI Réserve Nationale | National rapid response and theatre opening |
+| 8e Brigade légère d'intervention | Light intervention | COI Sahel / Réserve Nationale | Expeditionary rotation and partner support |
+| 9e Brigade motorisée | Wheeled combined arms | COI Nord / Réserve Nationale | Mobile reinforcement |
+| 6e Brigade d'infanterie de marine | Marine infantry | COI Réserve Nationale / Atlantique–Canaries | Amphibious and littoral intervention |
+| 10e Brigade de réaction rapide | Light rapid intervention | COI Réserve Nationale / COI Sud | Air-mobile reinforcement and crisis response |
+:::
 
-**C-130 Hercules:** The primary tactical transport of the CMA, supporting parachute operations for the 7 BP, logistics resupply to remote COI Sud and COI Sahel positions, and humanitarian tasking in the Sahel context. The airframe's range and rough-field capability make it the preferred platform for austere-environment operations.
+The duplicate sixth ordinal reflects separate historical lineages rather than an integrated numbering sequence. Brigades have planning relationships rather than immutable territorial assignments. The 7th Parachute Brigade is the principal national rapid-response formation and also supplies recurring Sahel elements. The 6th Marine Infantry Brigade is elite light infantry with amphibious training, but it is not permanently assigned to the Navy. During embarkation, the Army provides the force and a joint commander exercises operational control.
 
-**Ilyushin IL-76:** The AAE's heavy strategic transport capability, acquired from Soviet surplus in the 1990s. The IL-76 provides outsized cargo capacity and longer range than the C-130, supporting the movement of heavy equipment between mainland Marzena and the Canary Islands and higher-demand COI Sahel resupply. Sustaining the IL-76 fleet has required investment in domestic maintenance capability for the Russian-origin airframe, a niche expertise maintained within the CMA's technical cadre.
+The 8th Light Intervention and 10th Rapid Reaction brigades are the clearest organisational results of recent southern and Sahel experience. Both are easier to deploy and sustain than the mechanised brigades. Neither carries the protected mass or organic fires required to substitute for them in high-intensity combat.
 
-**KC-10 Extender:** Three KC-10 aircraft provide the AAE's aerial refuelling capability, acquired as surplus. The KC-10 delivers a limited but operationally significant probe-and-drogue tanker capability, principally used to extend Tornado range on long-duration strike profiles. The tanker fleet is treated as a force multiplier for specific high-value operations rather than a routine planning assumption.
+### Armour and protected mobility
 
-**Do-228 (staff transport):** A small number of Dornier Do-228 twin-turboprops operate in the administrative staff transport role, providing short-range point-to-point movement for senior officers and headquarters personnel. These aircraft carry standard military markings and are not associated with the Special Mission Aircraft programme.
+The two mechanised brigades operate a mixed fleet of imported and domestically modernised French-origin armour. Leclerc-MZ tanks form the high-readiness core, while modernised AMX-30B2MZ vehicles remain in active and stored establishments. Wheeled formations use VBCI, VAB, AMX-10RC and lighter protected vehicles, many rebuilt by CNAM with Marzenian radios, electronic-warning receivers and protection packages.
 
-### Special Mission Aircraft (Aéronefs de Mission Spéciale — AMS)
+:::table caption: "Selected Army combat equipment estimates"
+| System | Total inventory | Assigned or active | Normally available | Notes |
+| --- | ---: | ---: | ---: | --- |
+| Leclerc-MZ main battle tank | ~108 | ~84 | 65–72 | Concentrated in 1re and 2e Brigades mécanisées |
+| AMX-30B2MZ main battle tank | ~180–200 | ~90 | 55–65 | Remaining hulls stored, used for training or cannibalised |
+| VBCI infantry fighting vehicle | ~460 | ~390 | 310–330 | Principal vehicle of higher-readiness wheeled units |
+| VAB family | ~850–950 | ~600 | 430–480 | Numerous domestic rebuild standards |
+| AMX-10RC/RCR | ~170–190 | ~130 | 95–110 | Reconnaissance and mobile fire support |
+| CAESAR 155 mm | ~120–130 | ~108 | 85–95 | Principal modern tube-artillery system |
+| AUF1 155 mm | ~70 | ~48 | 28–35 | Mechanised and reserve formations |
+| Multiple-launch rocket systems | ~45–50 | ~36 | 26–30 | Mix of imported launchers and domestic munitions |
+:::
 
-Special Mission Aircraft constitute a category of fixed-wing platforms conducting sensitive government and intelligence missions under civil registration and institutional cover. They are not formally part of the AAE's publicly acknowledged order of battle. Their existence as a programme is widely reported and broadly understood in informed circles; their precise composition, tasking, and operational patterns are not officially acknowledged.
+The shortage of modern armour is deliberate only in part. Successor studies have not produced an affordable programme; in major combat the two heavy brigades would depend on prepared terrain, long-range fires and air denial.
 
-Operators of record for AMS aircraft include the Ministry of Foreign Affairs, the Office of the President, and the Agence Nationale de Surveillance des Frontières (ANSF). A registered private operator — whose corporate purpose is described in official registrations as the provision of emergency communications relay services, including airborne cellular relay infrastructure for underserved regions — is also associated with aircraft in this category. This entity's actual function is widely discussed in regional aviation and security press; it has not been officially characterised by the Marzenian government.
+### Artillery, reconnaissance and drones
 
-AMS platforms principally conduct signals intelligence and electronic intelligence collection, tasked by the DRET's Agence du Renseignement Technique (ART), and photographic and imagery reconnaissance. Diplomatic aircraft operating under Ministry of Foreign Affairs registration and carrying diplomatic immunity represent a distinct sub-category, occasionally used to facilitate the movement of intelligence personnel or equipment. AMS aircraft occasionally operate outside Marzena's territory, primarily in the Sahel context; extra-territorial operations are conducted under diplomatic cover where possible.
+Integrated fires and reconnaissance are regarded as the Army's principal battlefield advantage. Every manoeuvre brigade contains an organic artillery group. Two higher-level formations—the 11th Artillery Brigade and 12th Long-Range Fires Brigade—provide additional tube artillery, counter-battery radar, rockets and operational-level target acquisition. Surface-to-surface systems above the Army's tactical category remain under the CFM.
 
-The **Groupe des Aéronefs de Mission Spéciale (GAMS)** is the Air Force unit within the CMA whose personnel fly, maintain, and support AMS platforms. GAMS aircrew carry dual DRET/Air Force career management consistent with the wider dual-service model. The unit does not appear in the publicly available AAE order of battle.
+Tactical drones are being introduced at brigade level rather than universally distributed. Seven of the eleven manoeuvre brigades maintain an established tactical-UAS company; the remainder receive detachments during exercises and operations. Systems are a mixture of imported, licence-built and domestically modified airframes. The limited number of trained crews and secure datalinks, rather than the price of small aircraft, is the primary constraint. Loitering munitions are allocated through artillery formations and have been employed in the Sahel.
 
-### Drone Programme
+The four Bataillons de Renseignement supply ground surveillance, electronic collection and target acquisition to COIs. They remain Army units but receive significant tasking and career management through the DRET's integrated collection system. The Régiment de Reconnaissance provides longer-range human and vehicle patrols, particularly in the south.
 
-The FAM's drone programme is administered through the CMA within the Air Force, with naval variants under CAN authority. The programme represents the most significant new capability investment of the current LPM period outside missile modernisation.
+### Army aviation
 
-**MALE Drone ([TBD designation]):** Development of a domestically produced Medium Altitude Long Endurance drone began in mid-2016 under OCPM direction, with CNAM responsible for the airframe and ESDM providing the sensor suite and datalink architecture. The type achieved initial operational capability approximately 2021–2022 and is now the primary focus of the drone programme's resources. The MALE drone operates in both armed and ISR configurations: the ISR variant carries electro-optical, infrared, and signals collection sensors; the armed variant carries a domestically developed precision munition. Operational experience from COI Sahel deployments has been the primary driver of the aircraft's iterative development cycle, with OCPM incorporating field lessons into successive production batches. The MALE drone is the only domestically produced unmanned system in the FAM inventory at this scale and is frequently cited alongside the ballistic missile programme as a validation of the OCPM-CNAM-ESDM collaboration model.
+The **Commandement de l'Aviation de l'Armée de Terre** (CAAT) is large relative to the Army's armoured component and reflects the priority given to dispersed mobility. It controls functional attack, utility, reconnaissance and heavy-lift regiments, plus a training and maintenance establishment. Its principal aircraft include Tiger attack helicopters, Gazelle reconnaissance and light-attack helicopters, Puma, Cougar and NH90 utility types, and a small CH-47 heavy-lift fleet.
 
-**Tactical ISR Drones:** Small tactical unmanned aerial systems are operated at brigade and regiment level for short-range surveillance, reconnaissance, and target acquisition. These systems are a mix of acquired and licence-built platforms; their specific origins are not publicly detailed.
+:::table caption: "Army aviation estimates"
+| Category | Approximate inventory | Normally available | Principal use |
+| --- | ---: | ---: | --- |
+| Attack helicopters | 40–45 | 23–28 | Anti-armour, escort and armed reconnaissance |
+| Light reconnaissance helicopters | 35–40 | 14–18 | Observation, liaison and forward command |
+| Utility and medium transport helicopters | 100–115 | 55–65 | Air assault, supply and medical evacuation |
+| Heavy-lift helicopters | 16–18 | 9–11 | Artillery, engineering and theatre sustainment |
+:::
 
-**Loitering Munitions:** The FAM has fielded a loitering munition capability — one-way attack drones providing precision engagement of time-sensitive targets. Employment has been documented in the COI Sahel context. Development of a domestically produced loitering munition is understood to be within the OCPM portfolio, though no programme has been officially announced.
+CAAT provides the bulk of rotary-wing lift for the 7th Parachute Brigade and 10th Rapid Reaction Brigade. Its size gives the Army genuine operational mobility, but fleet diversity, ageing Puma and Gazelle airframes, and competition for technicians produce uneven availability. During domestic deployments, utility flying hours have increased faster than funded replacement and overhaul.
 
-**Naval Drone Variants:** The Marine Nationale Marzenienne operates a small number of naval-adapted MALE variants, modified for maritime patrol and anti-surface surveillance. These aircraft are assigned to the CAN and operate primarily from Gando in support of COMAT-A's Atlantic surveillance tasking.
+### Air defence and specialised formations
 
-### Missile Systems
+Short-range air defence is organic to Army artillery and manoeuvre formations and feeds the national air picture through CTI-managed links. Longer-range systems remain with the Air and Space Force's CDA. The division preserves central control of scarce interceptors while allowing brigades to defend themselves against helicopters, low-flying aircraft and drones.
 
-**Ballistic Missiles (CFM):** The FAM operates a domestically developed family of surface-to-surface ballistic missiles in tactical, short-range, and medium-range categories. Tactical and short-range systems have been operational for several decades; medium-range capability was achieved within the current LPM period, representing a significant extension of deterrent reach. All systems are developed through OCPM with CNAM responsible for airframe production. Guidance and propulsion specifics are classified. Operational employment authority rests with the CEMA under presidential direction, administered through the CFM's *autorité duale* arrangement.
+The Army also maintains the Régiment du Génie, Régiment NRBC, Régiment des Transmissions and specialised movement, maintenance and medical elements. Combat engineers conduct breaching, bridging, fortification and route clearance; southern sub-units have accumulated extensive experience against improvised explosive devices. The RNRBC is the operational nucleus of joint chemical, biological, radiological and nuclear defence and maintains plans for military support at Kermane and other sensitive civilian sites.
 
-**Air-Launched Cruise Missiles:** Tornado aircraft serve as the primary carrier for domestically developed air-launched cruise missiles, extending precision strike reach beyond the ballistic envelope. Development is an OCPM programme with ESDM responsible for the guidance and sensor package.
+The **Régiment d'Infanterie de Marine Parachutiste** is a prestigious conventional unit qualified for both airborne and amphibious operations and frequently supplies advance parties for the BPCs. The **Bataillon de la Légion Étrangère Marzenienne** remains a small Sahel-specialist formation recruited principally from sub-Saharan Africa. No lawful religious test exists. The battalion enforces strict secular conduct, while journalists and former applicants have alleged an informal preference for candidates perceived as culturally secular. Completion of a defined term provides a route to Marzenian citizenship.
 
-### Air Defence
+## Marine Nationale Marzenière
 
-The CDA manages the national integrated air defence system, coordinating radar coverage, ground-based missile batteries, and fighter alert postures into a single recognised air picture covering long- and medium-range layers. Short-range air defence — vehicle-mounted and man-portable systems — is organic to Army artillery and manoeuvre formations, integrated into the national picture through data links managed by the Régiment des Transmissions.
+### Mission and fleet organisation
 
-### Intelligence: Escadrons de Renseignement Aérien (ERA)
+The **Marine Nationale Marzenière** is a balanced regional fleet built around sea denial, protection of the Atlantic–Mediterranean junction and selective amphibious power projection. Its official concept of *maîtrise des approches* does not imply continuous command of the sea. It seeks to deny hostile freedom of action near the Strait, metropolitan ports, the Canary Islands and the sea lines connecting them.
 
-Air Force intelligence is organised through Escadrons de Renseignement Aérien (ERA) — standing units assigned to major air commands. ERA personnel above squadron grade operate under the DRET dual-service arrangement. The GAMS constitutes a distinct intelligence-aligned element; GAMS personnel are effectively DRET-directed for all operational purposes while remaining on the Air Force order of battle. Designated units: **ERA-Combat** (CFAC), **ERA-Mobilité** (CMA), **ERA-Espace** (CEAS).
+The Navy operates through the **Commandement Maritime Atlantique** at Solane and **Commandement Maritime Méditerranée–Détroit** at Cap-Nord under a single naval staff. The two commands allocate forces geographically but do not constitute independent fleets. The Submarine Force Command operates with greater autonomy, and the Commandement de l'Aéronavale administers shipborne helicopters and naval unmanned detachments. Fixed-wing maritime patrol aircraft belong to the AAE and are placed under naval or COI operational control when assigned.
 
----
+### Surface fleet
 
-## Special Operations Command (Commandement des Forces Spéciales — CSOF)
+The Navy favours numerous medium escorts over a small number of very large combatants. This offers geographic coverage and supports domestic shipbuilding but creates a substantial crewing and maintenance burden. Public totals often count ships in refit or withdrawal programmes; estimates of assigned and available vessels are more useful than nominal inventory.
 
-The Commandement des Forces Spéciales (CSOF) is the joint command responsible for all special operations forces across the FAM. It reports directly to the CEMA and operates with a degree of operational autonomy commensurate with the sensitivity of its missions. CSOF intelligence is substantially integrated with the DRET: the CSOF J2 cell is staffed by DRET-seconded officers, and CSOF operational planning draws directly on DRET product. For operational intelligence purposes, CSOF is considered part of the DRET architecture rather than a service organic function.
+:::table caption: "Estimated naval surface fleet"
+| Class | Type | Physical inventory | Operationally assigned | Normally available |
+| --- | --- | ---: | ---: | ---: |
+| *Lévane* class | Bâtiment de projection et de commandement | 2 | 2 | 1 |
+| *Cap-Nord* class | Heavy multirole frigate | 4 | 4 | 2–3 |
+| *Fernant* class | Air-defence frigate | 5 | 4–5 | 3 |
+| *Port-Sahar* class | Light frigate | 7 | 6 | 4–5 |
+| *Détroit* class | Modernised fast-attack corvette | 4–6 | 3–4 | 2–3 |
+| *Alizé* class | Patrol/coastal corvette | 6–8 | 5–6 | 4–5 |
+| Various | Fleet support and replenishment ship | 4 | 3–4 | 2–3 |
+| *Veille* class | Intelligence-collection ship | 2 | 2 | 1 |
+| Various | Mine-countermeasure vessel | 6 | 4 | 3–4 |
+:::
 
-The Sahel advisory mission is conducted by a mix of CSOF elements and regular army units under COI Sahel; the CSOF component provides direct action and special reconnaissance capability while regular army units handle advising, training, and logistics support.
+The ranges for the older corvettes reflect an active withdrawal programme and inconsistent public treatment of reserve hulls. The Navy seeks to extract remaining patrol, training and coastal-security value while cannibalising several ships for parts. Retiring them releases crews but reduces the number of hulls available for routine presence, a politically visible function that newer frigates are expensive to perform.
 
-### 1er Régiment de Commandos (1 RC)
+### BPC *Lévane* and *Solane*
 
-The 1er Régiment de Commandos is the FAM's primary special operations force and CSOF's principal direct action element, responsible for direct action, special reconnaissance, hostage recovery, and counter-terrorism operations. Selection and training standards are not publicly disclosed. The regiment has documented capacity for operations across the Algerian border zone and has participated — without public acknowledgement — in direct action operations in partner-state territory under MCSS authority.
+The BPC *Lévane*, commissioned in the mid-1990s, and BPC *Solane*, commissioned in the early 2000s, are domestically built landing helicopter docks and command ships. Each can embark a reinforced Marine Infantry battalion, a mixed helicopter group, vehicles, landing craft and an expeditionary headquarters. Their design emphasises helicopter operations, shallow-water access and sustained support in West African coastal environments rather than high-intensity assault against a defended shore.
 
-### Groupe Aérien Spécial (GAS)
+The ships serve amphibious power projection and national prestige, including evacuation, disaster relief, Sahel logistics and Canary reinforcement. Outside an established theatre they can activate a temporary embarked COI. Critics note that each available BPC consumes escorts, specialist crews and maintenance resources needed by the denial fleet.
 
-The Groupe Aérien Spécial is CSOF's dedicated aviation element, providing infiltration, exfiltration, close air support, and maritime insertion capability. The GAS operates modified rotary-wing and fixed-wing platforms, several of which carry specialised sensor and electronic warfare packages that place them in close operational relationship with DRET and GAMS tasking. GAS aircrew maintain qualifications for low-level night operations, maritime insertion, and clandestine airfield operations. The unit coordinates with the CMA for maintenance and airworthiness but is operationally directed through CSOF.
+The two-ship class remains persistently controversial but defensible. One ship is normally available while the other trains, refits or remains at reduced readiness. No third hull is planned.
 
-### Centre Interarmées des Opérations d'Information (CIOI)
+### Submarine force
 
-The Centre Interarmées des Opérations d'Information is responsible for psychological operations, information influence activities, and military deception support to CSOF and broader FAM operations. Its deliberately bureaucratic designation reflects the unit's preference for institutional obscurity. The CIOI's activities in the Sahel context and its coordination with the state information architecture on the Interior Insurgency are not publicly described.
+The submarine arm conducts covert surveillance, strategic patrol, sea denial and long-range conventional strike. It possesses six physical hulls: three newer attack submarines of the *Vigilance* class, one remaining older *Raison*-class attack submarine and two *Indépendance*-class cruise-missile submarines. Four boats are normally operationally assigned while two undergo refit, work-up or major maintenance; no more than two or three are generally assessed to be available for prompt deployment.
 
-### Détachement des Opérations Maritimes Spéciales (DOMS)
+:::table caption: "Submarine force"
+| Class | Type | Number | Principal role |
+| --- | --- | ---: | --- |
+| *Vigilance* | Diesel-electric attack submarine | 3 | Sea denial, surveillance and anti-surface warfare |
+| *Raison* | Older attack submarine | 1 | Training, secondary patrol and reserve availability |
+| *Indépendance* | Cruise-missile submarine | 2 | Covert patrol and conventional long-range strike |
+:::
 
-The Détachement des Opérations Maritimes Spéciales maintains underwater demolition, combat diving, and maritime direct action capability. Its designation as a *détachement* accurately reflects its scale: a small technical unit maintained to preserve institutional knowledge and provide a nucleus for expansion rather than a high-readiness force of primary operational significance. It coordinates with the Marine Nationale Marzenienne organically on maritime operations but commands through CSOF.
+The *Raison* boat is scheduled for withdrawal by 2031. The two cruise-missile submarines maintain a direct operational relationship with the CEMA for strategic tasking, though they remain Navy vessels and do not constitute a separate deterrent service. Their patrol areas and weapon loads are classified.
 
----
+### Coastal defence, mines and naval aviation
 
-## Joint Enabling Commands
+Mobile coastal anti-ship missiles are a central joint capability. Most standing batteries are positioned in or assigned to the Canary Islands, where they complicate an attack without requiring continuous surface presence. Batteries retain the ability to deploy rapidly to the mainland and exercise periodically near the Gibraltar approaches. They are operationally coordinated through COI Atlantique–Canaries and CDA but maintained by Navy and joint technical organisations.
 
-### Commandement Interarmées de la Logistique (CIL)
+Mine warfare has been adequate and persistently underfunded. Marzenian planning recognises the military value of controlling a chokepoint but also the diplomatic and post-war economic consequences of mining the Strait. France and Spain have repeatedly sought reassurance that no unilateral closure would be attempted except in direct national defence. The resulting caution left mine countermeasures and stock renewal behind missiles and submarines by relatively modest sums—millions rather than billions—illustrating how a strategically important capability can remain neglected because it lacks an institution willing to own the political consequences.
 
-The CIL is the FAM's joint logistics authority, responsible for supply chain management, depot maintenance, fuel distribution, and strategic sustainment across all branches. It administers logistics at the joint level while embedding mission logistics cells within each COI headquarters, which then manage day-to-day sustainment of the assigned force package. Strategic mobility for large-scale redeployment is coordinated between the CIL and the EMIA, drawing on pre-planned contingency compositions that designate the railway network as the primary means of moving heavy equipment, with airlift capacity providing complementary movement for lighter and time-sensitive elements. The specific arrangements for COI mobilisation are governed by contingency plans whose details are not publicly described.
+Naval helicopters belong to the Commandement de l'Aéronavale and operate from frigates and BPCs. Fixed-wing maritime patrol aircraft, including Atlantique-derived platforms, are AAE assets assigned to the Navy or COI Atlantique–Canaries for missions. Naval versions of the Aigle-4 MALE drone are likewise flown and maintained by AAE personnel under maritime operational control. This split preserves the Air Force monopoly over substantial fixed-wing aviation while giving naval commanders tasking authority.
 
-### Commandement des Transmissions Interarmées (CTI)
+## Armée de l'Air et de l'Espace
 
-The CTI provides joint communications infrastructure, secure data networks, and electronic communications security across the FAM. It coordinates with the Régiment des Transmissions on army tactical communications and with ESDM on the development and sustainment of the military communications architecture.
+### Mission and command structure
 
----
+The **Armée de l'Air et de l'Espace** (AAE) provides combat aviation, national air defence, strategic and tactical mobility, fixed-wing maritime patrol, aerial refuelling, medium and large unmanned aircraft, military-space liaison and the administrative home of the missile force. It is both the FAM's strategic connective tissue and its principal conventional strike arm. Aircraft and sensors connect geographically separated theatres; the Tornado-MZ and missile systems provide the capacity to attack operational depth.
 
-## Training and Education
+The addition of *et de l'Espace* followed Marzena's achievement of an indigenous orbital capability. It is partly substantive and partly political branding. The AAE does not control the [[Agence Spatiale Marzenienne]], launch vehicles or the national civil space programme. Its space organisation tasks military services, receives satellite product and embeds officers with the ASM.
 
-### École Supérieure de Guerre Interarmées (ESGI)
+The AAE is organised into six functional commands:
 
-The École Supérieure de Guerre Interarmées, located in Lévane, is the FAM's primary joint institution for officer education and advanced military training, and the institutional home of what is understood within the Marzenian defence establishment as a coherent body of military thought — referred to in professional and academic circles as *la pensée militaire marzenienne*, Marzenian military thinking — that distinguishes the FAM's approach to planning and operational problems from those of other regional forces.
- 
-The ESGI's curriculum reflects the FAM's doctrinal priorities as they have developed from the institutional shocks of the 1963 and late-1970s periods. La Guerre des Frontières is taught as a mandatory case study in the war college programme, structured around the five commission findings and their subsequent institutional translation. La Guerre des Sables is taught as a companion study in the limits of doctrine under conditions of sustained attrition — specifically, the limits of *économie des forces* when the adversary accepts unfavourable exchange rates for strategic reasons the doctrine did not model. The Six-Day War is taught as a signals and air power case study, analysed through the lens of the 1969 MDN study team report, which has been declassified in part and is assigned reading in the naval and air curriculum tracks.
- 
-The three doctrinal concepts that the ESGI treats as the core of Marzenian military method — *défense par déni*, *économie des forces*, and *élasticité logistique* — are taught not as rigid rules but as frameworks for structuring planning judgements. The framing is consistently that these are not Marzenian inventions but Marzenian applications of universal military principles: the claim to intellectual distinctiveness is one of application and institutional consistency rather than originality. This framing is itself characteristic. A military school that presents its national doctrine as the correct application of universal principles, rather than as one national approach among many, is doing something more than curriculum design. The ESGI's civilian faculty — a minority within the institution — have occasionally noted, in internal publications that circulate without being assigned, that the curriculum's case studies are drawn exclusively from Marzenian operational experience, that the adversaries in every canonical case study are institutionally or ideologically inferior to the Marzenian force, and that the doctrine's implicit assumption of Marzenian qualitative superiority is reproduced in each generation of staff officers without being examined as an assumption. These observations have not produced curriculum reform. They have, however, produced a minor critical literature within the institution that senior officers are aware of and do not suppress — a tolerance for internal dissent that is itself presented, when the subject arises, as evidence of the intellectual confidence the doctrine is meant to cultivate.
- 
-The ESGI maintains a research faculty whose output circulates in policy-adjacent circles, and on a selective basis admits officers from partner-state militaries participating in the MCSS framework. The institution also conducts joint seminars with French staff college counterparts at irregular intervals, a practice whose content and conclusions are not publicly described.
+:::table caption: "Air and Space Force commands"
+| Command | Abbreviation | Responsibility |
+| --- | --- | --- |
+| Commandement de la Force Aérienne de Combat | CFAC | Fighters, strike aircraft and Horizon Aérien AEW&C |
+| Commandement de la Défense Aérienne | CDA | Radar, national air picture, ground-based air defence and alert control |
+| Commandement des Forces Missiles | CFM | Ballistic missiles and coordination of strategic cruise-missile employment |
+| Commandement de la Mobilité Aérienne | CMA | Transport, tankers, fixed-wing maritime patrol, special-mission support and MALE drones |
+| Commandement de l'Espace Aérien et Spatial | CEAS | Satellite tasking, space awareness and ASM liaison |
+| Commandement de l'Entraînement Aérien | CEA | Aircrew training, weapons qualification and conversion |
+:::
 
----
+CFAC controls the airborne early-warning fleet because the AAE treats battle management as part of combat aviation rather than a transport or joint-support function. CDA controls the specialised ground air-defence network and receives the recognised air picture from fixed, mobile, naval and airborne sensors. A filtered picture enters SICO; the air-defence system can continue operating if the general joint network is unavailable.
 
-## Medical Services
+### Combat aircraft
 
-The FAM's primary medical facility is the **Hôpital Militaire National de Lévane (HMNL)**, located in the capital, providing the full spectrum of military medical care — trauma surgery, rehabilitation, and specialist clinical services — for serving and veteran personnel. Forward medical capability within deployed COIs is provided through medical elements assigned to mission logistics cells. Deployed surgical capability has been exercised in the COI Sahel context.
+The AAE operates two ageing principal combat types. Approximately seventy-five Tornado-MZ aircraft remain in the inventory, acquired in successive batches beginning in 1999 as European operators reduced their fleets. Around forty-five to fifty are assigned to operational or conversion units, and approximately thirty-five to forty are normally serviceable. The distinction changes with depot cycles and access to components.
 
----
+The Tornado-MZ is optimised for deep strike, low-level penetration, maritime attack and stand-off weapons. Terrain-following capability proven relevant by a late-1980s mission drove its selection. Successive British agreements supplied airframes, spares, maintenance authority and deeper software access, producing a sovereign upgrade path for an aircraft retired by its original operators.
 
-## Overseas Deployment and Basing
+The F-4MZ remains in secondary multirole, interception, training and mobilisation service. Approximately thirty aircraft are assigned to flying or reserve units, of which eighteen to twenty-two are normally available. A further group of stored airframes provides spares or a limited return-to-service reserve. Domestic radar, electronic-warfare and weapon upgrades preserve utility, but airframe fatigue and operating cost constrain training.
 
-**Cap-Nord Naval Base:** Primary Mediterranean naval facility and main base of the surface combatant fleet and submarine service. Its position commanding the Strait of Gibraltar approach is a fundamental assumption of FAM strategic planning and the operational hub of COMAT-MD.
+:::table caption: "Selected AAE aircraft estimates"
+| Type | Total inventory | Operationally assigned | Normally available | Principal role |
+| --- | ---: | ---: | ---: | --- |
+| Tornado-MZ | ~75 | 45–50 | 35–40 | Deep strike, maritime attack and stand-off weapons |
+| F-4MZ | ~30 assigned, additional stored | ~30 | 18–22 | Interception, secondary strike and mobilisation depth |
+| Horizon Aérien AEW&C | 3 | 3 | 2 | Airborne warning and battle management |
+| C-130 Hercules | ~24 | ~20 | 14–16 | Tactical transport and airborne operations |
+| Il-76 | ~7 | 5–6 | 3–4 | Heavy strategic transport |
+| KC-10 Extender | 3 | 3 | 1–2 | Long-range refuelling and strategic transport |
+| Atlantique-derived maritime patrol aircraft | ~12 | 9–10 | 6–8 | Maritime surveillance and anti-submarine patrol |
+| Aigle-4 family | ~24 | 16–19 | 12–15 | MALE ISR, strike, maritime and signals missions |
+:::
 
-**Gando Naval Air Station (Gran Canaria):** Expanded naval air station hosting maritime patrol aircraft, naval aviation rotary-wing assets, and an Air Force fighter detachment. Its Atlantic position extends patrol and strike coverage substantially westward and southward.
+Combat-aircraft replacement is the service's defining procurement problem. The preferred foreign airframe with Marzenian systems and maintenance authority has not met cost, access and sovereignty requirements simultaneously. Upgrades cannot remove airframe age or a diminishing international supply base.
 
-**Lanzarote SIGINT Facility:** Signals intelligence collection facility operated by the DRET's Agence du Renseignement Technique. The Canary Islands Territorial Assembly has twice formally protested the facility's existence without result.
+### Horizon Aérien
 
-**Mission de Coopération Sécuritaire au Sahel (MCSS):** Rotational deployments under COI Sahel in Mali and Mauritania, comprising CSOF elements, regular army advisory personnel, and embedded logistics and signals support.
+**Horizon Aérien** is the AAE's small airborne early-warning and control capability. It consists of three modified Embraer ERJ-145 regional jets equipped with European radar technology, ESDM-integrated communications and Marzenian datalinks. Two are normally serviceable, permitting one operational station for a limited period. Continuous national coverage is not possible.
 
----
+The fleet's primary mission is northern air-battle management: extending radar coverage, controlling interceptors and preserving the air picture if fixed sites are attacked or masked. Secondary missions include Canary and maritime coverage, large exercises and expeditionary command. The aircraft belong to CFAC, while CDA incorporates their sensor picture and directs national air-defence activity. Horizon Aérien is operationally valuable precisely because it is scarce; maintenance or crew shortages can remove half of the available capability at once.
 
-## See Also
+### Air defence
+
+CDA operates the national integrated air-defence architecture. Long- and medium-range ground systems, including imported SAMP/T-family and Crotale-derived equipment with ESDM integration, defend the capital region, principal northern corridors, strategic industrial sites, Cap-Nord and the Canary bases. Fighter alert aircraft, mobile sensors, naval radars and Horizon Aérien feed a recognised picture. Army short-range systems and man-portable weapons provide the terminal layer.
+
+Air defence is one of the FAM's strongest capabilities. It benefits from decades of hardened infrastructure, radar investment and electronic-warfare integration. Coverage is not uniform: the southern interior relies more heavily on mobile sensors and deployed batteries, and some older sites require extensive maintenance. The architecture is resilient rather than invulnerable. It is designed to complicate and survive an opening strike, not promise an impenetrable shield.
+
+### Mobility and aerial refuelling
+
+The C-130 fleet provides tactical lift, parachute support and operations from austere airfields. Il-76 aircraft move heavier cargo between the mainland, Canaries and Juby and support larger Sahel rotations. Together they can sustain a limited expeditionary force but cannot rapidly move a heavy brigade or replace sealift. Civil charter becomes necessary during simultaneous emergencies.
+
+The three KC-10s are rare strategic assets and an example of Marzenian procurement ambition outrunning routine supportability. Their range and fuel capacity allow long-duration Tornado missions and exceptional heavy transport, but usually only one or two are serviceable. The AAE plans them as force multipliers for selected operations rather than a continuous assumption. Acquisition was strategically imaginative and operationally useful; maintaining three orphaned aircraft has proved disproportionately expensive.
+
+### Unmanned aircraft
+
+The **Aigle-4** is Marzena's first domestically produced MALE family. Development began under OCPM in 2016, with CNAM responsible for the airframe and ESDM for sensors and datalinks. Initial operational capability was declared in the early 2020s, but production and software maturity remain uneven. The family includes reconnaissance, armed, maritime and signals-intelligence configurations.
+
+The programme is simultaneously a genuine advance and a troubled development effort. Sahel and southern operations accelerated iteration, while engine reliability, sensor availability and secure communications slowed fleet growth. Parliamentary and industrial discussions have also raised concern about Chinese-origin electronic components in early production batches. The government states that critical mission and cryptographic systems are Marzenian-controlled; the complete supply chain is not public.
+
+All MALE aircraft, including those supporting Army formations, are flown and maintained by the AAE. Operational control passes to the relevant COI, Army headquarters or naval commander. Smaller tactical drones belong to the services and are being introduced at brigade rather than battalion level. This division avoids parallel large-aircraft systems but is criticised by ground commanders who regard AAE procedures as too slow for tactical demand.
+
+### Special-mission aircraft and space support
+
+The AAE supplies crews and maintenance personnel to a small classified category of **Aéronefs de Mission Spéciale**. Aircraft associated with the Presidency, Foreign Ministry, border-surveillance bodies and civil registrations conduct signals collection, imagery, communications relay and sensitive transport. The Groupe des Aéronefs de Mission Spéciale operates within a dual-service arrangement with DRET. Fleet composition and operational patterns are not publicly acknowledged.
+
+CEAS is a small military-space coordination command. It requests imagery and communications support, operates space-domain-awareness functions and embeds personnel with the ASM. Military requirements are served through the Réseau Étoile programme, classified payloads and satellite communications, but the FAM does not own a separate large constellation. The “space force” label therefore overstates institutional scale while accurately describing a new operational dependence.
+
+## Missile forces and strategic ambiguity
+
+The **Commandement des Forces Missiles** is administratively an AAE command but operationally answers to the CEMA. It manages tactical, short-range and medium-range ballistic missile formations and coordinates air- and sea-launched strategic conventional weapons. Launcher numbers, stocks and locations are classified; public sources identify range categories and programme families rather than complete inventories.
+
+The missile force has two linked missions. In conventional war it attacks airfields, ports, logistics, command sites and concentrations that permit an adversary to sustain an operation. Politically, its survivability and uncertain reach create escalation deterrence. Mobile basing, decoys, prepared sites and dispersed storage are intended to preserve a retaliatory option after an opening attack.
+
+Marzena's nuclear latency is primarily historical. The state joined the NPT in 1994, accepted inspections and retired the declared breakout architecture. Missile and space-launch technology nevertheless preserve expertise relevant to longer-range systems. The Astrée launch family shares parts of an engineering lineage with OCPM propulsion and guidance research, a fact that attracts Algerian criticism. Neither the FAM nor available public evidence establishes an operational nuclear arsenal.
+
+Strategic missile release belongs de jure to the President acting alone. Convention places the decision before the National Security Council, and authenticated transmission requires the CEMA chain. Conventional tactical missiles may be authorised within an approved campaign plan at lower levels; weapons capable of strategic effect remain reserved regardless of warhead.
+
+## Special operations and intelligence support
+
+### Commandement des Forces Spéciales
+
+The **Commandement des Forces Spéciales** (CSOF) reports directly to the CEMA and provides direct action, special reconnaissance, hostage recovery, counterterrorism and sensitive military assistance. It is small, selective and only partly acknowledged. Its principal components are:
+
+- **1er Régiment de Commandos**, the primary ground direct-action and special-reconnaissance unit;
+- **Groupe Aérien Spécial**, operating modified rotary- and fixed-wing aircraft for infiltration, extraction and specialised support;
+- **Détachement des Opérations Maritimes Spéciales**, a small combat-diving, demolition and maritime-action element;
+- **Centre Interarmées des Opérations d'Information**, supporting deception, psychological activity and operational influence.
+
+CSOF and DRET are institutionally separate but professionally close. DRET officers staff intelligence cells, military personnel serve on secondment in the agency, and recurring operations produce durable personal relationships. DRET supplies strategic and theatre intelligence; CSOF supplies attributable or deniable military force according to the legal authority under which an operation is conducted. Friction arises when intelligence access and military command imply different priorities.
+
+### Military intelligence
+
+The FAM has no independent successor to the former Direction du Renseignement Militaire. DRET tasks and integrates much of the organic collection structure through Army Bataillons de Renseignement, Naval Intelligence Cells and Air Intelligence Squadrons. These remain on service orders of battle but feed a national technical-collection and assessment architecture.
+
+This arrangement prevents the separation between collection and military expertise blamed for the 1963 warning failure. It also gives DRET considerable influence over what nominally appear to be service intelligence units. The CEMA receives military-relevant finished intelligence; the Minister normally receives it through the CEMA rather than through a ministry intelligence directorate.
+
+### Cyber, electronic warfare and information operations
+
+Offensive cyber activity remains principally a DRET and state-security responsibility. The FAM treats cyber defence as network security, resilience and communications protection rather than an independent war-fighting domain. CTI protects military systems and coordinates incident response, but does not command a large offensive cyber force. ESGI literature is notably sceptical of claims that cyber operations can replace conventional combat power.
+
+Electronic warfare is more deeply institutionalised. ESDM systems, DRET collection, aircraft, ships and brigade-level units support jamming, emissions control, deception and signals exploitation. It is a genuine Marzenian advantage, though official and foreign commentary sometimes overstates its universality: the most advanced capabilities are concentrated in strategic and high-readiness units.
+
+The CIOI conducts military deception and foreign operational influence. Domestic activity is legally restricted, but the Interior Insurgency has created recurring controversy over coordination with government communications and security services. Formal doctrine distinguishes foreign military influence from domestic public information. Available reporting indicates that the boundary is not always clear in practice.
+
+## Air-ground integration
+
+The FAM qualifies approximately 250–350 **Contrôleurs interarmées d'appui aérien** (CIAA), its equivalent of joint terminal attack controllers. Personnel come from the Army, AAE, Marine Infantry and special forces and qualify to a joint standard through ESGI-supervised curricula and individual service schools. There is no separate national JTAC academy.
+
+CIAA teams are assigned to every high-readiness brigade, COI headquarters, CSOF task force and embarked expeditionary group, but not to every battalion. They coordinate fixed-wing support, attack helicopters, armed drones and selected naval fires. Airborne forward-air-control and drone relay can extend their reach, although secure communications and controller availability remain limiting factors.
+
+The FAM applies the same law-of-armed-conflict-derived engagement standards to authorised combat operations abroad and at home. Domestic location does not create a separate military targeting code once an operation has received legal authority. Civil-liberties organisations dispute this position, arguing that constitutional policing standards cannot be displaced merely by assigning a military commander. Weapon release remains with the responsible operational authority; a CIAA identifies, coordinates and clears the tactical engagement but does not independently decide that force should be used.
+
+## Joint enabling services
+
+### Commandement Interarmées de la Logistique
+
+The **Commandement Interarmées de la Logistique** (CIL) is the national military logistics authority. It controls strategic stocks, depot policy and movement priorities while the services retain tactical sustainment units, workshops and most technical personnel. COI logistics cells translate national allocation into theatre support.
+
+Its five major directorates reflect the FAM's logistics hierarchy:
+
+:::table caption: "CIL directorates"
+| Directorate | Principal functions |
+| --- | --- |
+| Strategic Movements | Rail planning, airlift coordination, sealift contracts and the National Military Movements Centre |
+| Operational Energy | Fuel reserves, aviation and naval fuel, pipelines and deployed distribution |
+| Munitions | Storage, inspection, accounting, disposal and allocation of conventional stocks |
+| Supply and Depots | General stores, rations, spare holdings and central-depot administration |
+| Maintenance Coordination and Availability | Readiness data, repair priorities and cross-service allocation; does not own most workshops |
+:::
+
+The **National Military Movements Centre** contains permanent military, transport-ministry and railway liaison personnel. Heavy internal movement is planned around the 3,420-kilometre rail network; the Solane–Lévane corridor can move the principal equipment of a mechanised brigade in under four hours under exercise conditions. Air movement supplies urgent personnel, medical and high-value cargo. Navy support ships, charter agreements and pre-negotiated requisition plans provide sealift. Selected merchant vessels maintain military loading data and participate in the annual joint exercise.
+
+The **Service interarmées des munitions** and **Service interarmées des carburants** sit within CIL. The former manages national ammunition depots and war-reserve accounting. The latter controls operational fuel, emergency stocks and the interfaces with civilian energy infrastructure. CIL's maintenance directorate sets priorities and tracks availability but does not directly absorb service depots, shipyards or aviation workshops.
+
+### Commandement des Transmissions Interarmées
+
+The **Commandement des Transmissions Interarmées** (CTI) is the military-network and cryptographic authority. It operates secure communications, datalinks, frequency management, key distribution and SICO's military infrastructure. Service signals units provide tactical networks; CTI defines security standards and assures interoperability.
+
+AXIOME maintains SICO software through supervised and logged access, while CTI operates the network and cryptographic layers. DRET handles higher-level cyber intelligence and counterintelligence. The arrangement deliberately separates a contractor's software knowledge from authority over military communications, although the state could not replace AXIOME's accumulated system knowledge quickly.
+
+### Commandement médical interarmées
+
+The **Commandement médical interarmées** (CMI) is an independent joint medical service rather than a fourth armed branch. Its institutional orientation is rearward and hospital-centred. Unit combat medics and service medical detachments stabilise casualties until evacuation; COI operations staffs and aviation commands coordinate movement. The CMI is notified that casualties are coming, prepares reception and specialist treatment, and manages the clinical handover rather than commanding the aircraft or convoy that transports them.
+
+The **Hôpital Militaire National de Lévane** provides trauma surgery, rehabilitation and specialist care. Regional military hospitals operate at Solane, Cap-Nord and Joint Support Base Juby, with a smaller facility at Gando. Forward surgical teams can be deployed for a large operation, but the normal system favours rapid evacuation from unit aid stations to a rear hospital rather than maintaining numerous large field hospitals.
+
+The CMI provides clinical treatment and rehabilitation for service-related injuries after discharge, while the MDN veterans service administers benefits and civilian providers deliver routine long-term care. Psychological injury is the system's least developed area. Stigma, career consequences and limited capacity suppress reporting, particularly after repeated Sahel and domestic rotations.
+
+### Other common services
+
+The **Joint Provost Service** is a small organisation responsible for military discipline support, detainee documentation, convoy and military-traffic control, and liaison with civilian prosecutors. It has no civilian policing mandate. Base and territorial policing remain with the Police Nationale and gendarmerie structures.
+
+The Army's RNRBC supplies the operational nucleus for joint CBRN response, while EMIA establishes policy and assigns detachments. The MDN's **Directorate for Infrastructure and Real Estate** (DIRE) owns and develops the defence estate; CIL identifies operational requirements and wartime priorities.
+
+The former military geographic and meteorological service was stood down during administrative rationalisation. The FAM now receives mapping, weather, oceanographic and environmental products from civilian national agencies and commercial sources. Service hydrographic and artillery specialists interpret those products but do not reproduce the former national service. The decision saved money and reduced duplication, while creating an acknowledged dependence during communications disruption.
+
+## Training, exercises and institutional culture
+
+### Education
+
+The **École Supérieure de Guerre Interarmées** (ESGI) in Lévane is the principal institution for advanced officer education and joint doctrine. La Guerre des Frontières is taught as a failure of material assumptions and warning; the War of the Sands as a failure to convert favourable tactical exchange into strategic decision; the Canaries Campaign as both a success in joint sequencing and a warning against confusing professional improvisation with institutional command.
+
+The canonical concepts are presented as Marzenian applications of universal principles. ESGI admits selected MCSS officers and holds irregular French seminars. A tolerated critical literature asks whether doctrine assumes qualitative superiority and whether each reform perfects an answer to the last conflict faster than it anticipates the next.
+
+CIAA standards, joint targeting, COI planning and strategic logistics are supervised through ESGI curricula but taught with service schools and operational formations. The FAM regards joint education as essential because most officers spend their early careers in a single-service culture before entering COI and EMIA appointments.
+
+### Exercises and readiness evaluation
+
+The principal annual joint exercise is **REMPART**. Its scenario rotates between the northern contingency, Canary reinforcement, a Sahel deployment, strategic-command continuity and national mobilisation. Not every element is exercised at full scale in a given year. The exercise normally combines a command-post phase with live movement, air-defence, rail, maritime and logistics activity.
+
+Individual services conduct smaller exercises throughout the year. Every REMPART cycle includes a degraded-command period in which units must operate without full SICO access. The exercise is also used to test civilian requisition contracts and reserve call-up samples. Results remain classified; IGA summaries occasionally reveal shortages without identifying formations.
+
+### Military culture
+
+The dominant institutional culture has been described as **engineering republicanism**: the belief that disciplined analysis, technical competence and service to an impersonal state can compensate for demographic and material limits. Officers are expected to be politically restrained, fluent in administrative procedure and comfortable moving between operational, industrial and planning appointments. French is the sole language of command, documentation and professional education. *Laïcité* governs service life; personnel serve as individuals rather than representatives of religious, linguistic, tribal or regional communities.
+
+This culture is coloured by strategic elitism. The officer corps has often regarded the military, senior administration and technical agencies as the institutions capable of thinking beyond electoral cycles. That conviction was strongest during the adjustment to competitive politics from 1989 through the early 2000s, when some officers interpreted greater parliamentary involvement as a potential threat to strategic continuity. It has moderated as cohabitation, professional oversight and regular alternation became normal.
+
+The FAM's political neutrality therefore contains an ambiguity. It is loyal to constitutional institutions rather than individual governments, but its conception of those institutions is not socially neutral. It shares with the older state tradition a unitary, francophone, secular and technocratic understanding of the Republic. Enlisted recruitment is broad enough to prevent the FAM from becoming an exclusively coastal institution; senior leadership remains close enough to the coastal professional class for the criticism to persist.
+
+The principal strategic rivalry is between territorial-defence commanders, who see expeditionary activity diverting resources from the major contingency, and the Sahel–special-operations community, which argues that real deployments expose weaknesses exercises cannot. Domestic operations consume both communities' light forces and aviation.
+
+## Defence industry and procurement
+
+Capability development begins with service requirements, is balanced through EMIA planning and funded through the MDN. The [[Office pour les Programmes de Capacité et le Matériel]] acts as technical gatekeeper for sovereign programmes, defining protected architecture, integration and test requirements. The Directorate for Procurement and Armaments contracts production, while OCPM retains design authority in missiles, strategic electronics, submarine systems and other sensitive fields.
+
+Production is mixed. CNAM manufactures land systems, ammunition, missile structures and selected aerospace components. Groupe SOMAR builds and maintains naval platforms. ESDM produces electronics, electronic-warfare systems, sensors and secure interfaces. The state uses the *action spécifique* to prevent foreign control, closure of critical facilities and unauthorised technology transfer. Imported aircraft and equipment retain their real-world service names; genuinely indigenous systems receive Marzenian programme and class names.
+
+The model's principal military pathology is excessive customisation. Requirements for domestic integration, specialised communications and sovereign weapons create small variants that are costly to test and sustain. Economists identify a parallel problem: programmes and old platforms survive because factories, shipyards and regions depend upon them. The two explanations are compatible. Strategic autonomy can justify an unusual system, and employment politics can keep it in production after the strategic case has weakened.
+
+Imported semiconductors, sensors, engines and precision production equipment remain structural vulnerabilities. French supply is politically preferred; Chinese components have become more important in commercial electronics and lower-tier systems. Screening reduces but cannot eliminate dependence. The Aigle-4 debate is the most visible current example of a wider problem.
+
+## Defence expenditure and readiness
+
+The annual defence appropriation is approximately US$16.2 billion, or 4.8% of GDP. The figure includes the public MDN budget and an undisclosed classified annex but does not capture every pension, intelligence or dual-use infrastructure cost that may support defence. Comparison with other states therefore depends on the accounting definition used.
+
+:::table caption: "Indicative defence-budget distribution"
+| Category | Approximate share | Indicative value |
+| --- | ---: | ---: |
+| Personnel and service compensation | 34% | US$5.5 billion |
+| Operations, maintenance and training | 28% | US$4.5 billion |
+| Equipment procurement | 21% | US$3.4 billion |
+| Infrastructure and estate | 7% | US$1.1 billion |
+| Research and strategic programmes | 10% | US$1.6 billion |
+:::
+
+The classified annex supports OCPM research, missile and submarine work, intelligence infrastructure and selected space-related capabilities. Restricted Assembly oversight exists, but transaction-level disclosure is limited. The public force appears well funded in aggregate; the number of personnel, specialised fleets, strategic programmes and industrial commitments spreads that funding thinly.
+
+### Ammunition transfer controversy
+
+After 2022, French reporting indicated that an unnamed partner had sold France substantial conventional ammunition stocks that were widely understood to enter European support flows for Ukraine. Discrepancies in later Marzenian readiness reporting led journalists and opposition deputies to identify Marzena as the partner. The government did not confirm the ultimate destination, stating only that a government-to-government sale to France had complied with export law and that France assumed responsibility for subsequent disposition.
+
+The transferred material is assessed to have included 155 mm artillery shells, mortar ammunition, propellant charges and selected older small-arms stocks. Estimates place the transfer at approximately 8–12% of usable reserves in the affected categories—not of the entire national ammunition stock. Strategic missiles and principal precision weapons were not involved.
+
+The sale did not remove the FAM's deterrent capability, but it created temporary shortfalls and revealed weaknesses in depot accounting. Some readiness returns had counted ammunition committed for transfer or awaiting inspection as available. The controversy became a secrecy scandal because the Assembly and much of the military establishment learned of the sale through French reporting and inconsistent certification rather than a government announcement.
+
+French advance financing helped CNAM modernise and expand production lines, with replacement deliveries spread over several years. Supporters describe the arrangement as strategic cooperation that exchanged older stock for improved domestic capacity. Critics focus on executive procedure, the absence of an Assembly vote and the fact that industrial replenishment cannot instantly restore a depleted war reserve.
+
+## Bases and current posture
+
+:::table caption: "Principal FAM installations"
+| Installation | Principal user | Function |
+| --- | --- | --- |
+| État-Major Interarmées, Lévane | EMIA and joint commands | National command, planning and continuous operations |
+| Cap-Nord Naval Base | Navy / COMAT-MD | Mediterranean fleet, submarine support and Strait operations |
+| Solane naval and logistics complex | Navy / CIL | Atlantic fleet, sealift, industrial support and COI headquarters |
+| Gando station, Gran Canaria | Navy and AAE | Maritime aviation, fighter detachment, logistics and Canary forward command |
+| Lanzarote SIGINT facility | DRET with FAM support | Atlantic signals and electronic collection |
+| Joint Support Base Juby | CIL, AAE and COI Sud | Southern logistics, drones, maintenance, fuel and medical reception |
+| CNET restricted zone | OCPM / MDN | Missile, aerospace and electronic-warfare testing |
+| Northern dispersed airfield network | AAE | Hardened and alternate combat-air operations |
+| El Hierro launch and tracking facilities | ASM with defence support | Space launch, tracking and classified payload support |
+:::
+
+Defence facilities extend well beyond the sites publicly listed. Dispersed airstrips, ammunition depots, coastal missile operating areas, rail-loading sites and command nodes form the physical architecture of denial. The MDN's DIRE owns and develops the estate, while CIL and the services define operational use.
+
+Approximate personnel deployed or held in theatre-specific readiness fluctuate with exercises and rotations:
+
+:::table caption: "Indicative operational posture"
+| Theatre or mission | Approximate personnel band | Character |
+| --- | ---: | --- |
+| Northern contingency formations and enablers | 45,000–55,000 | Largest high-intensity planning concentration |
+| Canary garrison and associated maritime/air forces | 12,000–16,000 | Permanent joint presence with rotational reinforcement |
+| COI Sud and domestic-security support | 18,000–25,000 | Includes logistics and forces available rather than continuously fielded |
+| MCSS / COI Sahel outside Marzena | 2,500–4,500 | Rotational advisers, aviation, special operations and support |
+| COI Réserve Nationale high-readiness pool | 15,000–20,000 | Overlaps with service formations when assigned |
+:::
+
+These figures are planning bands, not simultaneous deployed headcounts, and overlap where a formation remains administratively at home while assigned to a COI.
+
+## Domestic operations and military law
+
+FAM participation in the Interior Insurgency is authorised through executive and regional emergency instruments and coordinated with civilian security institutions. Police and gendarmerie units retain arrest powers and ordinary investigative authority. Military personnel protect routes and installations, operate sensors and aircraft, move security forces and provide engineers, communications and medical evacuation. CSOF and selected regular units have participated directly in combat operations.
+
+Allegations of misconduct include unlawful detention support, excessive force at checkpoints, damage during searches and failures to distinguish security intelligence from military targeting. Available evidence supports credible localised incidents rather than a single service-wide policy. Government and military defenders also correctly note that opposition and diaspora accounts sometimes attribute every security action in the south to the FAM regardless of which institution conducted it. The opacity of joint operations makes both accountability and exaggeration easier.
+
+Military discipline is governed through service law, the Joint Provost Service and civilian judicial authority. Military jurisdiction covers disciplinary and service offences; ordinary serious crimes remain subject to the national courts. Personnel are required to refuse manifestly unlawful orders. Operational secrecy, restricted evidence and DRET involvement make that safeguard difficult to test in sensitive cases.
+
+## Civil–military relations and oversight
+
+The FAM have not functioned as an electoral or coup-making institution. Parties are prohibited within the services, officers rarely speak publicly on constitutional questions, and command culture rejects personal loyalty. The Presidency is respected as an institution of strategic continuity, not as the armed forces' party.
+
+The relationship with the PNLR is culturally close but not partisan. Both institutions emerged from the francophone technocratic state and share commitments to *laïcité*, unity and strategic autonomy. Younger officers have entered service after competitive politics became normal and are less likely to treat PNLR dominance as the natural constitutional condition. Relations with the Assembly remain necessary but mistrustful. Security-cleared committees and professional legislative staff have improved technical dialogue without resolving disputes over classified access.
+
+The IGA reports directly to the Minister of National Defence and may inspect readiness, administrative compliance, finance, OCPM activity and the services. Reports are classified by default. The Minister decides what summaries reach the Assembly, a discretion opposition parties have repeatedly sought to replace with mandatory transmission.
+
+Press reporting on ordinary military affairs is broadly tolerated. Hard boundaries surround strategic targeting, missile locations, submarine patrols, intelligence sources and active special operations. *Le Témoin Marzenien* and specialist defence publications have exposed readiness discrepancies, procurement dependence and the ammunition transfer without being closed, while individual journalists have faced classification orders and source investigations.
+
+## Capabilities and limitations
+
+The FAM's principal strengths are institutional rather than numerical alone:
+
+- a mature joint headquarters model and permanent theatre commands;
+- strong integrated air defence, electronic warfare and technical collection;
+- credible conventional missiles, submarines and mobile coastal denial;
+- a professional high-readiness core and experienced specialist NCOs;
+- extensive national rail, depot and industrial mobilisation infrastructure;
+- the ability to sustain limited operations in the Canary Islands and Sahel without a permanent foreign ally on Marzenian soil.
+
+Its principal limitations are equally structural:
+
+- ageing and diverse combat-aircraft, helicopter and naval fleets;
+- too little modern armour for the contingency that still sizes the Army;
+- limited tanker, AEW&C and strategic-airlift availability;
+- a large personnel establishment relative to funded training and maintenance;
+- imported semiconductors, sensors and specialist production equipment;
+- uneven readiness below elite and strategic formations;
+- growing competition among northern, Atlantic, Sahel and domestic missions;
+- secrecy that protects operational capability while concealing weak stock and availability data.
+
+The institution studies failure seriously: 1963 produced industrial, intelligence and air-defence reform; the War of the Sands produced visible deterrence and joint command; professionalisation and the Sahel produced deployable light forces. Each remedy also created expensive organisations and assumptions that became difficult to change.
+
+The FAM consequently stand at a capability crossroads. They remain capable of denying an easy victory to a stronger regional opponent and conducting selective operations beyond Marzena. They cannot indefinitely expand every role at once. Fighter replacement, submarine renewal, interior rotations, ammunition restoration and the maintenance of two BPCs compete within the same budget and technical workforce. The strategic question is no longer whether Marzena can build a serious independent military. It is which parts of that military the Republic is prepared to keep ready.
+
+## See also
 
 - [[Ministère de la Défense Nationale]]
 - [[Marzenian Military-Industrial Complex]]
 - [[Republic of Marzena]]
-- [[Marzenian Intelligence Community]]
+- [[Direction du Renseignement Extérieur et Technique]]
 - [[Canaries Campaign (Operation CEINTURE DE FER)]]
 - [[Mission de Coopération Sécuritaire au Sahel]]
 - [[Interior Insurgency]]
@@ -477,7 +755,6 @@ The FAM's primary medical facility is the **Hôpital Militaire National de Léva
 - [[La Guerre des Frontières (1963)]]
 - [[La Guerre des Sables]]
 - [[Commission de Révision Doctrinale (1963)]]
-- [[Yellow Fleet — Marzenian Presence]]
 - [[Bâtiments de Projection et de Commandement]]
-- [[Direction du Renseignement Extérieur et Technique]]
 
+*Marzenapedia · Bureau of Records, Lévane · Fictional sovereign state*
