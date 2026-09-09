@@ -120,7 +120,7 @@ Under the PITDU, Karmarena Shipyards has developed a commercial maritime busines
 
 ## Fernant Industries
 
-Fernant Industries is LDW's ordnance, sensors, and guided-weapons subsidiary, and the larger of the two by both revenue and headcount. It is the direct institutional descendant of the original Lyngana foundry. Its four product families — ordnance, radar and fire-control, combat management systems, and guided weapons — reflect the transformation of a marine foundry into a systems house across six decades of naval procurement, government-directed capability programmes, and the systematic reverse engineering of foreign equipment conducted at the works between 1966 and approximately 2005. The subsidiary is treated in full in the [[Fernant Industries]] article; what follows is a summary of its place within the group.
+Fernant Industries is LDW's ordnance, sensors, and guided-weapons subsidiary, and the larger of the two by both revenue and headcount. It is the direct institutional descendant of the original Lyngana foundry. Its four product families — ordnance, radar and fire-control, combat management systems, and guided weapons — reflect the transformation of a marine foundry into a systems house across six decades of naval procurement, government-directed capability programmes, and the systematic reverse engineering of foreign equipment conducted at the works between 1966 and approximately 2005. Its manufacturing is concentrated on the northern coastal corridor and at Kermane, but its proving is not: free-flight testing of everything the subsidiary builds is conducted from the Polygone d'Essais Atlantique on the southern Atlantic coast, the northern corridor having no seaward firing arc that does not cross the Strait approaches. The subsidiary is treated in full in the [[Fernant Industries]] article; what follows is a summary of its place within the group.
 
 LDW's contribution to the guided-weapons chain is industrial rather than intellectual. Fernant Industries manufactures to OCPM specification, manages the production base, and holds the facility clearances required for the most sensitive items. Design authority at every tier above gun systems and volume fire-control radar rests with OCPM; for certain seeker and electronics integration work, ESDM holds collaborative design roles under OCPM coordination. This division is structural and deliberate and is not specific to any single programme.
 
@@ -183,6 +183,7 @@ Its vulnerabilities are partly those of the complex as a whole and partly partic
 - [[Republic of Marzena]]
 - [[Office pour les Programmes de Capacité et le Matériel]]
 - [[Centre National d'Évaluation Technique]]
+- [[Polygone d'Essais Atlantique]]
 - [[Groupe SOMAR]]
 - [[Compagnie Nationale d'Armements Marzeniens]]
 - [[Électronique et Systèmes de Défense Marzena]]
