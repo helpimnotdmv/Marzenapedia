@@ -512,5 +512,3 @@ Finally, the service must balance mainland readiness with Canary and overseas co
 ---
 
 *Marzenapedia · Bureau of Records, Lévane · Fictional sovereign state*
-
-**Editorial reference note:** The Marzenian institutions, aircraft establishments and Kati–Bamako intervention described here are fictional. The real-world background to the August 2020 episode is the detention of Mali's president and prime minister on 18 August and the president's subsequent resignation. Contemporary background: [United Nations account of the mutiny and arrests](https://peacekeeping.un.org/fr/dpo/actualites/mali-lonu-condamne-la-mutinerie-et-larrestation-du-president-ibrahim-boubacar-keita) and [Reuters report of the resignation, reproduced by Stabroek News](https://www.stabroeknews.com/2020/08/19/news/world/mali-president-resigns-after-detention-by-military-deepening-crisis/). These sources do not report or substantiate the fictional Marzenian operation.
