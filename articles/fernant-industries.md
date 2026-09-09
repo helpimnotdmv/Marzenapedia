@@ -15,7 +15,7 @@ Constituted as subsidiary: 1998
 Industrial lineage: Lyngana foundry, established 1898
 Headquarters: Fernant, northern coastal corridor
 Parent: [[Lyngonian Defence Works]]
-Principal sites: Fernant works · Établissement de Tazrant (Kermane region) · Cap Lyngon range
+Principal sites: Fernant works · Établissement de Tazrant (Kermane region) · Établissement de Juby (Polygone d'Essais Atlantique)
 Products: Radar and fire-control · combat management systems · guided weapons · naval and land ordnance · guided rockets
 Employees: ~9,000–11,000 (2026 est.)
 Revenue: ~$1.4–1.6 billion (2025 est.)
@@ -226,13 +226,20 @@ Ordnance is the firm's oldest business, its lowest-margin, and the one it cannot
 | Site | Location | Function |
 | --- | --- | --- |
 | Fernant works | Fernant, northern coastal corridor | Headquarters; national gun foundry; radar, combat-systems and missile assembly; Atelier 9 engineering directorate |
-| Établissement de Tazrant | Kermane region, interior | Energetics, solid propellant, warhead filling, storage; missile final assembly |
-| Cap Lyngon range | Cap Lyngon headland | Coastal and naval weapons proving, radar trials, live firing over water |
+| Établissement de Tazrant | Kermane region, interior | Energetics, solid propellant, warhead filling and storage; static motor firing |
+| Établissement de Juby | Polygone d'Essais Atlantique, Sahar coast | Missile final assembly; free-flight proving, guidance trials, coastal and naval weapons testing |
+| Cap Lyngon test facility | Fernant works | Gun proving into butts, radar and antenna trials, environmental and vibration testing; no free flight |
 :::
 
 The **Fernant works** occupy the original Lyngana basin and the reclaimed ground east of it. The foundry hall of 1911 remains in use. The systems buildings behind it, added between 1978 and 1989 during the isolation-period expansion, house the radar, combat-systems, and missile integration lines and the cleared areas associated with classified programmes.
 
-The **Établissement de Tazrant**, established in 1977 in the Kermane region, holds the firm's energetics, propellant, and warhead operations, dispersed inland for the reasons such sites always are. Its siting was determined by proximity to OCPM's interior test infrastructure and by the isolation-period judgement that the republic's propellant capacity should not sit on a coast that could be blockaded. Final assembly of missile rounds is conducted at Tazrant; test and evaluation above the firm's own level is conducted at OCPM's Centre National d'Évaluation Technique.
+The **Établissement de Tazrant**, established in 1977 in the Kermane region, holds the firm's energetics, propellant, and warhead operations, dispersed inland for the reasons such sites always are. Its siting was determined by proximity to OCPM's interior test infrastructure and by the isolation-period judgement that the republic's propellant capacity should not sit on a coast that could be blockaded. Motor casting, warhead filling, and static motor firing are conducted at Tazrant; rounds leave the site inert, for final assembly at Juby.
+
+The **Établissement de Juby** is the firm's test and final-assembly establishment inside the perimeter of the Polygone d'Essais Atlantique, OCPM's live-fire range on the southern Atlantic coast of the Sahar region. Everything Fernant builds that flies is proved there. The reason is geographic rather than administrative: the firm's works sit on the northern coastal corridor, whose seaward arc runs into the Strait approaches and the Mediterranean shipping lanes, and no free-flight corridor can be established from it. The Juby corridors run west into open ocean, with downrange telemetry drawn from Canary Islands stations, and can be closed by ordinary notice to mariners and airmen.
+
+The arrangement imposes a permanent logistical cost the firm has borne since the late 1960s. A weapon designed at Fernant is cast at Tazrant, assembled and fired at Juby some 1,100 kilometres to the south, and returns as telemetry — a cycle that adds weeks to every iteration and which the firm's engineers regard as the single largest structural drag on its development pace. Test and evaluation above the firm's own level is conducted by OCPM, at the Centre National d'Évaluation Technique for bench and propulsion work and at the PEA for everything else.
+
+The **Cap Lyngon test facility** at the Fernant works retains what can be done without flying anything: gun proving into instrumented butts, radar and antenna range work, and environmental, shock, and vibration testing. It is the oldest test asset the firm holds and gave the Cap Lyngon class of fleet replenishment ships its name, but no guided weapon has been fired from it since 1968.
 
 ### The Tazrant explosion (1994)
 
@@ -266,6 +273,7 @@ Delmas retired in 1994, three weeks before the Tazrant explosion, in a coinciden
 - FernantFoundry.jpg | The 1911 foundry hall, still in use
 - FernantAtelier9.jpg | Atelier 9 assembly bay, undated (c. 1985)
 - FernantTazrant.jpg | The rebuilt Établissement de Tazrant, 2001
+- FernantJuby.jpg | Launch position 4, Polygone d'Essais Atlantique
 :::
 
 ---
