@@ -171,7 +171,7 @@ Its vulnerabilities are partly those of the complex as a whole and partly partic
 - [[Marzenian Military-Industrial Complex]]
 - [[Ministère de la Défense Nationale]]
 - [[Forces Armées Marzenières]]
-- [[Marine Nationale Marzenienne]]
+- [[Marine Nationale Marzenière]]
 - [[Republic of Marzena]]
 - [[Office pour les Programmes de Capacité et le Matériel]]
 - [[Centre National d'Évaluation Technique]]
